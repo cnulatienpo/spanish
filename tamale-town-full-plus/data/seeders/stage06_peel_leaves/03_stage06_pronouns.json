@@ -1,0 +1,38 @@
+{
+  "id": "stage06_pronouns",
+  "stage": 6,
+  "title": "Pronombres de objeto (le/lo/la)",
+  "cefr": "B2",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "me",
+    "te",
+    "le",
+    "lo",
+    "la",
+    "nos",
+    "les",
+    "los",
+    "las"
+  ],
+  "grammar": [
+    "clíticos y colocación"
+  ],
+  "dialogue": [
+    {
+      "npc": "cliente",
+      "es": "¿Me lo puede traer con salsa?"
+    },
+    {
+      "you": "Claro, se la agrego ahora mismo."
+    }
+  ],
+  "goals": [
+    "object pronouns"
+  ],
+  "rewards": {
+    "tamales": 75,
+    "salsa": 30,
+    "supplies": 30
+  }
+}

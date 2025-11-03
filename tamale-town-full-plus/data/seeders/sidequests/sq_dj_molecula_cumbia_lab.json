@@ -1,0 +1,24 @@
+{
+  "id": "sq_dj_molecula_cumbia_lab",
+  "title": "Laboratorio de Cumbia de DJ Molécula",
+  "visual_source": "photo_party_room",
+  "style_tags": [
+    "beat",
+    "loop"
+  ],
+  "learning": [
+    "ritmo de sílabas",
+    "acento prosódico"
+  ],
+  "dialogue": [
+    {
+      "npc": "dj",
+      "es": "Rompe la frase en golpes: qui-e-ro co-mer."
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 55,
+    "supplies": 34
+  }
+}

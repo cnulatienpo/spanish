@@ -1,0 +1,24 @@
+{
+  "id": "sq_poetry_slam_panaderia",
+  "title": "Poetry Slam en la Panadería",
+  "visual_source": "photo_library",
+  "style_tags": [
+    "poster_halftone",
+    "poetry"
+  ],
+  "learning": [
+    "metáforas simples",
+    "posesivos"
+  ],
+  "dialogue": [
+    {
+      "npc": "poeta",
+      "es": "Tu concha es la luna de harina."
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 52,
+    "supplies": 32
+  }
+}

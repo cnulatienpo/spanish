@@ -1,0 +1,33 @@
+{
+  "id": "stage04_invites_plans",
+  "stage": 4,
+  "title": "Invitaciones y planes",
+  "cefr": "B1+",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "¿quieres...?",
+    "vamos a",
+    "podemos",
+    "te invito"
+  ],
+  "grammar": [
+    "ir a + inf."
+  ],
+  "dialogue": [
+    {
+      "npc": "amiga",
+      "es": "¿Vamos a la fiesta mañana?"
+    },
+    {
+      "you": "Sí, vamos a llevar tamales."
+    }
+  ],
+  "goals": [
+    "making plans"
+  ],
+  "rewards": {
+    "tamales": 60,
+    "salsa": 24,
+    "supplies": 24
+  }
+}

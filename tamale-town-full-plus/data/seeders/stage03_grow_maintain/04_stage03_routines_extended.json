@@ -1,0 +1,34 @@
+{
+  "id": "stage03_routines_extended",
+  "stage": 3,
+  "title": "Rutinas del puesto",
+  "cefr": "B1",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "preparar",
+    "limpiar",
+    "atender",
+    "cobrar",
+    "descansar"
+  ],
+  "grammar": [
+    "presente continuo: estoy preparando"
+  ],
+  "dialogue": [
+    {
+      "npc": "jefa",
+      "es": "¿Qué estás haciendo?"
+    },
+    {
+      "you": "Estoy preparando la masa."
+    }
+  ],
+  "goals": [
+    "present progressive"
+  ],
+  "rewards": {
+    "tamales": 50,
+    "salsa": 20,
+    "supplies": 20
+  }
+}

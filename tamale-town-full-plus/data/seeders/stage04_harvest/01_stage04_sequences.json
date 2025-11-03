@@ -1,0 +1,31 @@
+{
+  "id": "stage04_sequences",
+  "stage": 4,
+  "title": "Primero, luego, al final",
+  "cefr": "B1+",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "primero",
+    "después",
+    "luego",
+    "al final",
+    "mientras tanto"
+  ],
+  "grammar": [
+    "secuencias y conectores temporales"
+  ],
+  "dialogue": [
+    {
+      "npc": "chef",
+      "es": "Primero preparamos la masa, luego cocinamos el pollo."
+    }
+  ],
+  "goals": [
+    "sequence actions"
+  ],
+  "rewards": {
+    "tamales": 50,
+    "salsa": 20,
+    "supplies": 20
+  }
+}

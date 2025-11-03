@@ -1,0 +1,24 @@
+{
+  "id": "sq_zumba_conspiracy",
+  "title": "Zumba Conspiracy Night",
+  "visual_source": "photo_party_room",
+  "style_tags": [
+    "dance",
+    "humor"
+  ],
+  "learning": [
+    "imperativos del cuerpo",
+    "direcciones"
+  ],
+  "dialogue": [
+    {
+      "npc": "instructora",
+      "es": "Gira, baja, sube—¡subjuntivo hip roll!"
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 54,
+    "supplies": 34
+  }
+}

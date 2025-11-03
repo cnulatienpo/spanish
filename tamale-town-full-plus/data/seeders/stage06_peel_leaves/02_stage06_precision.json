@@ -1,0 +1,30 @@
+{
+  "id": "stage06_precision",
+  "stage": 6,
+  "title": "Matices y precisión",
+  "cefr": "B2",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "por lo tanto",
+    "sin embargo",
+    "a pesar de",
+    "por el contrario"
+  ],
+  "grammar": [
+    "argumentación precisa"
+  ],
+  "dialogue": [
+    {
+      "npc": "rival",
+      "es": "Tus tamales son buenos; sin embargo, la salsa domina."
+    }
+  ],
+  "goals": [
+    "nuanced argument"
+  ],
+  "rewards": {
+    "tamales": 75,
+    "salsa": 30,
+    "supplies": 30
+  }
+}

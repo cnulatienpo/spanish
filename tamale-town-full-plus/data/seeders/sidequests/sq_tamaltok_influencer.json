@@ -1,0 +1,24 @@
+{
+  "id": "sq_tamaltok_influencer",
+  "title": "Reto TamalTok",
+  "visual_source": "photo_food_truck_row",
+  "style_tags": [
+    "social",
+    "video"
+  ],
+  "learning": [
+    "explicaciones breves",
+    "exclamaciones"
+  ],
+  "dialogue": [
+    {
+      "npc": "influencer",
+      "es": "Hazlo en 15 segundos, con gracia."
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 55,
+    "supplies": 35
+  }
+}

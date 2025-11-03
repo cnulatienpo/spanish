@@ -1,0 +1,1 @@
+const {app,BrowserWindow}=require('electron');function c(){const w=new BrowserWindow({width:1280,height:800});w.loadURL('http://localhost:5173').catch(()=>w.loadFile('../app/dist/index.html'));}app.whenReady().then(c);app.on('window-all-closed',()=>{if(process.platform!=='darwin')app.quit();});

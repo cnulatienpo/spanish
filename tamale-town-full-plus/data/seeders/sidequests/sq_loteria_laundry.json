@@ -1,0 +1,24 @@
+{
+  "id": "sq_loteria_laundry",
+  "title": "Lavandería Lotería",
+  "visual_source": "photo_living_room",
+  "style_tags": [
+    "bright",
+    "game"
+  ],
+  "learning": [
+    "ropa y colores",
+    "adjetivos"
+  ],
+  "dialogue": [
+    {
+      "npc": "dueña",
+      "es": "La playera roja con el pantalón negro, por favor."
+    }
+  ],
+  "rewards": {
+    "tamales": 90,
+    "salsa": 48,
+    "supplies": 30
+  }
+}

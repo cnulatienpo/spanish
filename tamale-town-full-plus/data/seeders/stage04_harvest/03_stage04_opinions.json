@@ -1,0 +1,33 @@
+{
+  "id": "stage04_opinions",
+  "stage": 4,
+  "title": "Opiniones y razones",
+  "cefr": "B1+",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "creo que",
+    "pienso que",
+    "me parece",
+    "en mi opinión"
+  ],
+  "grammar": [
+    "expresar opinión + porque"
+  ],
+  "dialogue": [
+    {
+      "npc": "cliente",
+      "es": "Creo que la salsa roja está mejor."
+    },
+    {
+      "you": "En mi opinión, la verde pica más rico."
+    }
+  ],
+  "goals": [
+    "opinions"
+  ],
+  "rewards": {
+    "tamales": 55,
+    "salsa": 22,
+    "supplies": 22
+  }
+}

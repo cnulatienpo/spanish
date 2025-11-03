@@ -1,0 +1,33 @@
+{
+  "id": "stage06_formality",
+  "stage": 6,
+  "title": "Registro formal (usted)",
+  "cefr": "B2",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "disculpe",
+    "sería tan amable",
+    "agradezco",
+    "le ruego"
+  ],
+  "grammar": [
+    "usted + cortesía"
+  ],
+  "dialogue": [
+    {
+      "npc": "juez_abuelas",
+      "es": "¿Sería tan amable de explicar su receta?"
+    },
+    {
+      "you": "Con gusto, abuela."
+    }
+  ],
+  "goals": [
+    "formal register"
+  ],
+  "rewards": {
+    "tamales": 70,
+    "salsa": 28,
+    "supplies": 28
+  }
+}

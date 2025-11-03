@@ -1,0 +1,23 @@
+{
+  "id": "sq_swap_meet_spanglish",
+  "title": "Tianguis Spanglish",
+  "visual_source": "photo_parade",
+  "style_tags": [
+    "swap_meet",
+    "bargain"
+  ],
+  "learning": [
+    "números, precios, regateo"
+  ],
+  "dialogue": [
+    {
+      "npc": "vendedor",
+      "es": "Te lo dejo en veinte si pagas en efectivo."
+    }
+  ],
+  "rewards": {
+    "tamales": 95,
+    "salsa": 50,
+    "supplies": 32
+  }
+}

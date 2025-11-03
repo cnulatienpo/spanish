@@ -1,0 +1,24 @@
+{
+  "id": "sq_rooftop_weather_cast",
+  "title": "Clima en la Azotea",
+  "visual_source": "photo_market_row",
+  "style_tags": [
+    "rooftop",
+    "wind"
+  ],
+  "learning": [
+    "tiempo atmosférico",
+    "futuro"
+  ],
+  "dialogue": [
+    {
+      "npc": "primo",
+      "es": "Mañana va a llover; prepara la carpa."
+    }
+  ],
+  "rewards": {
+    "tamales": 95,
+    "salsa": 52,
+    "supplies": 32
+  }
+}

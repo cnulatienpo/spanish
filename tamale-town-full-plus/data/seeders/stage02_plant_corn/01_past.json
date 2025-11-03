@@ -1,0 +1,34 @@
+{
+  "id": "stage02_past_tense_01",
+  "stage": 2,
+  "title": "Ayer en la fiesta",
+  "cefr": "A2",
+  "visual_source": "sepia_memory",
+  "vocab": [
+    "ayer",
+    "comí",
+    "bailé",
+    "vi",
+    "hablé"
+  ],
+  "grammar": [
+    "pretérito regular"
+  ],
+  "dialogue": [
+    {
+      "npc": "primo",
+      "es": "¿Qué hiciste ayer?"
+    },
+    {
+      "you": "Comí tamales y bailé con mis amigos."
+    }
+  ],
+  "goals": [
+    "past story"
+  ],
+  "rewards": {
+    "tamales": 40,
+    "salsa": 15,
+    "supplies": 15
+  }
+}
