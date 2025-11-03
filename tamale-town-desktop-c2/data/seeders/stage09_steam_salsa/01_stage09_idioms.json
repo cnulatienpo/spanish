@@ -1,0 +1,33 @@
+{
+  "id": "stage09_idioms",
+  "stage": 9,
+  "title": "Modismos y dichos",
+  "cefr": "C2",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "al pie de la letra",
+    "de volada",
+    "ni modo",
+    "a como dé lugar"
+  ],
+  "grammar": [
+    "uso pragmático de modismos"
+  ],
+  "dialogue": [
+    {
+      "npc": "chola",
+      "es": "De volada, carnal—¡hay fila!"
+    },
+    {
+      "you": "Ni modo, aquí estamos."
+    }
+  ],
+  "goals": [
+    "idioms in context"
+  ],
+  "rewards": {
+    "tamales": 120,
+    "salsa": 55,
+    "supplies": 55
+  }
+}

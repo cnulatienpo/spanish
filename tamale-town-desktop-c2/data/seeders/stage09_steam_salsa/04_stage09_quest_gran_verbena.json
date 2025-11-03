@@ -1,0 +1,33 @@
+{
+  "id": "stage09_quest_gran_verbena",
+  "stage": 9,
+  "title": "La Gran Verbena",
+  "cefr": "C2",
+  "visual_source": "photo_market_row",
+  "style_tags": [
+    "festival",
+    "fast_dialogue"
+  ],
+  "vocab": [
+    "verbena",
+    "brindis",
+    "cotorreo"
+  ],
+  "grammar": [
+    "interacción rápida multi-turno"
+  ],
+  "dialogue": [
+    {
+      "npc": "maestro_de_ceremonias",
+      "es": "¡Brindis! ¿Qué dices a la gente?"
+    }
+  ],
+  "goals": [
+    "rapid conversation"
+  ],
+  "rewards": {
+    "tamales": 170,
+    "salsa": 80,
+    "supplies": 70
+  }
+}

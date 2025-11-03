@@ -1,0 +1,33 @@
+{
+  "id": "stage08_quest_council_trial",
+  "stage": 8,
+  "title": "Consejo de Abuelas: el juicio",
+  "cefr": "C1+",
+  "visual_source": "photo_market_row",
+  "style_tags": [
+    "formal",
+    "trial"
+  ],
+  "vocab": [
+    "dictamen",
+    "apelación",
+    "deliberar"
+  ],
+  "grammar": [
+    "discurso organizado"
+  ],
+  "dialogue": [
+    {
+      "npc": "abuela_mayor",
+      "es": "Deliberen: ¿ha ganado su Licencia Tamalera?"
+    }
+  ],
+  "goals": [
+    "structured defense"
+  ],
+  "rewards": {
+    "tamales": 150,
+    "salsa": 70,
+    "supplies": 60
+  }
+}

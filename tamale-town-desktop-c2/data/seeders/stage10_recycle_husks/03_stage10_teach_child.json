@@ -1,0 +1,32 @@
+{
+  "id": "stage10_teach_child",
+  "stage": 10,
+  "title": "Enseñar al niño",
+  "cefr": "C2+",
+  "visual_source": "photo_market_row",
+  "vocab": [
+    "enseñar",
+    "aprender",
+    "heredar"
+  ],
+  "grammar": [
+    "explicación clara + mandatos suaves"
+  ],
+  "dialogue": [
+    {
+      "npc": "niño",
+      "es": "¿Por qué guardamos las hojas?"
+    },
+    {
+      "you": "Porque la cocina también cuida a los animales."
+    }
+  ],
+  "goals": [
+    "clear explanation"
+  ],
+  "rewards": {
+    "tamales": 150,
+    "salsa": 65,
+    "supplies": 65
+  }
+}
