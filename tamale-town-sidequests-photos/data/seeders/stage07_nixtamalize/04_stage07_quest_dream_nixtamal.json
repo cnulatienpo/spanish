@@ -1,0 +1,33 @@
+{
+  "id": "stage07_quest_dream_nixtamal",
+  "stage": 7,
+  "title": "El sueño del nixtamal",
+  "cefr": "C1",
+  "visual_source": "sepia_memory",
+  "style_tags": [
+    "dream",
+    "surreal"
+  ],
+  "vocab": [
+    "convertir",
+    "imaginar",
+    "transformar"
+  ],
+  "grammar": [
+    "si + imperfecto subj./condicional"
+  ],
+  "dialogue": [
+    {
+      "npc": "narrador",
+      "es": "Si la ciudad hablara español, ¿cómo cambiaría tu vida?"
+    }
+  ],
+  "goals": [
+    "extended hypothetical monologue"
+  ],
+  "rewards": {
+    "tamales": 120,
+    "salsa": 55,
+    "supplies": 50
+  }
+}

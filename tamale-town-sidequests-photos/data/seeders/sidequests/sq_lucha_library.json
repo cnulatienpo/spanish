@@ -1,0 +1,25 @@
+{
+  "id": "sq_lucha_library",
+  "title": "Biblioteca Lucha – Catálogo en Máscara",
+  "visual_source": "photo_library",
+  "style_tags": [
+    "poster_halftone",
+    "dramatic"
+  ],
+  "learning": [
+    "professions",
+    "actions",
+    "categorizing"
+  ],
+  "dialogue": [
+    {
+      "npc": "bibliotecaria",
+      "es": "Clasifica por verbo de acción, campeón."
+    }
+  ],
+  "rewards": {
+    "tamales": 95,
+    "salsa": 52,
+    "supplies": 32
+  }
+}

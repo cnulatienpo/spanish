@@ -1,0 +1,25 @@
+{
+  "id": "sq_la_virgen_miracle_booth",
+  "title": "La Virgen de Guadalupe – Puesto de Milagros",
+  "visual_source": "photo_church_plaza",
+  "style_tags": [
+    "fresco",
+    "devotional"
+  ],
+  "learning": [
+    "requests",
+    "hopes (subj.)",
+    "polite forms"
+  ],
+  "dialogue": [
+    {
+      "npc": "abuela",
+      "es": "Que tengas fe, mijo—haz tu petición."
+    }
+  ],
+  "rewards": {
+    "tamales": 110,
+    "salsa": 58,
+    "supplies": 38
+  }
+}

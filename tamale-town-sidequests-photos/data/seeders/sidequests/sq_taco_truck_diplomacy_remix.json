@@ -1,0 +1,24 @@
+{
+  "id": "sq_taco_truck_diplomacy_remix",
+  "title": "Taco Truck Diplomacy – Rematch",
+  "visual_source": "photo_food_truck_row",
+  "style_tags": [
+    "streetfood",
+    "debate"
+  ],
+  "learning": [
+    "argument connectors",
+    "polite disagreement"
+  ],
+  "dialogue": [
+    {
+      "npc": "chef",
+      "es": "Con todo respeto: la tortilla manda."
+    }
+  ],
+  "rewards": {
+    "tamales": 110,
+    "salsa": 60,
+    "supplies": 38
+  }
+}

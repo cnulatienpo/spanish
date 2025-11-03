@@ -1,0 +1,25 @@
+{
+  "id": "sq_anime_y_abuela_karaoke",
+  "title": "Anime y Abuela – Karaoke Subtítulos",
+  "visual_source": "photo_karaoke_bar",
+  "style_tags": [
+    "neon",
+    "screen_glow"
+  ],
+  "learning": [
+    "listening",
+    "interjections",
+    "timing"
+  ],
+  "dialogue": [
+    {
+      "npc": "abuela",
+      "es": "¡Qué loco! ¡Otra vez, pero más rápido!"
+    }
+  ],
+  "rewards": {
+    "tamales": 95,
+    "salsa": 52,
+    "supplies": 32
+  }
+}

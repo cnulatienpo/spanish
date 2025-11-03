@@ -1,0 +1,24 @@
+{
+  "id": "sq_pinyata_therapy_2",
+  "title": "Piñata Therapy – Resiliencia",
+  "visual_source": "photo_party_room",
+  "style_tags": [
+    "bright",
+    "confetti"
+  ],
+  "learning": [
+    "advice",
+    "recommendations"
+  ],
+  "dialogue": [
+    {
+      "npc": "piñata",
+      "es": "Preferiría que los niños usaran casco."
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 55,
+    "supplies": 35
+  }
+}

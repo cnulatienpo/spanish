@@ -1,0 +1,26 @@
+{
+  "id": "sq_dia_de_los_muertos",
+  "title": "Día de los Muertos – Mercado de Memoria",
+  "visual_source": "photo_muertos_market",
+  "style_tags": [
+    "polaroid",
+    "memory",
+    "marigold"
+  ],
+  "learning": [
+    "past narrative",
+    "family words",
+    "emotion + imperfect"
+  ],
+  "dialogue": [
+    {
+      "npc": "narrador",
+      "es": "Coloca una foto y cuenta una historia corta."
+    }
+  ],
+  "rewards": {
+    "tamales": 120,
+    "salsa": 60,
+    "supplies": 40
+  }
+}

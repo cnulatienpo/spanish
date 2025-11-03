@@ -1,0 +1,24 @@
+{
+  "id": "sq_chupacabra_therapy_2",
+  "title": "Chupacabra – Terapia de Pareja",
+  "visual_source": "photo_counseling_room",
+  "style_tags": [
+    "surreal",
+    "soft_colors"
+  ],
+  "learning": [
+    "feelings",
+    "subjunctive with emotion"
+  ],
+  "dialogue": [
+    {
+      "npc": "chupacabra",
+      "es": "Quiero que me entiendan."
+    }
+  ],
+  "rewards": {
+    "tamales": 105,
+    "salsa": 55,
+    "supplies": 35
+  }
+}

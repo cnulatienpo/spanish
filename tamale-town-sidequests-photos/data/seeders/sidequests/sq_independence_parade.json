@@ -1,0 +1,25 @@
+{
+  "id": "sq_independence_parade",
+  "title": "Desfile del Grito – Banda vs Mariachi",
+  "visual_source": "photo_parade",
+  "style_tags": [
+    "neon",
+    "music"
+  ],
+  "learning": [
+    "future plans",
+    "commands",
+    "coordination"
+  ],
+  "dialogue": [
+    {
+      "npc": "director",
+      "es": "Toca más fuerte cuando pasemos por la plaza."
+    }
+  ],
+  "rewards": {
+    "tamales": 100,
+    "salsa": 55,
+    "supplies": 35
+  }
+}
