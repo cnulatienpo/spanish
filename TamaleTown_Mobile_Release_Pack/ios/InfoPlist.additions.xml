@@ -1,0 +1,8 @@
+<!-- Add inside ios/App/App/Info.plist -->
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key><false/>
+</dict>
+<key>UIRequiresPersistentWiFi</key><false/>
+<key>LSApplicationQueriesSchemes</key>
+<array><string>tamaletown</string></array>

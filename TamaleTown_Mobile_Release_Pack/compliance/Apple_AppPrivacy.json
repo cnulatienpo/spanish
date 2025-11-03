@@ -1,0 +1,26 @@
+{
+  "dataTypes": [
+    {
+      "type": "Contact Info",
+      "data": [
+        "Email Address"
+      ],
+      "purpose": [
+        "App Functionality"
+      ],
+      "linkedToUser": true
+    },
+    {
+      "type": "Diagnostics",
+      "data": [
+        "Crash Data",
+        "Performance Data"
+      ],
+      "purpose": [
+        "Analytics"
+      ],
+      "linkedToUser": false
+    }
+  ],
+  "tracking": false
+}
