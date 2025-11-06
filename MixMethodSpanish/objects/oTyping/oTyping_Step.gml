@@ -1,6 +1,28 @@
 /// @description Handle typing input, scoring, and progression.
 function oTyping_Step() {
     input_text = keyboard_string;
+
+    // Rotate highlight index
+    if (!is_array(hint_chips)) {
+        hint_chips = [];
+    }
+    hint_timer += delta_time / 1000;
+    if (hint_timer >= hint_interval_ms) {
+        hint_timer = 0;
+        if (array_length(hint_chips) > 0) {
+            hint_idx = (hint_idx + 1) mod array_length(hint_chips);
+        }
+    }
+
+    // If stage changes mid-run, refresh hints
+    var current_expected = scr_expected_register(global.current_seeder);
+    if (current_expected != hint_expected) {
+        hint_expected = current_expected;
+        hint_chips = scr_register_examples(hint_expected);
+        hint_idx = 0;
+        hint_timer = 0;
+    }
+
     if (!keyboard_check_pressed(vk_enter)) {
         return;
     }
