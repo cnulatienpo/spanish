@@ -59,6 +59,35 @@ function oSelect_DrawGUI() {
     var mouse_clicked = mouse_check_button_pressed(mb_left);
     var clicked = !settings_active && mouse_clicked;
 
+    if (object_exists(oBackupMgr)) {
+        var backup_btn_x = list_x + 660;
+        var backup_btn_y = ui_pad;
+        var backup_btn_w = 120;
+        var backup_btn_h = 26;
+        var backup_hover = point_in_rectangle(mx, my, backup_btn_x, backup_btn_y, backup_btn_x + backup_btn_w, backup_btn_y + backup_btn_h);
+        draw_set_color(backup_hover ? button_hover_col : button_base);
+        draw_rectangle(backup_btn_x, backup_btn_y, backup_btn_x + backup_btn_w, backup_btn_y + backup_btn_h, false);
+        draw_set_halign(fa_center);
+        draw_set_valign(fa_middle);
+        draw_set_color(button_text_col);
+        draw_text_transformed(backup_btn_x + backup_btn_w * 0.5, backup_btn_y + backup_btn_h * 0.5, "Backups", font_scale, font_scale, 0);
+        draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+
+        if (mouse_clicked && !settings_active && backup_hover) {
+            with (oBackupMgr) {
+                backups = scr_list_backups();
+                selected_backup = (array_length(backups) > 0) ? backups[0] : "";
+                files = (selected_backup != "") ? scr_list_backup_files(selected_backup) : [];
+                selected_file = (array_length(files) > 0) ? files[0] : "";
+                left_scroll = 0;
+                right_scroll = 0;
+                toast_text = "";
+                active = true;
+            }
+        }
+    }
+
     var cbx = list_x + 380;
     var cby = ui_pad + 20;
     var cbw = 14;

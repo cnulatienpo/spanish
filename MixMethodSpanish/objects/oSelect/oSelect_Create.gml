@@ -83,4 +83,8 @@ function oSelect_Create() {
     if (object_exists(oSettings) && !instance_exists(oSettings)) {
         instance_create_layer(0, 0, "Instances", oSettings);
     }
+
+    if (object_exists(oBackupMgr) && !instance_exists(oBackupMgr)) {
+        instance_create_layer(0, 0, "Instances", oBackupMgr);
+    }
 }
