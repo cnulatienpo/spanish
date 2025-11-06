@@ -20,14 +20,24 @@ function scr_validate_all_seeders(_seeders) {
         if (is_ds_map(m)) {
             ds_map_set(m, "__validator_key", key);
         }
-        if (ds_map_exists(out, key)) {
-            var prev = ds_map_find_value(out, key);
-            if (is_ds_list(prev)) {
-                ds_list_destroy(prev);
-            }
-        }
+
         var errs = scr_validate_seeder(m);
-        ds_map_set(out, key, errs);
+        if (ds_map_exists(out, key)) {
+            var shared = ds_map_find_value(out, key);
+            if (is_ds_list(shared) && is_ds_list(errs)) {
+                for (var li = 0; li < ds_list_size(errs); li++) {
+                    ds_list_add(shared, ds_list_find_value(errs, li));
+                }
+                ds_list_destroy(errs);
+                errs = shared;
+            } else if (is_ds_list(errs)) {
+                ds_map_set(out, key, errs);
+            } else if (is_ds_list(shared)) {
+                errs = shared;
+            }
+        } else {
+            ds_map_set(out, key, errs);
+        }
 
         var c = ds_map_exists(seen, key) ? ds_map_find_value(seen, key) : 0;
         ds_map_set(seen, key, c + 1);
