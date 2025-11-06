@@ -2,6 +2,7 @@
 import express from 'express';
 import cors from 'cors';
 import { listSeederJSON, getSeederById } from './services/storage.js';
+import { scoreLadder } from './services/scoring.js';
 
 const app = express();
 app.use(cors());
@@ -10,7 +11,11 @@ app.use(express.json());
 // --- naïve player memory ---
 const players = new Map();
 function ensurePlayer(id='local'){
-  if(!players.has(id)) players.set(id,{tamales:0,salsa:0,supplies:0,spanish_ratio:0.15});
+  if(!players.has(id)) players.set(id,{
+    xp: 0,
+    mix_ratio: 0.15,
+    seen: []
+  });
   return players.get(id);
 }
 
@@ -21,22 +26,16 @@ function normalizeAccents(text){
   t = t.replace(/\bcomo estas\??/i,'¿Cómo estás?');
   return t;
 }
-function strip(s){
-  return (s||'').toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-    .replace(/[¿¡.,!?]/g,'').trim();
-}
-function simpleScore(user,target){
-  const U = new Set(strip(user).split(' '));
-  const T = strip(target).split(' ');
-  let hit=0; for(const w of T){ if(U.has(w)) hit++; }
-  return hit/Math.max(1,T.length);
-}
-function feedback(user,target){
-  const sc = simpleScore(user,target);
-  if(sc>0.9) return {code:'PERFECTO',message:'¡Así se habla!'};
-  if(sc>0.6) return {code:'CLOSE',message:'Casi: ajusta un detalle.'};
-  return {code:'NUDGE',message:'Probemos otra vez con una frase más simple.'};
+function formatFeedback(score){
+  if(score.code === 'PERFECTO') return { code: 'PERFECTO', message: '¡Así se habla!' };
+  if(score.code === 'CLOSE') return { code: 'CLOSE', message: 'Casi perfecto — ajusta un detalle.' };
+  if(score.code === 'PASS') return { code: 'PASS', message: '¡Bien! Sigue mezclando español.' };
+  if(score.code === 'ADD_ONE_MORE'){
+    const need = score.need || 1;
+    const plural = need === 1 ? 'palabra' : 'palabras';
+    return { code: 'ADD_ONE_MORE', message: `Dame ${need} ${plural} más en español.` };
+  }
+  return { code: score.code, message: 'Sigue intentando.' };
 }
 
 // --- routes ---
@@ -55,22 +54,41 @@ app.get('/api/seeders/:id', async (req,res)=>{
 app.post('/api/nlp/normalize',(req,res)=>{
   res.json({ text: normalizeAccents(req.body.text||'') });
 });
-app.post('/api/nlp/grade',(req,res)=>{
-  const { text, targets } = req.body||{};
-  const t0 = (targets && targets[0]) || '';
-  const fb = feedback(text||'', t0);
-  const sc = simpleScore(text||'', t0);
-  const p = ensurePlayer('local');
-  if(fb.code==='PERFECTO') p.spanish_ratio = Math.min(1, p.spanish_ratio + 0.02);
-  res.json({ score: sc, feedback: fb, spanish_ratio: p.spanish_ratio });
+app.post('/api/nlp/grade', async (req,res)=>{
+  const { text='', seeder_id } = req.body||{};
+  if(!seeder_id) return res.status(400).json({ error: 'seeder_id required' });
+  const seeder = await getSeederById(seeder_id,'seeders/');
+  if(!seeder) return res.status(404).json({ error: 'seeder not found' });
+
+  const score = scoreLadder(text, seeder);
+  const fb = formatFeedback(score);
+  const player = ensurePlayer('local');
+
+  if(score.pass){
+    const rewards = seeder.rewards || {};
+    const xp = Number(rewards.xp||0);
+    player.xp += xp;
+    if(!player.seen.includes(seeder.id)) player.seen.push(seeder.id);
+    if(score.code === 'PERFECTO'){
+      const bump = Number(rewards.mix_bump||0);
+      player.mix_ratio = Math.min(1, Math.max(0, player.mix_ratio + bump));
+    }
+  }
+
+  let nextSeeder = null;
+  if(score.pass){
+    const all = await listSeederJSON('seeders/');
+    nextSeeder = all.find(s=>!player.seen.includes(s.id)) || (all.length>0 ? all[Math.floor(Math.random()*all.length)] : null);
+  }
+
+  res.json({
+    score,
+    feedback: fb,
+    player: { id:'local', ...player },
+    next_seeder: nextSeeder
+  });
 });
 app.get('/api/player',(req,res)=> res.json({ id:'local', ...ensurePlayer('local') }));
-app.post('/api/attempts',(req,res)=>{
-  const { result='passed' } = req.body||{};
-  const p = ensurePlayer('local');
-  if(result==='passed'){ p.tamales+=25; p.salsa+=10; p.supplies+=10; }
-  res.json({ ok:true, player: p });
-});
 
 const PORT = process.env.PORT || 8787;
 app.listen(PORT, ()=> console.log('API on http://localhost:'+PORT));
