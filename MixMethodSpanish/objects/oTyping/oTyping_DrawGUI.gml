@@ -39,6 +39,7 @@ function oTyping_DrawGUI() {
     draw_text(20, 180, "You: " + scr_detect_register(input_text));
     draw_text(20, 200, "Ratio: " + string_format(scr_spanish_ratio(input_text) * 100, 0, 2) + "%");
     draw_text(20, 220, feedback_text);
+    scr_draw_mix_meter(global.current_seeder, input_text);
     var strip_y = display_get_gui_height() - 60;
     scr_draw_accent_strip(20, strip_y);
 }
