@@ -75,4 +75,8 @@ function oSelect_Create() {
         }
         ds_map_destroy(grouped);
     }
+
+    if (object_exists(oSettings) && !instance_exists(oSettings)) {
+        instance_create_layer(0, 0, "Instances", oSettings);
+    }
 }

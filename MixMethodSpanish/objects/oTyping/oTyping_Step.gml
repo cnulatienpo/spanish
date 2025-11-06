@@ -2,6 +2,10 @@
 function oTyping_Step() {
     input_text = keyboard_string;
 
+    if (scr_settings_is_active()) {
+        return;
+    }
+
     // Rotate highlight index
     if (!is_array(hint_chips)) {
         hint_chips = [];

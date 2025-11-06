@@ -44,6 +44,15 @@ function scr_draw_mix_meter(_seeder, _input) {
         col = merge_color(col, c_white, pulse * 0.2);
     }
 
+    if (!is_struct(global.settings)) {
+        scr_settings_defaults();
+    }
+    var settings = global.settings;
+    var font_scale = settings.font_scale;
+    var high_contrast = settings.theme_high_contrast;
+    var bar_bg = high_contrast ? make_color_rgb(30, 30, 30) : make_color_rgb(40, 40, 40);
+    var text_col = high_contrast ? c_white : c_white;
+
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
     var bx = 20;
@@ -51,14 +60,14 @@ function scr_draw_mix_meter(_seeder, _input) {
     var bw = gui_w - 40;
     var bh = 20;
 
-    draw_set_color(make_color_rgb(40, 40, 40));
+    draw_set_color(bar_bg);
     draw_rectangle(bx, by, bx + bw, by + bh, false);
 
     var fill = clamp(pct, 0, 1) * bw;
     draw_set_color(col);
     draw_rectangle(bx, by, bx + fill, by + bh, false);
 
-    draw_set_color(c_white);
+    draw_set_color(text_col);
     draw_set_font(f_ui);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
@@ -70,7 +79,7 @@ function scr_draw_mix_meter(_seeder, _input) {
         label = string(used) + " / " + string(min) + "  Spanish words";
     }
 
-    draw_text(bx + bw * 0.5, by + bh * 0.5, label);
+    draw_text_transformed(bx + bw * 0.5, by + bh * 0.5, label, font_scale, font_scale, 0);
 
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
