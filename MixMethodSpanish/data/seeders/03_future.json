@@ -1,0 +1,15 @@
+{
+  "id": "stage03_future_pitch",
+  "stage": 3,
+  "title": "Plan maestro",
+  "cefr": "C1",
+  "dialogue": [
+    { "npc": "jefa", "es": "Cuéntame tu plan para mañana." }
+  ],
+  "targets": {
+    "expected_spanish": ["mañana", "presentaré", "equipo", "estrategia"]
+  },
+  "mix": { "min_tokens": 10 },
+  "register": { "expected": "usted", "bonus": 0.02 },
+  "rewards": { "xp": 55, "mix_bump": 0.03 }
+}

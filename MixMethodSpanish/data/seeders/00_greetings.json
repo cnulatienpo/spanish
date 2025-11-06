@@ -1,0 +1,15 @@
+{
+  "id": "stage00_hola_intro",
+  "stage": 0,
+  "title": "Saluda con flow",
+  "cefr": "A0",
+  "dialogue": [
+    { "npc": "coach", "es": "Di hola con un twist." }
+  ],
+  "targets": {
+    "expected_spanish": ["hola", "amigo"]
+  },
+  "mix": { "min_tokens": 1 },
+  "register": { "expected": "neutral", "bonus": 0.0 },
+  "rewards": { "xp": 10, "mix_bump": 0.01 }
+}
