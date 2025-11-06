@@ -43,6 +43,13 @@ function oTyping_Step() {
         var next = scr_pick_seeder(global.seeders, global.profile);
         if (next != -1) {
             global.current_seeder = next;
+            if (ds_map_exists(next, "id")) {
+                scr_set_last_selected_id(ds_map_find_value(next, "id"));
+            } else {
+                scr_set_last_selected_id("");
+            }
+        } else {
+            scr_set_last_selected_id("");
         }
         keyboard_string = "";
         input_text = "";
