@@ -25,4 +25,6 @@ function oTyping_DrawGUI() {
     draw_text(20, 160, "Register: " + scr_detect_register(input_text));
     draw_text(20, 180, "Ratio: " + string_format(scr_spanish_ratio(input_text) * 100, 0, 2) + "%");
     draw_text(20, 200, feedback_text);
+    var strip_y = display_get_gui_height() - 60;
+    scr_draw_accent_strip(20, strip_y);
 }

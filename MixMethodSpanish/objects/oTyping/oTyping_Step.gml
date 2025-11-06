@@ -39,6 +39,7 @@ function oTyping_Step() {
                 array_push(global.profile.seen, sid);
             }
         }
+        scr_log_progress(global.current_seeder, res);
         var next = scr_pick_seeder(global.seeders, global.profile);
         if (next != -1) {
             global.current_seeder = next;
