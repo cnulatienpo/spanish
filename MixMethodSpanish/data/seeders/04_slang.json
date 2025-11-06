@@ -1,0 +1,15 @@
+{
+  "id": "stage04_street_story",
+  "stage": 4,
+  "title": "Crónica urbana",
+  "cefr": "C2",
+  "dialogue": [
+    { "npc": "amiga", "es": "¿Y luego qué pasó anoche?" }
+  ],
+  "targets": {
+    "expected_spanish": ["anoche", "cuate", "rolamos", "plaza", "energía"]
+  },
+  "mix": { "min_tokens": 12 },
+  "register": { "expected": "slang", "bonus": 0.03 },
+  "rewards": { "xp": 80, "mix_bump": 0.04 }
+}
