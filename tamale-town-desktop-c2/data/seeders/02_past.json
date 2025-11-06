@@ -1,0 +1,15 @@
+{
+  "id": "stage02_past_tense_01",
+  "stage": 2,
+  "title": "Ayer en la fiesta",
+  "cefr": "A2",
+  "dialogue": [
+    { "npc": "primo", "es": "¿Qué hiciste ayer?" }
+  ],
+  "targets": {
+    "allow_mix": true,
+    "expected_spanish": ["ayer", "comí", "bailé", "vi", "hablé", "con"]
+  },
+  "mix": { "min_tokens": 3 },
+  "rewards": { "xp": 40, "mix_bump": 0.02 }
+}
