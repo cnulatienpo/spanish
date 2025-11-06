@@ -1,6 +1,7 @@
 /// @description Initialize global data and load profile + seeders.
 function oApp_Create() {
     global.seeders = scr_load_seeders();
+    global.seeder_errors = scr_validate_all_seeders(global.seeders);
     global.profile = scr_profile_load();
     if (!is_struct(global.profile)) {
         global.profile = scr_profile_default();
