@@ -51,11 +51,30 @@ function oSelect_DrawGUI() {
     draw_set_color(text_col);
     draw_text_transformed(search_x1 + 8, search_y1 + 4, search_q, font_scale, font_scale, 0);
 
+    var list_x = ui_pad;
+
     var settings_active = scr_settings_is_active();
     var mx = device_mouse_x_to_gui(0);
     var my = device_mouse_y_to_gui(0);
     var mouse_clicked = mouse_check_button_pressed(mb_left);
     var clicked = !settings_active && mouse_clicked;
+
+    var cbx = list_x + 380;
+    var cby = ui_pad + 20;
+    var cbw = 14;
+    var cbh = 14;
+    var cb_hover = point_in_rectangle(mx, my, cbx, cby, cbx + cbw, cby + cbh);
+    draw_set_color(c_dkgray);
+    draw_rectangle(cbx, cby, cbx + cbw, cby + cbh, false);
+    if (hide_invalid) {
+        draw_set_color(c_lime);
+        draw_rectangle(cbx + 3, cby + 3, cbx + cbw - 3, cby + cbh - 3, false);
+    }
+    draw_set_color(text_col);
+    draw_text_transformed(cbx + cbw + 8, cby - 2, "Hide invalid", font_scale, font_scale, 0);
+    if (mouse_clicked && !settings_active && cb_hover) {
+        hide_invalid = !hide_invalid;
+    }
 
     var gear_size = 24;
     var gear_x = W - gear_size - 16;
@@ -77,6 +96,41 @@ function oSelect_DrawGUI() {
         with (oSettings) active = !active;
     }
 
+    if (!is_ds_map(global.seeder_errors)) {
+        global.seeder_errors = scr_validate_all_seeders(global.seeders);
+    }
+    var errors_map = global.seeder_errors;
+
+    var seeder_error_list = function(_map) {
+        if (!is_ds_map(_map)) {
+            return -1;
+        }
+        var key = "";
+        if (ds_map_exists(_map, "__validator_key")) {
+            key = ds_map_find_value(_map, "__validator_key");
+        } else if (ds_map_exists(_map, "id")) {
+            key = string(ds_map_find_value(_map, "id"));
+        }
+        if (is_ds_map(errors_map) && ds_map_exists(errors_map, key)) {
+            return ds_map_find_value(errors_map, key);
+        }
+        return -1;
+    };
+
+    var seeder_visible = function(_entry) {
+        if (!is_ds_map(_entry) || ds_map_exists(_entry, "__section")) {
+            return false;
+        }
+        var arr = scr_filter_seeders([_entry], search_q);
+        if (array_length(arr) == 0) {
+            return false;
+        }
+        if (hide_invalid && scr_has_errors(seeder_error_list(_entry))) {
+            return false;
+        }
+        return true;
+    };
+
     var filtered = [];
     if (is_array(sorted)) {
         for (var i = 0; i < array_length(sorted); i++) {
@@ -89,8 +143,7 @@ function oSelect_DrawGUI() {
                     if (is_ds_map(peek) && ds_map_exists(peek, "__section")) {
                         break;
                     }
-                    var tmp = scr_filter_seeders([peek], search_q);
-                    if (array_length(tmp) > 0) {
+                    if (seeder_visible(peek)) {
                         has_match = true;
                         break;
                     }
@@ -99,8 +152,7 @@ function oSelect_DrawGUI() {
                     array_push(filtered, entry);
                 }
             } else {
-                var arr = scr_filter_seeders([entry], search_q);
-                if (array_length(arr) > 0) {
+                if (seeder_visible(entry)) {
                     array_push(filtered, entry);
                 }
             }
@@ -127,7 +179,6 @@ function oSelect_DrawGUI() {
     scroll_max = max(0, content_height - visible_h);
     scroll_y = clamp(scroll_y, 0, scroll_max);
 
-    var list_x = ui_pad;
     var list_y = ui_pad + 64;
     var list_w = max(220, min(W - ui_pad * 2, col_w));
     var y = list_y - scroll_y;
@@ -157,6 +208,10 @@ function oSelect_DrawGUI() {
         var cefr = ds_map_exists(item, "cefr") ? ds_map_find_value(item, "cefr") : "?";
         var tgt = scr_target_label(item);
         var reg = scr_register_label(item);
+        var validator_key = ds_map_exists(item, "__validator_key") ? ds_map_find_value(item, "__validator_key") : id;
+        var errs = seeder_error_list(item);
+        var has_errs = scr_has_errors(errs);
+        var display_id = (string(id) != "") ? string(id) : string(validator_key);
 
         draw_set_color(text_col);
         draw_set_halign(fa_left);
@@ -164,6 +219,12 @@ function oSelect_DrawGUI() {
         draw_text_transformed(x1 + 10, y1 + 8, string(title) + "  (" + string(cefr) + ")", font_scale, font_scale, 0);
         draw_text_transformed(x1 + 10, y1 + 30, tgt, font_scale, font_scale, 0);
         draw_text_transformed(x1 + 10, y1 + 48, reg, font_scale, font_scale, 0);
+
+        if (has_errs) {
+            draw_set_color(make_color_rgb(255, 200, 60));
+            draw_text_transformed(x1 + 10, y1 + card_h - 20, "⚠ " + string(ds_list_size(errs)) + " issue(s)", font_scale, font_scale, 0);
+            draw_set_color(text_col);
+        }
 
         var b_w = 88;
         var b_h = 28;
@@ -192,6 +253,30 @@ function oSelect_DrawGUI() {
         draw_set_halign(fa_left);
         draw_set_valign(fa_top);
         draw_set_color(text_col);
+
+        if (hover && has_errs) {
+            var tipw = 420;
+            var tipx = min(mx + 14, display_get_gui_width() - tipw - 10);
+            var tipy = my + 14;
+            var total = is_ds_list(errs) ? ds_list_size(errs) : 0;
+            var tiph = min(200, 24 * (total + 1));
+            draw_set_color(make_color_rgb(30, 30, 30));
+            draw_rectangle(tipx, tipy, tipx + tipw, tipy + tiph, false);
+            draw_set_color(c_white);
+            draw_text(tipx + 10, tipy + 6, "Seeder issues for: " + string(display_id));
+            var yy = tipy + 28;
+            if (is_ds_list(errs)) {
+                var show_n = min(6, ds_list_size(errs));
+                for (var ei = 0; ei < show_n; ei++) {
+                    draw_text(tipx + 10, yy, "- " + ds_list_find_value(errs, ei));
+                    yy += 20;
+                }
+                if (ds_list_size(errs) > show_n) {
+                    draw_text(tipx + 10, yy, "…and more");
+                }
+            }
+            draw_set_color(text_col);
+        }
 
         if (clicked) {
             if (play_hover) {

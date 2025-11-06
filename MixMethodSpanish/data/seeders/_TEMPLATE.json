@@ -1,0 +1,16 @@
+{
+  "//": "Copy this file, rename it, and fill fields. Keep IDs unique across all files.",
+  "id": "my_stage_unique_id",
+  "stage": 0,
+  "title": "Display title",
+  "cefr": "A0",
+  "dialogue": [
+    { "npc": "someone", "es": "Escribe una línea en español aquí." }
+  ],
+  "targets": {
+    "expected_spanish": ["hola", "¿cómo te llamas?"]
+  },
+  "mix": { "min_tokens": 1 },
+  "register": { "expected": "neutral", "bonus": 0.00 },
+  "rewards": { "xp": 25, "mix_bump": 0.02 }
+}

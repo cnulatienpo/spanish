@@ -5,6 +5,7 @@ function oSelect_Create() {
     col_w = 480;
     gap_y = 10;
     section_markers = [];
+    hide_invalid = false;
 
     if (!is_struct(global.profile)) {
         global.profile = scr_profile_load();
@@ -24,6 +25,9 @@ function oSelect_Create() {
 
     if (!is_array(global.seeders) || array_length(global.seeders) == 0) {
         global.seeders = scr_load_seeders();
+        global.seeder_errors = scr_validate_all_seeders(global.seeders);
+    } else if (!is_ds_map(global.seeder_errors)) {
+        global.seeder_errors = scr_validate_all_seeders(global.seeders);
     }
     all_seeders = is_array(global.seeders) ? global.seeders : [];
 
