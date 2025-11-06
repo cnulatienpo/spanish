@@ -26,6 +26,7 @@ function scr_profile_load() {
         if (!variable_struct_exists(parsed, "mix_ratio")) parsed.mix_ratio = 0.15;
         if (!variable_struct_exists(parsed, "register_bonus")) parsed.register_bonus = 0;
         if (!variable_struct_exists(parsed, "seen")) parsed.seen = [];
+        if (!variable_struct_exists(parsed, "last_selected_id")) parsed.last_selected_id = "";
         return parsed;
     }
     if (is_ds_map(parsed)) {
@@ -33,7 +34,8 @@ function scr_profile_load() {
             xp: ds_map_exists(parsed, "xp") ? ds_map_find_value(parsed, "xp") : 0,
             mix_ratio: ds_map_exists(parsed, "mix_ratio") ? ds_map_find_value(parsed, "mix_ratio") : 0.15,
             register_bonus: ds_map_exists(parsed, "register_bonus") ? ds_map_find_value(parsed, "register_bonus") : 0,
-            seen: []
+            seen: [],
+            last_selected_id: ds_map_exists(parsed, "last_selected_id") ? string(ds_map_find_value(parsed, "last_selected_id")) : ""
         };
         if (ds_map_exists(parsed, "seen")) {
             var seen_list = ds_map_find_value(parsed, "seen");
@@ -62,6 +64,7 @@ function scr_profile_default() {
         xp: 0,
         mix_ratio: 0.15,
         register_bonus: 0,
-        seen: []
+        seen: [],
+        last_selected_id: ""
     };
 }
