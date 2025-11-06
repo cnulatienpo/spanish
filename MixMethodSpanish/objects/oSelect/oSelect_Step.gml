@@ -1,5 +1,9 @@
 /// @description Handle search input and scroll for stage select.
 function oSelect_Step() {
+    if (scr_settings_is_active()) {
+        return;
+    }
+
     if (keyboard_check_pressed(vk_backspace)) {
         if (string_length(search_q) > 0) {
             search_q = string_delete(search_q, string_length(search_q), 1);

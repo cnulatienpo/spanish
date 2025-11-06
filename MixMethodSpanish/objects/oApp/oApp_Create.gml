@@ -5,6 +5,7 @@ function oApp_Create() {
     if (!is_struct(global.profile)) {
         global.profile = scr_profile_default();
     }
+    scr_settings_defaults();
 
     var last_id = "";
     if (variable_struct_exists(global.profile, "last_selected_id")) {

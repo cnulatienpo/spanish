@@ -1,20 +1,81 @@
-/// @description Render the stage select UI.
+/// @description Render the stage select UI with theming and settings access.
 function oSelect_DrawGUI() {
+    if (!is_struct(global.settings)) {
+        scr_settings_defaults();
+    }
+    var settings = global.settings;
+    var font_scale = settings.font_scale;
+    var high_contrast = settings.theme_high_contrast;
+    var text_col = high_contrast ? c_white : c_white;
+    var subhead_col = high_contrast ? c_white : c_silver;
+    var background_col = high_contrast ? c_black : make_color_rgb(24, 24, 32);
+    var card_color = high_contrast ? make_color_rgb(60, 60, 60) : make_color_hsv(210, 10, 25);
+    var card_hover = high_contrast ? make_color_rgb(110, 110, 110) : make_color_hsv(210, 15, 35);
+    var search_bg = high_contrast ? make_color_rgb(10, 10, 10) : make_color_rgb(40, 40, 50);
+    var search_outline = high_contrast ? c_white : c_white;
+    var button_base = high_contrast ? make_color_rgb(220, 220, 220) : c_dkgray;
+    var button_hover_col = high_contrast ? make_color_rgb(255, 255, 255) : make_color_hsv(210, 20, 60);
+    var button_text_col = high_contrast ? c_black : c_white;
+    var play_button_hover = high_contrast ? make_color_rgb(30, 200, 30) : c_lime;
+    var preview_button_hover = high_contrast ? make_color_rgb(200, 150, 0) : make_color_hsv(40, 60, 80);
+    var preview_bg = high_contrast ? c_white : make_color_hsv(210, 10, 18);
+    var preview_text = high_contrast ? c_black : c_white;
+
     var W = display_get_gui_width();
     var H = display_get_gui_height();
 
     draw_set_font(f_ui);
-    draw_set_color(c_white);
     draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
 
-    draw_text(ui_pad, ui_pad, "Mix Method Spanish — Stage Select");
-    draw_text(ui_pad, ui_pad + 24, "Search:");
+    draw_set_color(background_col);
+    draw_rectangle(0, 0, W, H, false);
+
+    draw_set_color(text_col);
+
+    var draw_text_scaled = function(_x, _y, _text) {
+        draw_text_transformed(_x, _y, _text, font_scale, font_scale, 0);
+    };
+
+    draw_text_scaled(ui_pad, ui_pad, "Mix Method Spanish — Stage Select");
+    draw_text_scaled(ui_pad, ui_pad + 24, "Search:");
+
     var search_x1 = ui_pad + 64;
     var search_y1 = ui_pad + 18;
     var search_x2 = search_x1 + 360;
     var search_y2 = search_y1 + 24;
+    draw_set_color(search_bg);
     draw_rectangle(search_x1, search_y1, search_x2, search_y2, false);
-    draw_text(search_x1 + 8, search_y1 + 6, search_q);
+    draw_set_color(search_outline);
+    draw_rectangle(search_x1, search_y1, search_x2, search_y2, true);
+    draw_set_color(text_col);
+    draw_text_transformed(search_x1 + 8, search_y1 + 4, search_q, font_scale, font_scale, 0);
+
+    var settings_active = scr_settings_is_active();
+    var mx = device_mouse_x_to_gui(0);
+    var my = device_mouse_y_to_gui(0);
+    var mouse_clicked = mouse_check_button_pressed(mb_left);
+    var clicked = !settings_active && mouse_clicked;
+
+    var gear_size = 24;
+    var gear_x = W - gear_size - 16;
+    var gear_y = ui_pad;
+    var gear_hover = point_in_rectangle(mx, my, gear_x, gear_y, gear_x + gear_size, gear_y + gear_size);
+    draw_set_color(gear_hover ? button_hover_col : button_base);
+    draw_rectangle(gear_x, gear_y, gear_x + gear_size, gear_y + gear_size, false);
+    draw_set_color(c_black);
+    draw_rectangle(gear_x, gear_y, gear_x + gear_size, gear_y + gear_size, true);
+    draw_set_color(button_text_col);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_text_transformed(gear_x + gear_size * 0.5, gear_y + gear_size * 0.5, "⚙", font_scale, font_scale, 0);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    draw_set_color(text_col);
+
+    if (mouse_clicked && gear_hover && object_exists(oSettings)) {
+        with (oSettings) active = !active;
+    }
 
     var filtered = [];
     if (is_array(sorted)) {
@@ -71,16 +132,12 @@ function oSelect_DrawGUI() {
     var list_w = max(220, min(W - ui_pad * 2, col_w));
     var y = list_y - scroll_y;
 
-    var mx = device_mouse_x_to_gui(0);
-    var my = device_mouse_y_to_gui(0);
-    var clicked = mouse_check_button_pressed(mb_left);
-
     for (var i2 = 0; i2 < array_length(filtered); i2++) {
         var item = filtered[i2];
         if (is_ds_map(item) && ds_map_exists(item, "__section")) {
             var band = ds_map_find_value(item, "__section");
-            draw_set_color(c_silver);
-            draw_text(list_x, y, "— " + string(band) + " —");
+            draw_set_color(subhead_col);
+            draw_text_transformed(list_x, y, "— " + string(band) + " —", font_scale, font_scale, 0);
             y += 26;
             continue;
         }
@@ -90,8 +147,10 @@ function oSelect_DrawGUI() {
         var y1 = y;
         var y2 = y + card_h;
         var hover = point_in_rectangle(mx, my, x1, y1, x2, y2);
-        draw_set_color(hover ? make_color_hsv(210, 15, 35) : make_color_hsv(210, 10, 25));
+        draw_set_color(hover ? card_hover : card_color);
         draw_rectangle(x1, y1, x2, y2, false);
+        draw_set_color(c_black);
+        draw_rectangle(x1, y1, x2, y2, true);
 
         var id = ds_map_exists(item, "id") ? ds_map_find_value(item, "id") : "";
         var title = ds_map_exists(item, "title") ? ds_map_find_value(item, "title") : "Untitled";
@@ -99,11 +158,12 @@ function oSelect_DrawGUI() {
         var tgt = scr_target_label(item);
         var reg = scr_register_label(item);
 
-        draw_set_color(c_white);
+        draw_set_color(text_col);
         draw_set_halign(fa_left);
-        draw_text(x1 + 10, y1 + 8, string(title) + "  (" + string(cefr) + ")");
-        draw_text(x1 + 10, y1 + 30, tgt);
-        draw_text(x1 + 10, y1 + 48, reg);
+        draw_set_valign(fa_top);
+        draw_text_transformed(x1 + 10, y1 + 8, string(title) + "  (" + string(cefr) + ")", font_scale, font_scale, 0);
+        draw_text_transformed(x1 + 10, y1 + 30, tgt, font_scale, font_scale, 0);
+        draw_text_transformed(x1 + 10, y1 + 48, reg, font_scale, font_scale, 0);
 
         var b_w = 88;
         var b_h = 28;
@@ -112,18 +172,26 @@ function oSelect_DrawGUI() {
         var by = y1 + card_h - b_h - 8;
 
         var play_hover = point_in_rectangle(mx, my, play_x1, by, play_x1 + b_w, by + b_h);
-        draw_set_color(play_hover ? c_lime : c_dkgray);
-        draw_rectangle(play_x1, by, play_x1 + b_w, by + b_h, false);
-        draw_set_color(c_white);
-        draw_set_halign(fa_center);
-        draw_text(play_x1 + b_w / 2, by + b_h / 2 - 6, "Play");
-
         var preview_hover = point_in_rectangle(mx, my, prev_x1, by, prev_x1 + b_w, by + b_h);
-        draw_set_color(preview_hover ? make_color_hsv(40, 60, 80) : c_dkgray);
+
+        draw_set_color(play_hover ? play_button_hover : button_base);
+        draw_rectangle(play_x1, by, play_x1 + b_w, by + b_h, false);
+        draw_set_color(c_black);
+        draw_rectangle(play_x1, by, play_x1 + b_w, by + b_h, true);
+        draw_set_color(button_text_col);
+        draw_set_halign(fa_center);
+        draw_set_valign(fa_middle);
+        draw_text_transformed(play_x1 + b_w * 0.5, by + b_h * 0.5, "Play", font_scale, font_scale, 0);
+
+        draw_set_color(preview_hover ? preview_button_hover : button_base);
         draw_rectangle(prev_x1, by, prev_x1 + b_w, by + b_h, false);
-        draw_set_color(c_white);
-        draw_text(prev_x1 + b_w / 2, by + b_h / 2 - 6, "Preview");
+        draw_set_color(c_black);
+        draw_rectangle(prev_x1, by, prev_x1 + b_w, by + b_h, true);
+        draw_set_color(button_text_col);
+        draw_text_transformed(prev_x1 + b_w * 0.5, by + b_h * 0.5, "Preview", font_scale, font_scale, 0);
         draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+        draw_set_color(text_col);
 
         if (clicked) {
             if (play_hover) {
@@ -145,9 +213,9 @@ function oSelect_DrawGUI() {
         }
 
         if (string(selected_id) == string(id)) {
-            draw_set_color(c_aqua);
-            draw_text(x1 + 10, y2 - 20, "Selected");
-            draw_set_color(c_white);
+            draw_set_color(high_contrast ? make_color_rgb(120, 200, 255) : c_aqua);
+            draw_text_transformed(x1 + 10, y2 - 20, "Selected", font_scale, font_scale, 0);
+            draw_set_color(text_col);
         }
 
         y += card_h + gap_y;
@@ -159,17 +227,20 @@ function oSelect_DrawGUI() {
         var px = (W - w2) / 2;
         var py = (H - h2) / 2;
 
-        draw_set_color(make_color_hsv(210, 10, 18));
+        draw_set_color(preview_bg);
         draw_rectangle(px, py, px + w2, py + h2, false);
-        draw_set_color(c_white);
+        draw_set_color(c_black);
+        draw_rectangle(px, py, px + w2, py + h2, true);
+        draw_set_color(preview_text);
         draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
 
         var p_id = ds_map_exists(preview_map, "id") ? ds_map_find_value(preview_map, "id") : "";
         var p_title = ds_map_exists(preview_map, "title") ? ds_map_find_value(preview_map, "title") : "";
         var p_cefr = ds_map_exists(preview_map, "cefr") ? ds_map_find_value(preview_map, "cefr") : "";
-        draw_text(px + 16, py + 14, string(p_title) + " (" + string(p_cefr) + ")");
-        draw_text(px + 16, py + 36, scr_target_label(preview_map));
-        draw_text(px + 16, py + 56, scr_register_label(preview_map));
+        draw_text_transformed(px + 16, py + 14, string(p_title) + " (" + string(p_cefr) + ")", font_scale, font_scale, 0);
+        draw_text_transformed(px + 16, py + 36, scr_target_label(preview_map), font_scale, font_scale, 0);
+        draw_text_transformed(px + 16, py + 56, scr_register_label(preview_map), font_scale, font_scale, 0);
 
         var dlg = ds_map_exists(preview_map, "dialogue") ? ds_map_find_value(preview_map, "dialogue") : -1;
         var y2 = py + 86;
@@ -194,8 +265,8 @@ function oSelect_DrawGUI() {
                     text = string(es);
                 }
                 var line = (speaker != "") ? speaker + ": " + string(text) : string(text);
-                draw_text(px + 16, y2, line);
-                y2 += 20;
+                draw_text_transformed(px + 16, y2, line, font_scale, font_scale, 0);
+                y2 += 20 * font_scale;
             }
         }
 
@@ -208,17 +279,26 @@ function oSelect_DrawGUI() {
         var play_hover2 = point_in_rectangle(mx, my, bx1, by1, bx1 + bw, by1 + bh);
         var close_hover = point_in_rectangle(mx, my, bx2, by1, bx2 + bw, by1 + bh);
 
-        draw_set_color(play_hover2 ? c_lime : c_dkgray);
-        draw_rectangle(bx1, by1, bx1 + bw, by1 + bh, false);
-        draw_set_color(c_white);
         draw_set_halign(fa_center);
-        draw_text(bx1 + bw / 2, by1 + bh / 2 - 6, "Play");
+        draw_set_valign(fa_middle);
 
-        draw_set_color(close_hover ? make_color_hsv(0, 60, 80) : c_dkgray);
+        draw_set_color(play_hover2 ? play_button_hover : button_base);
+        draw_rectangle(bx1, by1, bx1 + bw, by1 + bh, false);
+        draw_set_color(c_black);
+        draw_rectangle(bx1, by1, bx1 + bw, by1 + bh, true);
+        draw_set_color(button_text_col);
+        draw_text_transformed(bx1 + bw * 0.5, by1 + bh * 0.5, "Play", font_scale, font_scale, 0);
+
+        draw_set_color(close_hover ? preview_button_hover : button_base);
         draw_rectangle(bx2, by1, bx2 + bw, by1 + bh, false);
-        draw_set_color(c_white);
-        draw_text(bx2 + bw / 2, by1 + bh / 2 - 6, "Close");
+        draw_set_color(c_black);
+        draw_rectangle(bx2, by1, bx2 + bw, by1 + bh, true);
+        draw_set_color(button_text_col);
+        draw_text_transformed(bx2 + bw * 0.5, by1 + bh * 0.5, "Close", font_scale, font_scale, 0);
+
         draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+        draw_set_color(text_col);
 
         if (clicked) {
             if (play_hover2) {
