@@ -1,0 +1,61 @@
+{
+  "id": "mmspanish__mnemonics_pack_v2",
+  "title": "Mnemonics — Visual + Verbal Combined",
+  "mode": "mnemonics",
+  "sample_entries": [
+    {
+      "word": "por",
+      "category": "connection",
+      "mnemonic_visual": "Tap your feet to remember 'por' means the path you walk or reason that moves you.",
+      "verbal_mnemonic": "🎵 Por is the path, the reason, the way — I walk through life por cada day."
+    },
+    {
+      "word": "para",
+      "category": "connection",
+      "mnemonic_visual": "Point forward toward a target to remember 'para' means purpose or goal.",
+      "verbal_mnemonic": "🎵 Para’s the goal, the aim, the end — I do para learn, I go para mend."
+    },
+    {
+      "word": "de",
+      "category": "direction",
+      "mnemonic_visual": "Touch your back to remember 'de' means from or of — origin behind you.",
+      "verbal_mnemonic": "🎵 De comes from behind, from where I begin — from place, from heart, from deep within."
+    },
+    {
+      "word": "en",
+      "category": "direction",
+      "mnemonic_visual": "Draw a dot inside a box for 'en' = in/on/at.",
+      "verbal_mnemonic": "🎵 En is in, en is on, en is where I stand upon."
+    },
+    {
+      "word": "ayer / hoy / mañana",
+      "category": "time",
+      "mnemonic_visual": "Point back (ayer), touch chest (hoy), point forward (mañana).",
+      "verbal_mnemonic": "🎵 Ayer is gone, hoy is here, mañana waits when sun is near."
+    },
+    {
+      "word": "antes / después",
+      "category": "time",
+      "mnemonic_visual": "Curve arrow back for 'antes'; curve forward for 'después.'",
+      "verbal_mnemonic": "🎵 Antes before, después then — time bends round and starts again."
+    },
+    {
+      "word": "todavía / ya",
+      "category": "time",
+      "mnemonic_visual": "Stretch elastic for 'todavía'; snap fingers for 'ya.'",
+      "verbal_mnemonic": "🎵 Todavía means still in play, ya means done — it’s on its way."
+    },
+    {
+      "word": "nunca / siempre",
+      "category": "time",
+      "mnemonic_visual": "Cross arms for 'nunca'; draw a loop for 'siempre.'",
+      "verbal_mnemonic": "🎵 Nunca is never, no not once; siempre forever, every month."
+    },
+    {
+      "word": "el día / la mano / el problema / el agua / la radio",
+      "category": "gender-exception",
+      "mnemonic_visual": "Use colored tags: blue for masculine, red for feminine.",
+      "verbal_mnemonic": "🎵 Día and agua wear blue today; mano and radio red all the way; problema’s blue, remember to say."
+    }
+  ]
+}
