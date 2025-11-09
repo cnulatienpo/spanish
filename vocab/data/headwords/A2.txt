@@ -221,3 +221,219 @@ más que
 menos que
 mejor
 peor
+ayuntamiento
+oficina de correos
+registro
+consulado
+embajada
+tribunal
+juzgado
+comisaría
+bomberos
+ayuda social
+permiso
+solicitud
+cita previa
+turno
+ventanilla
+papeleo
+sello
+sobre
+paquete
+entrega
+envío
+mensajero
+reparto
+seguimiento
+dirección
+barrio
+vecindario
+alquiler
+hipoteca
+contrato de alquiler
+fianza
+propietario
+inquilino
+arriendo
+mudanza
+ascensor
+escalera
+portero
+conserje
+electricidad
+agua potable
+gas
+internet
+wifi
+router
+contraseña
+usuario
+cuenta en línea
+descargar
+subir
+adjuntar
+enlace
+archivo
+carpeta
+documento
+formato
+compartir
+perfil
+configuración
+privacidad
+notificación
+mensaje directo
+grupo
+video llamada
+audio
+silenciar
+activar
+desactivar
+captura
+pantalla
+reiniciar
+actualizar
+soporte
+servicio técnico
+garantía
+devolución
+cambio (devolución)
+tiquet
+facturación
+presupuesto
+ingreso
+gasto
+ahorro
+saldo
+transferencia
+cuenta bancaria
+tarjeta de crédito
+tarjeta de débito
+cajero automático
+interés
+préstamo
+cuota
+recargo
+impuesto
+declaración
+nómina
+comprobante
+contabilidad
+asesor
+gestoría
+tornillo
+clavo
+martillo
+destornillador
+alicate
+llave inglesa
+cinta métrica
+taladro
+enchufe
+interruptor
+bombilla
+tubería
+fuga
+grifo
+desagüe
+pintura
+rodillo
+brocha
+lija
+pegamento
+arreglar
+reparar
+instalar
+montar
+desmontar
+medir
+cortar
+pegar
+coser
+hilo
+aguja
+botón
+cremallera
+plancha
+tabla de planchar
+detergente
+suavizante
+lavandería
+tender
+doblar
+colgar
+mancha
+tela
+algodón
+lana
+seda
+cuero
+talla
+etiqueta
+probador
+cambiar talla
+devolver
+garantía (ropa)
+cuidado
+cita médica
+síntoma
+diagnóstico
+tratamiento
+receta médica
+dosis
+efecto secundario
+mejora
+empeorar
+recuperación
+rehabilitación
+peso
+altura
+presión
+pulso
+analítica
+radiografía
+fractura
+esguince
+mareo
+náusea
+ansiedad
+estrés
+ánimo
+energía
+descanso
+respirar
+toser
+estornudar
+herida
+quemadura
+curar
+vendar
+relación social
+saludo
+abrazo
+beso
+apretón de manos
+presentación
+despedida
+cumpleaños
+aniversario
+invitación
+agradecimiento
+disculpa
+favor (ayuda)
+apoyo
+confianza
+discusión
+acuerdo
+desacuerdo
+respeto
+límites
+empatía
+orgullo
+vergüenza
+culpa
+miedo
+alegría
+tristeza
+envidia
+celos
