@@ -1,9 +1,21 @@
-Errors: 12  Warnings: 1269
+Errors: 26  Warnings: 3859
 
 ## ERRORS
+- [vocab/out/A2/batch_001.json] idx=0 word=a veces code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=7 word=autobús code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=12 word=casi code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=13 word=cerca code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=18 word=correo code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=27 word=dentro code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=31 word=detrás code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=34 word=dónde code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=42 word=farmacia code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=44 word=fin de semana code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=46 word=fuera code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=47 word=gasolina code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=51 word=hotel code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=54 word=lejos code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_001.json] idx=55 word=licencia code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=65 word=nunca code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=70 word=porque code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=72 word=precio code=DUP_CONFLICT :: Conflicting duplicates
@@ -13,6 +25,8 @@ Errors: 12  Warnings: 1269
 - [vocab/out/A2/batch_001.json] idx=86 word=tampoco code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=88 word=todavía code=DUP_CONFLICT :: Conflicting duplicates
 - [vocab/out/A2/batch_001.json] idx=95 word=ya code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_002.json] idx=51 word=cuenta code=DUP_CONFLICT :: Conflicting duplicates
+- [vocab/out/A2/batch_002.json] idx=72 word=documento code=DUP_CONFLICT :: Conflicting duplicates
 
 ## WARNINGS
 - [vocab/out/A2/batch_001.json] idx=0 word=a veces code=TODO :: english needs curation
@@ -404,114 +418,114 @@ Errors: 12  Warnings: 1269
 - [vocab/out/A2/batch_001.json] idx=96 word=último code=TODO :: origin needs curation
 - [vocab/out/A2/batch_001.json] idx=96 word=último code=TODO :: story needs curation
 - [vocab/out/A2/batch_001.json] idx=96 word=último code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=0 word=abril code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=0 word=abril code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=0 word=abril code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=0 word=abril code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=1 word=abrir code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=1 word=abrir code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=1 word=abrir code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=1 word=abrir code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=2 word=abuela code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=2 word=abuela code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=2 word=abuela code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=2 word=abuela code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=3 word=abuelo code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=3 word=abuelo code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=3 word=abuelo code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=3 word=abuelo code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=4 word=adiós code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=4 word=adiós code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=4 word=adiós code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=4 word=adiós code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=5 word=agosto code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=5 word=agosto code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=5 word=agosto code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=5 word=agosto code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=6 word=agua code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=6 word=agua code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=6 word=agua code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=6 word=agua code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=7 word=ahora code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=7 word=ahora code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=7 word=ahora code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=7 word=ahora code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=8 word=allí code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=8 word=allí code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=8 word=allí code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=8 word=allí code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=9 word=amarillo code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=9 word=amarillo code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=9 word=amarillo code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=9 word=amarillo code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=10 word=amiga code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=10 word=amiga code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=10 word=amiga code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=10 word=amiga code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=11 word=amigo code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=11 word=amigo code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=11 word=amigo code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=11 word=amigo code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=12 word=aquí code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=12 word=aquí code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=12 word=aquí code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=12 word=aquí code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=13 word=arroz code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=13 word=arroz code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=13 word=arroz code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=13 word=arroz code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=14 word=ayer code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=14 word=ayer code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=14 word=ayer code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=14 word=ayer code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=15 word=ayuda code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=15 word=ayuda code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=15 word=ayuda code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=15 word=ayuda code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=16 word=azul code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=16 word=azul code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=16 word=azul code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=16 word=azul code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=17 word=azúcar code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=17 word=azúcar code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=17 word=azúcar code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=17 word=azúcar code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=18 word=año code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=18 word=año code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=18 word=año code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=18 word=año code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=19 word=banco code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=19 word=banco code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=19 word=banco code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=19 word=banco code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=20 word=bañar code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=20 word=bañar code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=20 word=bañar code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=20 word=bañar code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=21 word=baño code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=21 word=baño code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=21 word=baño code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=21 word=baño code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=22 word=beber code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=22 word=beber code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=22 word=beber code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=22 word=beber code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=23 word=blanco code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=23 word=blanco code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=23 word=blanco code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=23 word=blanco code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=24 word=boca code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=24 word=boca code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=24 word=boca code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=24 word=boca code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=25 word=brazo code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=25 word=brazo code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=25 word=brazo code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=25 word=brazo code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=26 word=bueno code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=26 word=bueno code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=26 word=bueno code=TODO :: story needs curation
-- [vocab/out/A1/batch_002.json] idx=26 word=bueno code=TODO :: example needs curation
-- [vocab/out/A1/batch_002.json] idx=27 word=cabeza code=TODO :: english needs curation
-- [vocab/out/A1/batch_002.json] idx=27 word=cabeza code=TODO :: origin needs curation
-- [vocab/out/A1/batch_002.json] idx=27 word=cabeza code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=0 word=a menudo code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=0 word=a menudo code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=0 word=a menudo code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=0 word=a menudo code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=1 word=a veces code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=1 word=a veces code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=1 word=a veces code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=1 word=a veces code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=2 word=accidente code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=2 word=accidente code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=2 word=accidente code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=2 word=accidente code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=3 word=aceite code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=3 word=aceite code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=3 word=aceite code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=3 word=aceite code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=4 word=aduana code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=4 word=aduana code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=4 word=aduana code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=4 word=aduana code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=5 word=adónde code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=5 word=adónde code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=5 word=adónde code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=5 word=adónde code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=6 word=agenda code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=6 word=agenda code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=6 word=agenda code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=6 word=agenda code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=7 word=al final code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=7 word=al final code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=7 word=al final code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=7 word=al final code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=8 word=al principio code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=8 word=al principio code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=8 word=al principio code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=8 word=al principio code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=9 word=alergia code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=9 word=alergia code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=9 word=alergia code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=9 word=alergia code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=10 word=alguno code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=10 word=alguno code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=10 word=alguno code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=10 word=alguno code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=11 word=almuerzo code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=11 word=almuerzo code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=11 word=almuerzo code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=11 word=almuerzo code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=12 word=alojamiento code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=12 word=alojamiento code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=12 word=alojamiento code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=12 word=alojamiento code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=13 word=ambulancia code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=13 word=ambulancia code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=13 word=ambulancia code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=13 word=ambulancia code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=14 word=andén code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=14 word=andén code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=14 word=andén code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=14 word=andén code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=15 word=antes code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=15 word=antes code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=15 word=antes code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=15 word=antes code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=16 word=apenas code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=16 word=apenas code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=16 word=apenas code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=16 word=apenas code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=17 word=aprobación code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=17 word=aprobación code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=17 word=aprobación code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=17 word=aprobación code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=18 word=archivar code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=18 word=archivar code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=18 word=archivar code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=18 word=archivar code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=19 word=asar code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=19 word=asar code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=19 word=asar code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=19 word=asar code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=20 word=asiento code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=20 word=asiento code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=20 word=asiento code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=20 word=asiento code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=21 word=aunque code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=21 word=aunque code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=21 word=aunque code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=21 word=aunque code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=22 word=autobús code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=22 word=autobús code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=22 word=autobús code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=22 word=autobús code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=23 word=bastante code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=23 word=bastante code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=23 word=bastante code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=23 word=bastante code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=24 word=billete code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=24 word=billete code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=24 word=billete code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=24 word=billete code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=25 word=boleto code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=25 word=boleto code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=25 word=boleto code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=25 word=boleto code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=26 word=borrador code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=26 word=borrador code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=26 word=borrador code=TODO :: story needs curation
+- [vocab/out/A2/batch_002.json] idx=26 word=borrador code=TODO :: example needs curation
+- [vocab/out/A2/batch_002.json] idx=27 word=cada code=TODO :: english needs curation
+- [vocab/out/A2/batch_002.json] idx=27 word=cada code=TODO :: origin needs curation
+- [vocab/out/A2/batch_002.json] idx=27 word=cada code=TODO :: story needs curation

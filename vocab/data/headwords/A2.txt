@@ -95,3 +95,129 @@ enfermo
 dolor
 cita médica
 farmacia
+reserva
+alojamiento
+recepción
+habitación
+tarifa
+desayuno
+almuerzo
+cena
+propina
+menú
+pedido
+cuenta
+tarjeta
+efectivo
+cambio
+billete
+moneda
+asiento
+andén
+taquilla
+retraso
+itinerario
+horario
+salida de emergencia
+equipaje de mano
+maleta
+mochila de viaje
+confirmación
+cancelación
+reembolso
+seguridad
+control
+aduana
+frontera
+visado
+documento
+certificado
+contrato
+salario
+sueldo
+puesto
+vacante
+entrevista
+currículum
+turno
+horas extra
+compañero
+colega
+equipo
+proyecto
+informe
+plazo
+entrega
+reunión semanal
+agenda
+nota
+recordatorio
+archivar
+imprimir
+escáner
+copia
+borrador
+versión
+revisión
+aprobación
+diagnóstico
+tratamiento
+receta
+consulta
+ambulancia
+síntoma
+tos
+dolor de cabeza
+gripe
+resfriado
+lesión
+vendaje
+inyección
+operación
+rehabilitación
+farmacéutico
+vitaminas
+alergia
+intolerancia
+dietas
+vegetariano
+vegano
+sin gluten
+sin lactosa
+porciones
+ingrediente
+salsa
+aceite
+vinagre
+especia
+pimienta
+canela
+vainilla
+hornear
+hervir
+freír
+asar
+mezclar
+cortar
+pelar
+probar
+costumbre
+hábito
+deber
+permiso
+prohibido
+obligatorio
+a menudo
+de vez en cuando
+todavía no
+ya no
+por fin
+al principio
+al final
+de nuevo
+otra vez
+igual que
+más que
+menos que
+mejor
+peor
