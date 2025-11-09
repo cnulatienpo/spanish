@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "lemma",
+    "pos",
+    "gender",
+    "number",
+    "english_gloss",
+    "definition_es",
+    "register",
+    "tags",
+    "examples",
+    "synonyms",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^vocab__[-a-z0-9]+$"
+    },
+    "type": {
+      "const": "vocabulary"
+    },
+    "lemma": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pos": {
+      "type": ["string", "null"],
+      "enum": [
+        "noun",
+        "verb",
+        "adj",
+        "adv",
+        "prep",
+        "conj",
+        "pron",
+        "det",
+        "num",
+        "interj",
+        "aux",
+        "expr",
+        null
+      ]
+    },
+    "gender": {
+      "type": ["string", "null"],
+      "enum": ["masculine", "feminine", null]
+    },
+    "number": {
+      "type": ["string", "null"],
+      "enum": ["singular", "plural", "invariant", null]
+    },
+    "english_gloss": {
+      "type": "string"
+    },
+    "definition_es": {
+      "type": "string"
+    },
+    "register": {
+      "type": ["string", "null"],
+      "enum": ["neutral", "informal", "formal", null]
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["es", "en"],
+        "properties": {
+          "es": {"type": "string"},
+          "en": {"type": "string"}
+        }
+      }
+    },
+    "synonyms": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10
+    }
+  }
+}
