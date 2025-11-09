@@ -1,0 +1,282 @@
+[
+  {
+    "word": "adiós",
+    "pos": "interjection",
+    "gender": null,
+    "english": "“Adiós” is a release, not a goodbye — a tiny ritual that hands the person you just met back to the universe.",
+    "origin": "From the phrase 'a Dios' — literally 'to God,' once said as 'Te encomiendo a Dios' (I commend you to God).",
+    "story": "It began as a blessing when parting. Speech wore it down to just two sounds, but the wish for protection stayed. Even casually, every 'adiós' still carries a trace of care.",
+    "example": null,
+    "level": "A1"
+  },
+  {
+    "word": "Ahora",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Now",
+    "origin": "From Latin 'ad horam' — 'at this hour.' Over centuries, Spanish pressed the phrase into one smooth sound: 'ahora.'",
+    "story": "In old speech, 'ahora' literally meant 'at this hour.' It carried the sense of immediacy — something happening in the exact beat of time you are standing in. Today it still holds that pulse. When you say 'ahora,' you’re calling life to attention.",
+    "example": "Use it freely inside English to anchor the moment: 'I’m ready ahora.' 'We go ahora.' 'It’s happening ahora.' The word itself pulls the action into the present.",
+    "level": "A2"
+  },
+  {
+    "word": "Antes",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Before",
+    "origin": "From Latin 'ante' — before, in front of. Over time, Spanish added a soft 's' to let the word hold many memories at once.",
+    "story": "When you say 'antes,' you’re not counting; you’re reaching backward in the order of things. It can mean 'earlier,' 'first,' or simply 'in the past.' It’s the word you use when you rewind life by one frame.",
+    "example": "You can mix it into English until it feels natural: 'I worked antes.'  'I left antes.'  'I ate antes.'  The word alone marks what happened first.",
+    "level": "A2"
+  },
+  {
+    "word": "Ayer",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Yesterday",
+    "origin": "From Latin 'heri' — the day before today. Over centuries Spanish added the open 'a' in front, like a backward step.",
+    "story": "Before clocks, people measured time by light. Yesterday was 'the last sun.' So when you say 'ayer,' you’re pointing toward warmth that’s still close but no longer here.",
+    "example": "You can drop 'ayer' into an English sentence while you learn: 'I worked ayer.'  'I already took out garbage ayer.'  You don’t need to change the verbs yet — the word itself places the action in the past.",
+    "level": "A2"
+  },
+  {
+    "word": "Caminar",
+    "pos": "verb",
+    "gender": null,
+    "english": "I walk.",
+    "origin": "‘Caminar’ comes from Latin *camminus,* related to *caminus,* meaning 'path, road, or passage.'",
+    "story": "It’s built from the same root that gives us 'camino' — the road itself. So 'yo camino' literally means 'I road,' or 'I path.' The verb is movement embodied: each step is a small creation of direction.",
+    "example": "I walk.",
+    "level": "A1"
+  },
+  {
+    "word": "Después",
+    "pos": "adverb",
+    "gender": null,
+    "english": "After",
+    "origin": "From Latin 'de ex post' — 'from out of after.' Spanish compressed it into one smooth wave: 'después,' meaning beyond this moment.",
+    "story": "When you say 'después,' you’re promising continuation. It’s the space between actions — the bridge from one event to the next. Every story and plan moves through 'después.'",
+    "example": "Blend it into English as you learn: 'I’ll work después.'  'I’ll go después.'  'We’ll eat después.'  The word itself carries you forward.",
+    "level": "A2"
+  },
+  {
+    "word": "Estoy bien",
+    "pos": "expression",
+    "gender": null,
+    "english": "I'm fine.",
+    "origin": "‘Estoy’ comes from the verb *estar,* whose ancestor is Latin *stare,* meaning 'to stand, to stay in a place.'",
+    "story": "Long before it meant 'to be,' *stare* simply meant 'to stand upright, to remain for a time.' Spanish kept that sense of standing in a space. So when you say 'estoy,' you’re not declaring what you are—you’re describing how and where you stand right now. It’s presence in motion, not identity. 'Bien' comes from Latin *bene*—well, good—so 'estoy bien' means 'I stand well in this moment.'",
+    "example": "I'm fine.",
+    "level": "A1"
+  },
+  {
+    "word": "Feliz",
+    "pos": "adjective",
+    "gender": null,
+    "english": "Happy",
+    "origin": "From Latin 'felix' — meaning 'lucky, fruitful, full of life.'  Spanish softened the sound but kept the warmth.",
+    "story": "Long ago, 'felix' was not only an emotion; it was a wish — to live in good fortune.  In Spanish, 'feliz' still carries that wish.  It’s the quiet spark that lights the word 'felicidad' — happiness itself.",
+    "example": "Use it right away with what you already know: 'Estoy feliz hoy.'  'Estoy feliz porque trabajo.'  'Estoy en la casa feliz.'  The word slips easily into sentences you can already build.",
+    "level": "B1"
+  },
+  {
+    "word": "Gracias",
+    "pos": "interjection",
+    "gender": null,
+    "english": "Thank you.",
+    "origin": "‘Gracias’ comes from Latin *gratia* — meaning 'favor, goodwill, blessing.'",
+    "story": "The same root gave English its words 'grace' and 'gratitude.' In older Spanish, 'dar las gracias' literally meant 'to give the graces'—to hand someone a bit of your own good fortune. When you say 'gracias,' you’re offering a spark of that grace back to the world.",
+    "example": "Thank you.",
+    "level": "A1"
+  },
+  {
+    "word": "hola",
+    "pos": "interjection",
+    "gender": null,
+    "english": "“Hola” is a fossil of three worlds — the Arabic breath, the Romance echo, and the human need to be heard across space. It’s the oldest tech-support ticket in the world: “Can you hear me?”",
+    "origin": "From old Spanish 'hala' (Arabic ḥā lah – come on!) and 'ola' (a Romance call for attention).",
+    "story": "It began as a shout across distance, not a polite word. The silent h is the ghost of an old breath that used to start the sound. Over time the two calls fused into 'hola,' a pure signal of safe entry between people.",
+    "example": null,
+    "level": "A1"
+  },
+  {
+    "word": "Hoy",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Today",
+    "origin": "From Latin 'hodie' — 'this day.' The middle faded away, leaving only 'hoy.'",
+    "story": "Every day begins, burns, and shortens into memory. 'Hoy' carries that flicker — it’s the moment still burning. Long ago, people marked 'today' by the fire they kept alive until night. The word still feels like that flame.",
+    "example": "You can mix 'hoy' with English while you learn: 'I work hoy.' 'I feel good hoy.' 'I cook tamales hoy.' The word alone anchors the moment.",
+    "level": "A2"
+  },
+  {
+    "word": "Mañana",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Tomorrow",
+    "origin": "From Latin 'maneana' — 'early in the morning.'  Over time, it expanded to mean the next day — the next dawn.",
+    "story": "Every language has a word for the promise of the next sunrise.  In Spanish, that promise is 'mañana.'  It began as 'morning' and grew to mean 'tomorrow' — the day you can’t touch yet.",
+    "example": "Use 'mañana' the same way you used 'ayer' and 'hoy.'  Mix it with English until it feels yours:  'I work mañana.'  'We cook mañana.'  'I’ll go mañana.'",
+    "level": "A2"
+  },
+  {
+    "word": "me llamo",
+    "pos": "expression",
+    "gender": null,
+    "english": "My name is Ray.",
+    "origin": "From the reflexive verb 'llamarse,' rooted in Latin 'clamāre' — to call out.",
+    "story": "The phrase comes from Latin *clamāre*, 'to call out.' Spanish turned that outward shout inward—'me' makes it reflexive, a call toward yourself. It’s how Spanish builds identity through action.",
+    "example": "My name is Ray.",
+    "level": "A1"
+  },
+  {
+    "word": "Mucho gusto",
+    "pos": "expression",
+    "gender": null,
+    "english": "Nice to meet you.",
+    "origin": "‘Mucho’ comes from Latin *multum* — 'a lot.' ‘Gusto’ comes from *gustus* — 'taste, enjoyment.'",
+    "story": "Long ago, 'gusto' was about literal taste — the pleasure of flavor. Spanish kept that sensory meaning in how it greets people. When you say 'mucho gusto,' you’re not being formal; you’re saying, 'meeting you tastes good to me.'",
+    "example": "Nice to meet you.",
+    "level": "A1"
+  },
+  {
+    "word": "Nunca",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Never",
+    "origin": "From Latin 'numquam' — 'not ever, not once.' Spanish shaped it into 'nunca,' a word that sounds final even when whispered.",
+    "story": "Every language needs a way to say that something simply does not happen. In Spanish, 'nunca' is that refusal — short, firm, unbending. When you say it, time stops stretching; it folds shut.",
+    "example": "Try it inside English until it feels natural: 'I go there nunca.' 'I felt that nunca.' 'I’ll do that nunca.' It tells the listener that the action doesn’t belong anywhere on the line of time.",
+    "level": "A2"
+  },
+  {
+    "word": "Pero",
+    "pos": "conjunction",
+    "gender": null,
+    "english": "But",
+    "origin": "From Latin 'per hoc' — 'by this.' Over time, Spanish shaped it into 'pero,' a short pause that balances contrast.",
+    "story": "‘Pero’ doesn’t erase what came before; it adds weight to what follows. In Spanish conversation, it’s the sound of honesty — admitting that something else is also true. Every story needs its turning point, and Spanish keeps that turn inside this single word.",
+    "example": "Use it inside English until it feels natural: 'I work, pero I’m tired.' 'I walk, pero slowly.' 'I live here, pero I go tomorrow.'  The word connects one idea with another without ending the thought.",
+    "level": "B1"
+  },
+  {
+    "word": "por favor",
+    "pos": "expression",
+    "gender": null,
+    "english": "Please.",
+    "origin": "‘Por’ comes from Latin *pro* — 'on behalf of, in exchange for.' ‘Favor’ comes from *favorem* — 'kindness, support.'",
+    "story": "Originally, 'por favor' was transactional: a polite request for advantage or help. Over centuries it softened into pure courtesy. Yet it still holds the echo of that first bargain — every 'por favor' carries a trace of humility, a reminder that kindness runs on permission.",
+    "example": "Please.",
+    "level": "A1"
+  },
+  {
+    "word": "Porque",
+    "pos": "conjunction",
+    "gender": null,
+    "english": "Because",
+    "origin": "From Latin 'per quod' — 'by which.' Spanish pressed the phrase into one clear road: 'porque.'",
+    "story": "At first it meant 'by what road.' Over centuries it became the way people showed connection between ideas. When you say 'porque,' you’re tracing the path from action to reason — from what you do to why you do it.",
+    "example": "You can start using it right now inside English: 'I work porque I want.' 'I walk porque I can.' 'I live porque I live.' The word itself creates the link between what you do and why you do it.",
+    "level": "B1"
+  },
+  {
+    "word": "Siempre",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Always",
+    "origin": "From Latin 'semper' — 'at all times.' Spanish kept the sound and the strength, softening the edges but not the meaning.",
+    "story": "In Latin prayers and ancient vows, 'semper' was used to mark eternal truth — things that remained true regardless of days or lives. Spanish carried that same weight into 'siempre.' When you say it, you’re promising that the motion continues without end.",
+    "example": "Mix it into English to feel its weight: 'I remember siempre.' 'You are kind siempre.' 'We work juntos siempre.' The word alone holds the sense of continuity.",
+    "level": "A2"
+  },
+  {
+    "word": "Tampoco",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Neither / Not Either",
+    "origin": "From Latin 'tam' (so) + 'paucus' (few). Spanish shaped it into 'tampoco,' a word that feels quiet but firm.",
+    "story": "‘Tampoco’ was built to soften refusal. It’s how you stay connected while saying no. When someone says, 'I don’t go,' and you reply 'yo tampoco,' you’re standing with them in stillness — sharing the same absence instead of opposing it.",
+    "example": "Use it easily inside English until it fits: 'I don’t work tampoco.' 'I don’t walk tampoco.' 'I’m not ready tampoco.' It adds gentle agreement to any negative thought.",
+    "level": "B1"
+  },
+  {
+    "word": "Todavía",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Still / Yet",
+    "origin": "From Latin 'totum adhuc' — 'the whole thing up to now.' Spanish blended it into 'todavía,' literally 'all still.'",
+    "story": "Imagine a candle that hasn’t gone out. The wax is shorter, the flame smaller, but it’s still burning. That’s 'todavía.' It’s the word for moments that keep going when you thought they’d be over.",
+    "example": "Use it freely inside English until it feels natural: 'I’m working todavía.' 'It’s raining todavía.' 'I’m not ready todavía.' The word alone tells the listener the story isn’t done.",
+    "level": "A2"
+  },
+  {
+    "word": "Trabajar",
+    "pos": "verb",
+    "gender": null,
+    "english": "I work.",
+    "origin": "‘Trabajar’ comes from Latin *tripaliare* — 'to labor under the tripalium,' a wooden frame used to hold animals still.",
+    "story": "It began as a word for strain and effort, even pain. Over centuries, Spanish reshaped it into dignity: effort turned into purpose. When you say 'trabajo,' you name the motion that keeps life going.",
+    "example": "I work.",
+    "level": "A1"
+  },
+  {
+    "word": "Triste",
+    "pos": "adjective",
+    "gender": null,
+    "english": "Sad",
+    "origin": "From Latin 'tristis' — meaning 'solemn, gloomy, serious.'  Spanish kept the sound almost the same, only softening it to 'triste.'",
+    "story": "In early Latin, 'tristis' was used for both weather and people — a gray sky, a heavy heart.  In Spanish, it still connects the two.  You can say 'el día está triste' — the day is sad — or 'estoy triste' — I’m sad.  It paints the world in quieter colors.",
+    "example": "Use it naturally with what you know: 'Estoy triste hoy.'  'Estoy triste porque trabajo mucho.'  'Estoy en la casa triste.'  The feeling fits anywhere — it just changes the light of the sentence.",
+    "level": "B1"
+  },
+  {
+    "word": "Vivir",
+    "pos": "verb",
+    "gender": null,
+    "english": "I live.",
+    "origin": "‘Vivir’ comes from Latin *vivere*, the same root that gave English its word 'vivid.' It means 'to be alive, to be full of life.'",
+    "story": "In older Latin, *vivere* didn’t just mean to survive—it meant to *stay in the light.* Spanish kept that brightness. So when you say 'yo vivo,' you’re not marking a location; you’re declaring that your light is still on.",
+    "example": "I live.",
+    "level": "A1"
+  },
+  {
+    "word": "Ya",
+    "pos": "adverb",
+    "gender": null,
+    "english": "Already / Now / Anymore",
+    "origin": "From Latin 'iam' — meaning 'already, by now.' Spanish kept it short, fast, and final.",
+    "story": "When you say 'ya,' you’re marking a moment of change — a threshold. It’s the sound of a door closing or opening. Everything before 'ya' belonged to the past; everything after belongs to the new moment.",
+    "example": "Try it inside English: 'I’m ready ya.' 'It’s finished ya.' 'I don’t do that ya.' The word alone tells you that time has moved — the situation is different now.",
+    "level": "A2"
+  },
+  {
+    "word": "Yo",
+    "pos": "pronoun",
+    "gender": null,
+    "english": "I.",
+    "origin": "‘Yo’ comes from Latin *ego.* Over time, languages softened that sharp sound: ego → eo → yo.",
+    "story": "When you say 'yo,' you’re not inflating the self; you’re identifying the speaker. It’s the voice claiming space in the world. Spanish made the idea smaller and rounder, turning the upright 'I' into a sound that flows.",
+    "example": "I.",
+    "level": "A1"
+  },
+  {
+    "word": "¿Cómo estás?",
+    "pos": "expression",
+    "gender": null,
+    "english": "How are you?",
+    "origin": "‘Cómo’ comes from Latin *quōmodo* — 'in what way.' ‘Estás’ comes from Latin *stare* — 'to stand.'",
+    "story": "When Spanish speakers say '¿Cómo estás?,' they’re not asking for a label like happy or sad. They’re asking about your stance in the world — how you’re holding yourself, how steady you feel. The word *estás* still carries the ancient idea of standing upright in a place, even if that place is emotional.",
+    "example": "How are you?",
+    "level": "A1"
+  },
+  {
+    "word": "¿cómo te llamas?",
+    "pos": "expression",
+    "gender": null,
+    "english": "What's your name?",
+    "origin": "‘Cómo’ comes from Latin 'quōmodo' — 'in what way.' ‘Te’ means 'yourself,' and ‘llamas’ means 'you call.'",
+    "story": "Together they mean 'How do you call yourself?' not 'What’s your name?' Spanish asks for the way a person identifies, not just the label. It’s about the act, the movement of bringing yourself into the world.",
+    "example": "What's your name?",
+    "level": "A1"
+  }
+]
