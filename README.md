@@ -103,3 +103,31 @@ python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary rep
 ```
 
 **Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
+
+## Vocabulary Leak Guard
+
+We enforce *iron-clad no Spanish before taught*:
+
+- `vocab/bank.csv` lists every Spanish surface form + its English placeholder.
+- `progress/learned/*.json` is our ledger of forms the player has earned.
+- `tools/gate/enforce_no_leak.py` scans source assets and either:
+  - `--mode check --strict` → fails build on any Spanish form not in the ledger.
+  - `--mode compile` → writes a Spanglish build to `--out`, replacing unknown forms with their English glosses.
+
+### Example
+
+```bash
+# enforce for A1 step_0002 (allowed: hola, me, llamo)
+python tools/gate/enforce_no_leak.py \
+  --bank vocab/bank.csv \
+  --learned progress/learned/A1_step_0002.json \
+  --scan lessons/out/A1 \
+  --mode check --strict --report reports/leaks_a1_step2.json
+
+# build a Spanglish play-out for this step:
+python tools/gate/enforce_no_leak.py \
+  --bank vocab/bank.csv \
+  --learned progress/learned/A1_step_0002.json \
+  --scan lessons/out/A1 \
+  --mode compile --out build/A1_step_0002
+```
