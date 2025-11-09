@@ -74,3 +74,32 @@ and re-run the CLI. Stub vocabulary entries flagged via
 `reports/new_stub_vocabulary.csv` should be promoted into fully fleshed entries
 (or removed) once definitions are confirmed.
 
+---
+
+## Vocabulary Pipeline
+
+**Install**
+```bash
+pip install jsonschema
+```
+
+**Generate batches**
+```bash
+# Put headwords (one per line) into vocab/data/headwords/A1.txt (etc.)
+python tools/generate.py --level A1 --in vocab/data/headwords/A1.txt --out vocab/out/A1/batch_001.json --batch-size 200
+```
+
+**Validate**
+```bash
+mkdir -p reports
+bash ci/check.sh
+```
+
+**Split / Dedupe / Report (optional)**
+```bash
+python tools/split_batches.py --in vocab/out/B1/big.json --out-dir vocab/out/B1 --batch-size 200
+python tools/dedupe.py --scan-dir vocab/out --out vocab/deduped.json --conflicts reports/dupe_conflicts.json
+python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary reports/agg.txt
+```
+
+**Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
