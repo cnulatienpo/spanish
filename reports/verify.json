@@ -25525,6 +25525,39 @@
       "word": "curar",
       "file": "vocab/out/A2/batch_006.json"
     {
+      "index": 117,
+      "word": "currículum",
+      "code": "DUP_EXACT",
+      "message": "Exact duplicate entries",
+      "file": "vocab/out/A2/batch_004.json"
+    },
+    {
+      "index": 123,
+      "word": "de nuevo",
+      "code": "DUP_EXACT",
+      "message": "Exact duplicate entries",
+      "file": "vocab/out/A2/batch_004.json"
+    },
+    {
+      "index": 124,
+      "word": "de vez en cuando",
+      "code": "DUP_EXACT",
+      "message": "Exact duplicate entries",
+      "file": "vocab/out/A2/batch_004.json"
+    },
+    {
+      "index": 125,
+      "word": "deber",
+      "code": "DUP_EXACT",
+      "message": "Exact duplicate entries",
+      "file": "vocab/out/A2/batch_004.json"
+    },
+    {
+      "index": 126,
+      "word": "declaración",
+      "code": "DUP_EXACT",
+      "message": "Exact duplicate entries",
+      "file": "vocab/out/A2/batch_004.json"
       "index": 149,
       "word": "currículum",
       "file": "vocab/out/A2/batch_006.json"
