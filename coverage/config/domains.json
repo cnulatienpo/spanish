@@ -1,0 +1,7 @@
+{
+  "core_daily": ["household", "food", "family", "time", "travel", "health", "work"],
+  "discourse": ["connectors", "argument", "rhetoric", "register"],
+  "academic": ["methodology", "statistics", "logic", "literary", "style"],
+  "civic_world": ["society", "politics", "economy", "environment", "law", "media", "culture"],
+  "pro_exec": ["management", "finance", "governance", "diplomacy"]
+}

@@ -103,3 +103,29 @@ python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary rep
 ```
 
 **Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
+
+## Coverage & Export
+
+**Plan coverage / gaps**
+```bash
+python tools/coverage.py plan \
+  --scan vocab/out \
+  --freq coverage/frequency \
+  --targets coverage/config/targets.json \
+  --domains coverage/config/domains.json \
+  --out reports/coverage.json \
+  --summary reports/coverage.txt
+```
+
+**Rebalance (promote/demote)**
+```bash
+python tools/promote_level.py --word "coherencia" --from B1 --to B2 --scan vocab/out --write
+```
+
+**Export game bundles**
+```bash
+python tools/export_bundles.py \
+  --scan vocab/out --bundle-dir bundles --format gamejson --split-by level --max-file 1000
+```
+
+CI publishes verify.txt + coverage.txt under “coverage-reports”.

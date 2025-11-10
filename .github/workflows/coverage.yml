@@ -1,0 +1,36 @@
+name: coverage-plan
+on:
+  push:
+  pull_request:
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install jsonschema
+      - run: mkdir -p reports
+      - name: Verify schema
+        run: |
+          python tools/validate.py \
+            --scan-dir vocab/out \
+            --require-alpha \
+            --out-report reports/verify.json \
+            --out-summary reports/verify.txt \
+            --fail-on ERROR
+      - name: Coverage plan
+        run: |
+          python tools/coverage.py plan \
+            --scan vocab/out \
+            --freq coverage/frequency \
+            --targets coverage/config/targets.json \
+            --domains coverage/config/domains.json \
+            --out reports/coverage.json \
+            --summary reports/coverage.txt
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-reports
+          path: reports/*
