@@ -1,0 +1,28 @@
+{
+  "length_targets": {
+    "origin": {"A1A2": [20, 60], "B1B2": [40, 100], "C1C2": [60, 140]},
+    "story":  {"A1A2": [60, 120], "B1B2": [100, 200], "C1C2": [150, 280]},
+    "example": {"A1A2": [0, 80], "B1B2": [0, 140], "C1C2": [0, 200]}
+  },
+  "forbidden": {
+    "all_levels": [
+      "In Spanish",
+      "in Spanish",
+      "idk",
+      "maybe??",
+      "http://", "https://",
+      "🙃","😂","🔥"
+    ],
+    "origin": [
+      "according to Wikipedia",
+      "source:"
+    ]
+  },
+  "capitalization": {
+    "require_sentence_case": true,
+    "end_with_period": true
+  },
+  "punctuation": {
+    "curly_quotes_only": true
+  }
+}

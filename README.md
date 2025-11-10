@@ -103,3 +103,18 @@ python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary rep
 ```
 
 **Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
+
+## Linting
+Run the curated-fields linter to enforce the Style Guide:
+
+```bash
+python tools/lint_curated.py --scan vocab/out --out reports/lint.json --summary reports/lint.txt --fail-on ERROR
+
+Optional quick fixes (safe formatting only):
+python tools/fix_curated.py --scan vocab/out --dry-run
+python tools/fix_curated.py --scan vocab/out --write
+```
+
+CI runs schema + linter on every push/PR and publishes reports as artifacts.
+
+---

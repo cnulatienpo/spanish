@@ -1,0 +1,9 @@
+{
+  "straight_quotes": "[\\\"']",
+  "curly_quotes_ok": "[“”‘’]",
+  "url": "(https?:\\/\\/)",
+  "leading_lowercase": "^[a-záéíóúñ]",
+  "trailing_period": "\\.$",
+  "multi_space": " {2,}",
+  "emoji": "[\\p{Emoji_Presentation}\\p{Emoji}\\uFE0F]"
+}
