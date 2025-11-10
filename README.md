@@ -103,3 +103,30 @@ python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary rep
 ```
 
 **Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
+
+## Curation Passes
+
+Pick + Suggest
+```bash
+python tools/curate.py resume --level A1 --limit 50
+# or:
+python tools/curate.py pick --level B2 --limit 50 --out curator/sheets/B2_set_001.tsv
+python tools/curate.py suggest --in curator/sheets/B2_set_001.tsv --out curator/sheets/B2_set_001_suggested.tsv
+```
+
+Human edit
+
+* Open `*_suggested.tsv`.
+* Replace "TODO" with your final text; pull from `auto_*` as needed.
+* Keep TSV columns intact.
+
+Apply + Validate
+```bash
+python tools/curate.py apply --in curator/sheets/B2_set_001_final.tsv --write
+# validator runs; check:
+cat reports/verify.txt
+```
+
+Repeat
+
+Move through levels (A1→C2) in 50-item slices until all TODOs are gone.

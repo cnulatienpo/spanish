@@ -1,0 +1,48 @@
+{
+  "A1": {
+    "noun": "Tengo {det}{word}.",
+    "verb": "Yo {word} aquí.",
+    "adjective": "Es {word}.",
+    "adverb": "Habla {word}.",
+    "phrase": "{word}."
+  },
+  "A2": {
+    "noun": "Necesito {det}{word} en casa.",
+    "verb": "Solemos {word} los fines de semana.",
+    "adjective": "El día está {word}.",
+    "adverb": "Llegó {word}.",
+    "phrase": "{word} para empezar."
+  },
+  "B1": {
+    "noun": "El {word} afecta el resultado.",
+    "verb": "Intento {word} con claridad.",
+    "adjective": "La postura es {word}.",
+    "adverb": "Actuó {word} por prudencia.",
+    "phrase": "En síntesis: {word}."
+  },
+  "B2": {
+    "noun": "Ese {word} cambió el debate.",
+    "verb": "Procuro {word} con matices.",
+    "adjective": "El enfoque es {word} y consistente.",
+    "adverb": "Lo expuso {word}, sin exagerar.",
+    "phrase": "Aun así, {word}."
+  },
+  "C1": {
+    "noun": "El {word} sostiene la hipótesis.",
+    "verb": "Conviene {word} con rigor.",
+    "adjective": "El argumento es {word}.",
+    "adverb": "Se justifica {word}, metodológicamente.",
+    "phrase": "En términos técnicos: {word}."
+  },
+  "C2": {
+    "noun": "Este {word} afina la lectura crítica.",
+    "verb": "Cabe {word} en clave hermenéutica.",
+    "adjective": "El tono resulta {word}.",
+    "adverb": "Opera {word}, a nivel macrodiscursivo.",
+    "phrase": "Como metáfrasis: {word}."
+  },
+  "articles": {
+    "default": "un ",
+    "vowel_hint": "una "
+  }
+}
