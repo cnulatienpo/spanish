@@ -1,26 +1,35 @@
-# Repo Healer Quickstart
+# Codex Rebuilder
 
-This repository now ships a TypeScript-powered healer that normalizes the
-`content/` tree and produces canonical lesson and vocabulary bundles.
+`codex_rebuilder` scans the `content/` tree, resolves merge conflicts, heals broken JSON, and emits canonical lesson and vocabulary datasets for MixMethod Spanish.
 
-## Environment
+## Quickstart
 
 ```bash
-npm install
+cargo build --release
+./target/release/codex_rebuilder --check
+./target/release/codex_rebuilder --write
+```
+
+## Sanity Check
+
+Run the rebuild then confirm that no merge conflict markers remain:
+
+```bash
+./target/release/codex_rebuilder --write && \
+  grep -R -nE '<<<<<<<|=======|>>>>>>>' content || true
 ```
 
 ## Usage
 
-Run a dry validation to see what would be produced:
+- `--check`: run the scanner, report the audit, and leave existing files untouched.
+- `--write`: (default) rebuild canonical JSON, audit, and reject fragments.
+- `--strict`: treat schema failures or `level=UNSET` items as fatal.
 
-```bash
-npm run check
-```
+The CLI writes:
 
-Generate canonical artifacts and audit reports:
+- `build/canonical/lessons.mmspanish.json`
+- `build/canonical/vocabulary.mmspanish.json`
+- `build/reports/audit.md`
+- `build/rejects/` (fragments that could not be repaired)
 
-```bash
-npm run rebuild
-```
-
-Add `--strict` to either command to fail on invalid items or unknown CEFR levels.
+Outputs are deterministic and idempotent. Running `--write` twice produces identical files.
