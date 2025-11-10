@@ -1,0 +1,222 @@
+rigor
+precisión terminológica
+delimitación conceptual
+marco teórico
+estado del arte
+vacío de investigación
+planteamiento del problema
+objetivo específico
+objetivo general
+alcance
+limitaciones
+variables
+operacionalización
+muestra
+universo
+sesgo de selección
+validez interna
+validez externa
+confiabilidad
+fiabilidad
+triangulación
+saturación teórica
+diseño metodológico
+enfoque cualitativo
+enfoque cuantitativo
+mixto
+estudio de caso
+comparativo
+longitudinal
+transversal
+experimentación
+grupo de control
+grupo experimental
+significancia estadística
+p-valor
+intervalo de confianza
+error estándar
+correlación
+causalidad plausible
+modelo explicativo
+modelo predictivo
+regresión
+análisis factorial
+análisis de contenido
+codificación abierta
+codificación axial
+categorías emergentes
+muestreo teórico
+criterio de inclusión
+criterio de exclusión
+saturación de datos
+protocolo
+instrumento
+cuestionario
+guía de entrevista
+observación participante
+bitácora
+transcripción
+matriz de datos
+tabla resumen
+síntesis de hallazgos
+discusión de resultados
+implicaciones
+aportaciones
+líneas futuras
+recomendaciones
+limitaciones del estudio
+replicabilidad
+reproducibilidad
+ética de la investigación
+consentimiento informado
+confidencialidad de datos
+propiedad intelectual
+licencia abierta
+informe técnico
+artículo científico
+revista indexada
+arbitraje
+pares ciegos
+citación
+normas editoriales
+estilo APA
+estilo MLA
+estilo Chicago
+bibliografía anotada
+metaanálisis
+revisión sistemática
+mapa de evidencia
+cuadro comparativo
+anexo
+apéndice
+resumen ejecutivo
+abstract
+palabras clave
+conclusiones
+contribución original
+originalidad
+pertinencia
+racional
+fundamentación
+sustento empírico
+sustento teórico
+coherencia argumental
+consistencia interna
+contraste empírico
+falsabilidad
+criterio de demarcación
+heurística
+programa de investigación
+paradigma dominante
+cambio de paradigma
+enfoque crítico
+enfoque hermenéutico
+epistemología
+ontología
+axiología
+semiótica
+pragmática
+retórica académica
+marco analítico
+estilo indirecto
+estilo indirecto libre
+voz narrativa
+focalización
+punto de vista múltiple
+narrador omnisciente
+narrador poco fiable
+tempo narrativo
+elipsis
+analepsis
+prolepsis
+in medias res
+clímax
+anticlímax
+tensión narrativa
+subtexto
+atmósfera
+motivo
+símbolo recurrente
+leitmotiv
+campo semántico
+isotopía
+polisemia
+ambigüedad significativa
+paradoja estética
+oxímoron
+sinestesia
+metonimia
+hipálage
+anáfora
+epífora
+paralelismo
+quiasmo
+gradación
+enumeración caótica
+hipérbaton
+zeugma
+apóstrofe
+prosopopeya
+aliteración
+asonancia
+consonancia
+ritmo
+cadencia
+métrica libre
+verso blanco
+verso libre
+enjambment (encabalgamiento)
+estrofa
+voz poética
+tono elegíaco
+tono satírico
+ironía dramática
+doble registro
+registro culto
+registro coloquial elevado
+registro técnico
+matiz irónico
+matiz eufónico
+dicción
+léxico preciso
+economía expresiva
+sobriedad estilística
+densidad semántica
+plasticidad verbal
+verosimilitud
+licencia poética
+coherencia tonal
+unidad de efecto
+figura del narratario
+paratexto
+epígrafe
+posfacio
+colofón
+nota al pie
+glosa
+exégesis
+intertexto
+palimpsesto
+metalenguaje
+metaﬁcción
+heteroglosia
+dialogismo
+polifonía
+voz autoral
+voz personificada
+idioletos
+idiolecto narrativo
+ritmo sincopado
+periodo amplio
+frase paratáctica
+frase hipotáctica
+hipotaxis
+parataxis
+oración hendida
+estructura quiasmática
+anáfora conceptual
+marco referencial
+cierre circular
+nudo
+desenlace
+catarsis
