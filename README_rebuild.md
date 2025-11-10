@@ -1,40 +1,28 @@
-# MixMethod Spanish Canonical Rebuilder
+# Repo Healer Quickstart
 
-This repo includes a fully automated fixer for Merge conflicts and canonical data regeneration.
+This repository ships with a standalone healing pipeline that normalizes the
+`content/` tree and produces canonical lesson and vocabulary bundles.
 
-## Requirements
-
-* Node.js 20+
-* npm (or a compatible package manager)
-
-Install dependencies once:
+## Environment
 
 ```bash
-npm install
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-## Rebuild workflow
+## Usage
 
-To repair the `content/` directory, normalize entries, and rewrite the canonical bundles and audit report run:
+Run a dry validation to see what would be produced:
 
 ```bash
-npm run rebuild
+python tools/repo_healer.py --check
 ```
 
-This command performs:
-
-1. Conflict marker resolution with both variants preserved for merging.
-2. Classification into Lessons or Vocabulary.
-3. Schema normalization, deduplication, deterministic sorting, and canonical emission under `build/`.
-4. Validation (JSON Schema, idempotency check, and conflict marker scans).
-5. Console summary of the audit report.
-
-## Verification-only mode
-
-To ensure that the repository is already in canonical form without rewriting files, run:
+Generate canonical artifacts and audit reports:
 
 ```bash
-npm run check
+python tools/repo_healer.py --write
 ```
 
-`npm run check` rebuilds data in-memory, confirms idempotency, validates against schemas, and fails if the existing canonical files are out-of-date or invalid.
+Add `--strict` to make unknown CEFR levels fail the run.
