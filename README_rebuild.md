@@ -1,16 +1,16 @@
-# Codex Rebuilder (Deno TS)
+# Codex Rebuilder (Kotlin/JVM)
 
-## Quickstart
-```
-deno run -A tools/codex_rebuilder.ts --write
-```
+## Build
+./gradlew shadowJar
 
-## Verify no conflicts remain
-```
-grep -R -nE '<<<<<<<|=======|>>>>>>>' content || true
-```
+## Run
+java -jar build/libs/codex-rebuilder-all.jar --write
+
+## Validate only
+java -jar build/libs/codex-rebuilder-all.jar --check
 
 ## Strict mode
-```
-deno run -A tools/codex_rebuilder.ts --strict
-```
+java -jar build/libs/codex-rebuilder-all.jar --strict
+
+## Sanity
+grep -R -nE '<<<<<<<|=======|>>>>>>>' content || true
