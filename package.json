@@ -1,0 +1,9 @@
+{
+  "name": "mmspanish-rebuild-tools",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "rebuild": "node tools/fix_merge_and_rebuild.mjs",
+    "check": "node tools/fix_merge_and_rebuild.mjs --check"
+  }
+}
