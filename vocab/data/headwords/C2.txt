@@ -1,0 +1,180 @@
+equivalencia dinámica
+equivalencia formal
+trasvase semántico
+pérdida de matiz
+ganancia expresiva
+calco
+préstamo
+false friend (falso amigo)
+interferencia
+desambiguación traductológica
+homologación terminológica
+normalización terminológica
+glosario crítico
+tesauro especializado
+subregistro
+sobrerregistro
+traducción intralingüística
+traducción interlingüística
+traducción intersemiótica
+recreación poética
+versión comentada
+paráfrasis crítica
+nota del traductor
+criterio de fidelidad
+criterio de legibilidad
+domesticación
+extranjerización
+lectura anotada
+edición anotada
+aparato de variantes
+lección preferente
+principio lectio difficilior
+principio lectio brevior
+stemmatología
+arquetipo (textual)
+contaminación textual
+emendación conjetural
+laguna
+suplantación
+glosa marginal
+glosa interlineal
+escolio
+scholia
+sigla crítica
+lugar oscuro
+corrupción textual
+diplomática (ciencia)
+paleografía
+codicología
+filología románica
+filología clásica
+hermenéutica textual
+exégesis literaria
+comentario filológico
+traducción comentada
+tradición manuscrita
+príncipe (edición)
+edición príncipe
+edición variorum
+edición sincrónica
+edición diacrónica
+criterio ecdótico
+criterio de copia
+criterio autoral
+lectura autorizada
+lectura apócrifa
+atribución dudosa
+fijación de texto
+texto establecido
+texto crítico
+hipótesis filogenética (textual)
+testimonio codicológico
+colación de testimonios
+concordancia (textual)
+índice onomástico
+índice temático
+bibliografía exhaustiva
+fuente primaria
+fuente secundaria
+fuente terciaria
+estado de la cuestión
+marco filológico
+nota editorial
+criterio de modernización
+criterio de regularización
+criterio de actualización ortográfica
+transliteración
+transcripción diplomática
+normalización gráfica
+código de cortesía
+ruptura calculada de registro
+cambio de código estilístico
+registro bifurcado
+registro connotativo
+registro denotativo
+registro ceremonial
+registro forense
+registro parlamentario
+registro doctrinal
+registro catequético
+escritura de discursos
+pieza oratoria
+pieza forense
+alegato
+réplica final
+contrarréplica
+punto de orden
+moción
+voto razonado
+reserva de voto
+exposición de motivos ampliada
+disposición adicional
+disposición derogatoria
+fundamento jurídico
+considerandos
+jurisprudencia aplicable
+doctrina consolidada
+ratio decidendi
+obiter dicta
+estándar probatorio
+carga dinámica de la prueba
+principio de proporcionalidad
+ponderación
+test de idoneidad
+test de necesidad
+test de proporcionalidad en sentido estricto
+deliberación colegiada
+acta taquigráfica
+versión estenográfica
+diario de sesiones
+enmienda
+adición
+supresión
+sustitución
+voto particular
+informe de minoría
+informe de mayoría
+comparecencia pública
+control parlamentario
+interpelación
+pregunta de control
+oratoria de clausura
+oratoria de apertura
+llamamiento a la unidad
+apelación al interés general
+marco narrativo
+marco moral
+marco económico
+marco de seguridad
+marco de derechos
+argumento ad hominem (controlado, como análisis)
+argumento ad verecundiam (análisis)
+choque de marcos
+reencuadre
+anclaje
+amplificación
+granulado fino (argumento)
+matriz de mensajes
+línea argumental
+puntos de conversación
+puntos de contingencia
+respuestas puente
+negación estratégica
+admisión estratégica
+concesión táctica
+desescalada retórica
+escalada retórica
+clausura impecable
+cadencia tricolon
+periodo ciceroniano
+crescendo argumental
+cadencia descendente
+suspensión calculada
+pausa retórica
+respiración oratoria
+dicción impecable
+modulación
+proyección de voz
+énfasis final
+cierre memorable
