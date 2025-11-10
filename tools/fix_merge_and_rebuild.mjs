@@ -5,6 +5,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import process from 'process';
 import { createHash } from 'crypto';
+import { globby } from 'globby';
+import JSON5 from 'json5';
+import Ajv from 'ajv';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,28 +49,6 @@ async function pathExists(target) {
   } catch (error) {
     return false;
   }
-}
-
-async function listFilesRecursive(dir) {
-  const results = [];
-  async function walk(current) {
-    let entries;
-    try {
-      entries = await fs.readdir(current, { withFileTypes: true });
-    } catch (error) {
-      return;
-    }
-    for (const entry of entries) {
-      const fullPath = path.join(current, entry.name);
-      if (entry.isDirectory()) {
-        await walk(fullPath);
-      } else if (entry.isFile()) {
-        results.push(fullPath);
-      }
-    }
-  }
-  await walk(dir);
-  return results;
 }
 
 function mergeTextVariants(a, b) {
@@ -284,29 +265,24 @@ function generateConflictVariants(text) {
   return deduped.length ? deduped : [normalized];
 }
 
-function sanitizeJsonText(text) {
-  let cleaned = text.replace(/\r\n/g, '\n');
-  cleaned = cleaned.replace(/\/\/.*$/gm, '');
-  cleaned = cleaned.replace(/\/\*[\s\S]*?\*\//g, '');
-  cleaned = cleaned.replace(/,(\s*[}\]])/g, '$1');
-  return cleaned;
-}
-
-function convertSingleQuotes(text) {
-  return text.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'/g, (match, inner) => {
-    const escaped = inner.replace(/"/g, '\\"');
-    return `"${escaped}"`;
+function stripConflictMarkers(text) {
+  const normalized = text.replace(/\r\n/g, '\n');
+  const conflictRegex = /<<<<<<<[^\n]*\n([\s\S]*?)\n=======\n([\s\S]*?)\n>>>>>>>[^\n]*\n?/g;
+  return normalized.replace(conflictRegex, (match, a, b) => {
+    const left = a.replace(/\s+$/g, '\n');
+    const right = b.replace(/^\s+/g, '');
+    return `${left}\n${right}`;
   });
 }
 
 function parseJsonLoose(text) {
-  const cleaned = sanitizeJsonText(text);
+  const normalized = text.replace(/\r\n/g, '\n');
   try {
-    return JSON.parse(cleaned);
+    return JSON5.parse(normalized);
   } catch (error) {
+    const withoutTrailingCommas = normalized.replace(/,(\s*[}\]])/g, '$1');
     try {
-      const converted = convertSingleQuotes(cleaned);
-      return JSON.parse(converted);
+      return JSON5.parse(withoutTrailingCommas);
     } catch (innerError) {
       throw innerError;
     }
@@ -730,6 +706,34 @@ function createEntryRecord(data, type, meta) {
   };
 }
 
+function cloneRecord(record) {
+  return {
+    data: structuredClone(record.data),
+    type: record.type,
+    meta: {
+      newestMtime: record.meta.newestMtime,
+      sourceFiles: new Set(record.meta.sourceFiles),
+      sources: record.meta.sources.map((source) => ({ ...source }))
+    }
+  };
+}
+
+function sanitizeRecordsForRewrite(records, type) {
+  if (!records.length) return [];
+  const clones = records.map((record) => cloneRecord(record));
+  const { merged } = dedupeAndMerge(clones, type, null);
+  return merged.map((record) => {
+    const data = structuredClone(record.data);
+    if (Array.isArray(data.source_files)) {
+      data.source_files = [...data.source_files].sort();
+    }
+    if (Array.isArray(data.tags)) {
+      data.tags = [...new Set(data.tags)].sort();
+    }
+    return sortKeys(data);
+  });
+}
+
 function dedupeAndMerge(entries, type, audit) {
   const map = new Map();
   const duplicateClusters = [];
@@ -763,6 +767,26 @@ function dedupeAndMerge(entries, type, audit) {
     }
   }
   return { merged: Array.from(map.values()), duplicateClusters };
+}
+
+async function rewriteFileAfterConflict(filePath, lessonRecords, vocabRecords, originalContent, variants) {
+  const lessonsData = sanitizeRecordsForRewrite(lessonRecords, 'lesson');
+  const vocabData = sanitizeRecordsForRewrite(vocabRecords, 'vocab');
+  if (lessonsData.length || vocabData.length) {
+    const combined = [...sortLessons(lessonsData), ...sortVocabulary(vocabData)];
+    const payload = stringifyPretty(combined);
+    await fs.writeFile(filePath, payload, 'utf8');
+    return;
+  }
+  const sanitized = stripConflictMarkers(originalContent);
+  if (sanitized !== originalContent) {
+    await fs.writeFile(filePath, sanitized, 'utf8');
+    return;
+  }
+  if (variants && variants.length) {
+    const longest = variants.reduce((acc, variant) => (variant.length > acc.length ? variant : acc), variants[0]);
+    await fs.writeFile(filePath, longest, 'utf8');
+  }
 }
 
 function filterValidRecords(records, type, rejects) {
@@ -806,6 +830,7 @@ function filterValidRecords(records, type, rejects) {
 async function ensureDirectories() {
   await fs.mkdir(buildDirs.canonical, { recursive: true });
   await fs.mkdir(buildDirs.reports, { recursive: true });
+  await fs.rm(buildDirs.rejects, { recursive: true, force: true });
   await fs.mkdir(buildDirs.rejects, { recursive: true });
 }
 
@@ -814,7 +839,14 @@ async function collectContentFiles() {
   if (!(await pathExists(contentDir))) {
     return [];
   }
-  const files = await listFilesRecursive(contentDir);
+  const files = await globby('**/*', {
+    cwd: contentDir,
+    absolute: true,
+    onlyFiles: true,
+    dot: false,
+    followSymbolicLinks: false
+  });
+  files.sort();
   return files;
 }
 
@@ -830,6 +862,7 @@ async function processFile(filePath, audit) {
   const relative = path.relative(repoRoot, filePath);
   const { content, stats } = await readFileWithStat(filePath);
   const mtimeMs = stats.mtimeMs || stats.mtime?.getTime() || 0;
+  const hadConflict = content.includes('<<<<<<<') || content.includes('=======') || content.includes('>>>>>>>');
   const variants = generateConflictVariants(content);
   const lessons = [];
   const vocabulary = [];
@@ -853,6 +886,9 @@ async function processFile(filePath, audit) {
       }
     }
   }
+  if (hadConflict) {
+    await rewriteFileAfterConflict(filePath, lessons, vocabulary, content, variants);
+  }
   audit.filesScanned += 1;
   audit.entriesScanned += lessons.length + vocabulary.length;
   return { lessons, vocabulary, rejects };
@@ -862,6 +898,9 @@ function finalizeEntries(entryRecords) {
   return entryRecords.map((record) => {
     const data = record.data;
     data.source_files = Array.from(record.meta.sourceFiles).sort();
+    if (Array.isArray(data.tags)) {
+      data.tags = Array.from(new Set(data.tags)).sort();
+    }
     return sortKeys(data);
   });
 }
@@ -871,7 +910,13 @@ async function scanForConflictMarkers() {
   const dirs = [path.join(repoRoot, 'content'), path.join(repoRoot, 'build')];
   for (const dir of dirs) {
     if (!(await pathExists(dir))) continue;
-    const files = await listFilesRecursive(dir);
+    const files = await globby('**/*', {
+      cwd: dir,
+      absolute: true,
+      onlyFiles: true,
+      dot: true,
+      followSymbolicLinks: false
+    });
     for (const file of files) {
       const text = await fs.readFile(file, 'utf8');
       if (text.includes('<<<<<<<') || text.includes('=======') || text.includes('>>>>>>>')) {
@@ -912,93 +957,19 @@ function stringifyPretty(value) {
   return JSON.stringify(value, null, 2) + '\n';
 }
 
-function typeMatches(expected, value) {
-  switch (expected) {
-    case 'string':
-      return typeof value === 'string';
-    case 'integer':
-      return Number.isInteger(value);
-    case 'number':
-      return typeof value === 'number';
-    case 'object':
-      return value !== null && typeof value === 'object' && !Array.isArray(value);
-    case 'array':
-      return Array.isArray(value);
-    case 'boolean':
-      return typeof value === 'boolean';
-    case 'null':
-      return value === null;
-    default:
-      return false;
-  }
-}
+let validatorCache = null;
 
-function validateWithSchema(schema, value, path = '') {
-  const errors = [];
-  const types = Array.isArray(schema.type) ? schema.type : schema.type ? [schema.type] : [];
-  if (types.length && !types.some((t) => typeMatches(t, value))) {
-    errors.push(`${path}: expected type ${types.join(' or ')}`);
-    return errors;
-  }
-  if (schema.enum && !schema.enum.includes(value)) {
-    errors.push(`${path}: value ${JSON.stringify(value)} not in enum`);
-  }
-  if (schema.pattern && typeof value === 'string') {
-    const regex = new RegExp(schema.pattern);
-    if (!regex.test(value)) {
-      errors.push(`${path}: value ${value} does not match pattern ${schema.pattern}`);
-    }
-  }
-  if (schema.minLength !== undefined && typeof value === 'string') {
-    if (value.length < schema.minLength) {
-      errors.push(`${path}: string shorter than ${schema.minLength}`);
-    }
-  }
-  if (schema.minimum !== undefined && typeof value === 'number') {
-    if (value < schema.minimum) {
-      errors.push(`${path}: number less than ${schema.minimum}`);
-    }
-  }
-  if (types.includes('object')) {
-    if (schema.required) {
-      for (const requiredKey of schema.required) {
-        if (!(requiredKey in value)) {
-          errors.push(`${path}.${requiredKey}: missing required property`);
-        }
-      }
-    }
-    if (schema.properties) {
-      for (const [key, propertySchema] of Object.entries(schema.properties)) {
-        if (value[key] !== undefined) {
-          errors.push(...validateWithSchema(propertySchema, value[key], `${path}.${key}`));
-        }
-      }
-    }
-    if (schema.additionalProperties === false && schema.properties) {
-      for (const key of Object.keys(value)) {
-        if (!(key in schema.properties)) {
-          errors.push(`${path}.${key}: additional property not allowed`);
-        }
-      }
-    }
-  }
-  if (types.includes('array') && Array.isArray(value)) {
-    if (schema.minItems !== undefined && value.length < schema.minItems) {
-      errors.push(`${path}: array shorter than ${schema.minItems}`);
-    }
-    if (schema.uniqueItems) {
-      const seen = new Set(value.map((item) => JSON.stringify(item)));
-      if (seen.size !== value.length) {
-        errors.push(`${path}: array items not unique`);
-      }
-    }
-    if (schema.items) {
-      for (let i = 0; i < value.length; i += 1) {
-        errors.push(...validateWithSchema(schema.items, value[i], `${path}[${i}]`));
-      }
-    }
-  }
-  return errors;
+async function getValidators() {
+  if (validatorCache) return validatorCache;
+  const ajv = new Ajv({ allErrors: true, strict: false, allowUnionTypes: true });
+  const [lessonSchema, vocabSchema] = await Promise.all([
+    loadSchema(schemaPaths.lesson),
+    loadSchema(schemaPaths.vocab)
+  ]);
+  const lessonValidate = ajv.compile(lessonSchema);
+  const vocabValidate = ajv.compile(vocabSchema);
+  validatorCache = { lessonValidate, vocabValidate };
+  return validatorCache;
 }
 
 function buildAuditMarkdown(audit, lessons, vocabulary, rejects) {
@@ -1056,22 +1027,19 @@ async function writeRejects(rejects) {
 }
 
 async function validateOutput(lessons, vocabulary) {
-  const [lessonSchema, vocabSchema] = await Promise.all([
-    loadSchema(schemaPaths.lesson),
-    loadSchema(schemaPaths.vocab)
-  ]);
+  const { lessonValidate, vocabValidate } = await getValidators();
   const lessonErrors = [];
   for (const lesson of lessons) {
-    const errors = validateWithSchema(lessonSchema, lesson, 'lesson');
-    if (errors.length) {
-      lessonErrors.push({ id: lesson.id, errors });
+    const valid = lessonValidate(lesson);
+    if (!valid) {
+      lessonErrors.push({ id: lesson.id, errors: (lessonValidate.errors || []).map((err) => `${err.instancePath || 'root'} ${err.message || ''}`.trim()) });
     }
   }
   const vocabErrors = [];
   for (const vocab of vocabulary) {
-    const errors = validateWithSchema(vocabSchema, vocab, 'vocab');
-    if (errors.length) {
-      vocabErrors.push({ id: vocab.id, errors });
+    const valid = vocabValidate(vocab);
+    if (!valid) {
+      vocabErrors.push({ id: vocab.id, errors: (vocabValidate.errors || []).map((err) => `${err.instancePath || 'root'} ${err.message || ''}`.trim()) });
     }
   }
   return { lessonErrors, vocabErrors };
@@ -1140,7 +1108,6 @@ async function main() {
     process.exitCode = 1;
     return;
   }
-  await ensureDirectories();
   if (options.check) {
     const lessonsPath = path.join(buildDirs.canonical, 'lessons.mmspanish.json');
     const vocabPath = path.join(buildDirs.canonical, 'vocabulary.mmspanish.json');
@@ -1167,6 +1134,7 @@ async function main() {
       return;
     }
   } else {
+    await ensureDirectories();
     await fs.writeFile(path.join(buildDirs.canonical, 'lessons.mmspanish.json'), firstLessonsJson, 'utf8');
     await fs.writeFile(path.join(buildDirs.canonical, 'vocabulary.mmspanish.json'), firstVocabJson, 'utf8');
     const auditMarkdown = buildAuditMarkdown(audit, firstLessonsSorted, firstVocabSorted, firstRun.rejects);
