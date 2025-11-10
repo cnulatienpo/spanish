@@ -1,211 +1,119 @@
-oficina central
-sucursal
-departamento
-recursos humanos
-finanzas
-contabilidad
-marketing
-publicidad
-logística
-producción
-operaciones
-servicio al cliente
-gestión
-administración
-dirección
-organigrama
-puesto de trabajo
-currículum vitae
-entrevista laboral
-contrato fijo
-contrato temporal
-salario base
-bonificación
-comisión
-ascenso
-promoción
-vacante
-prácticas
-aprendiz
-becario
-formación
-capacitación
-entrenamiento
-evaluación de desempeño
-revisión anual
-informe de progreso
-objetivo profesional
-meta personal
-motivación laboral
-rendimiento
-productividad
-eficiencia
-innovación
-creatividad aplicada
-colaboración
-trabajo en equipo
-liderazgo
-comunicación interna
-presentación
-proyecto conjunto
-reunión mensual
-plan estratégico
-plazo límite
-fecha de entrega
-presupuesto anual
-control de calidad
-riesgo laboral
-seguridad
-normas internas
-código de conducta
-responsabilidad ética
-transparencia
-rendición de cuentas
-confidencialidad
-firma digital
-documento oficial
-respaldo
-archivo
-versión final
-aprobación
-autorización
-envío interno
-correo corporativo
-plataforma digital
-reunión virtual
-asistencia técnica
-soporte al usuario
-actualización de software
-reporte de errores
-ticket de soporte
-manual
-procedimiento
-instrucción
-guía
-política
-recurso
-solicitud interna
-permiso de ausencia
-vacaciones pagadas
-baja médica
-horas extra
-turno rotativo
-compañero de equipo
-delegado
-jefe directo
-supervisor
-director
-gerente
-empleado
-empleador
-cliente habitual
-proveedor
-colaborador externo
-repartidor
-mensajero
-consultor
-asesor
-socios
-alianza
-contrato comercial
-negociación
-facturación
-cobro
-pago pendiente
-presupuesto general
-estado financiero
-materia
-asignatura
-tema
-lección
-unidad
-curso
-semestre
-examen
-prueba
-evaluación
-nota
-calificación
-aprobado
-suspenso
-repetir
-mejorar nota
-promedio
-profesor titular
-tutor
-alumno
-compañero de clase
-grupo de estudio
-presentación oral
-ensayo escrito
-investigación
-tesis
-resumen
-cuadro comparativo
-mapa conceptual
-esquema
-organizador gráfico
-tabla de datos
-gráfico
-estadística
-cálculo
-medición
-experimento
+organizar
+coordinar
+negociar
+resolver
+gestionar
+priorizar
+evaluar
+analizar
+comparar
+contrastar
+comprobar
+averiguar
+investigar
+demostrar
+argumentar
+convencer
+explicar
+describir
+resumir
+detallar
+ilustrar
+aclarar
+consultar
+recomendar
+sugerir
+solicitar
+autorizar
+rechazar
+aprobar
+posponer
+adelantar
+cancelar
+confirmar
+coordinarse
+colaborar
+delegar
+reportar
+supervisar
+dirigir
+liderar
+apoyar
+asistir
+conseguir
+lograr
+intentar
+fracasar
+mejorar
+empeorar
+mantener
+cuidar
+aprovechar
+evitar
+reducir
+aumentar
+disminuir
+ahorrar
+invertir
+gastar
+facturar
+presupuestar
+planificar
+programar
+agendar
+plantear
+plazo
+prioridad
+riesgo
+beneficio
+impacto
 resultado
+evidencia
+dato
+hecho
+opinión
 hipótesis
 conclusión
-debate académico
-fuente
-bibliografía
-cita
-referencia
-plagio
-argumento
-razonamiento
-premisa
-evidencia
-demostración
-refutación
-contradicción
+causa
+efecto
+consecuencia
+condición
+excepción
 matiz
 contexto
-análisis crítico
-síntesis
-interpretación
-opinión fundamentada
-perspectiva
-punto de vista
-comparación
-contraste
-relación causa-efecto
-explicación lógica
-conclusión válida
-razón principal
-detalle secundario
-transición
-resumen final
-introducción
-conclusión
-estructura
-organización del texto
+tendencia
+patrón
+frecuencia
+proporción
+promedio
+porcentaje
+aproximación
+justificación
 coherencia
-cohesión
-claridad
-precisión
-redundancia
-ambigüedad
-tono
-registro
-formal
-informal
-coloquial
-académico
-técnico
-profesional
-literario
-visual
-auditivo
-táctil
-sensorial
-abstracto
-concreto
+consistencia
+contradicción
+paradoja
+resiliencia
+estrategia
+táctica
+rutina
+progreso
+retroceso
+compromiso
+conflicto
+acuerdo
+alianza
+competencia
+colaboración
+responsabilidad
+derecho
+deber
+recursos
+herramienta
+procedimiento
+protocolo
+criterio
+prioritario
+alternativa
+limitación
+oportunidad
