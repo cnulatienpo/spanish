@@ -437,3 +437,129 @@ alegría
 tristeza
 envidia
 celos
+horario laboral
+turno de noche
+turno de día
+jornada
+descanso (pausa)
+festivo
+laborable
+calendario
+reloj
+puntual
+retrasado
+a tiempo
+deprisa
+despacio
+de repente
+de pronto
+mientras tanto
+por ejemplo
+por eso
+así que
+aunque
+sin embargo
+además
+por lo tanto
+por suerte
+por desgracia
+de todos modos
+en cambio
+al contrario
+alrededor
+aproximadamente
+exacto
+igual
+diferente
+suficiente
+insuficiente
+bastante
+demasiado
+apenas
+casi nunca
+casi siempre
+tal vez
+quizás
+seguro
+probable
+improbable
+posibilidad
+necesidad
+obligación
+prohibición
+permiso
+capacidad
+costumbre
+hábito
+preferencia
+opción
+elección
+duda
+error
+acierto
+problema
+solución
+meta
+objetivo
+plan
+cita (social)
+encuentro
+reunión familiar
+fiesta
+evento
+entrada (ticket)
+aforo
+fila
+turno (cola)
+reserva online
+confirmar
+cancelar
+modificar
+actualizar
+compartir ubicación
+mapa digital
+navegación
+ruta
+desvío
+tráfico
+atasco
+peaje
+estacionamiento
+multas
+norma
+señal
+prioridad
+precaución
+emergencia
+botiquín
+mascarilla
+gel
+higiene
+desinfectar
+reciclar
+basura orgánica
+plástico
+vidrio
+papel
+pilas
+contaminación
+clima
+temperatura
+pronóstico
+alerta
+temporada
+temporada alta
+temporada baja
+resumen
+detalle
+adjunto (archivo)
+bandeja de entrada
+bandeja de salida
+borradores
+papelera
+marcar como leído
+marcar como no leído
+favoritos
+buscar (en app)
+filtro
+ordenar
