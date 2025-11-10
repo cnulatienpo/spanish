@@ -1,0 +1,13 @@
+{
+  "fallback_mode": "mix",
+  "modes": {
+    "mix": {
+      "unknown_spanish": "ENGLISH",
+      "format": "{english}"
+    },
+    "cloak": {
+      "unknown_spanish": "SPAN(EN)",
+      "format": "{form} ({english})"
+    }
+  }
+}

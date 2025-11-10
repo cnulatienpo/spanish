@@ -1,0 +1,18 @@
+form,lemma,pos,features,level,english
+hola,hola,phrase,,A1,hello
+me,yo,pronoun,clitic:A1,A1,myself (reflexive)
+llamo,llamar,verb,person:1;tense:pres;reflexive,A1,call (1st person, reflexive)
+soy,ser,verb,person:1;tense:pres,A1,am (identity)
+estoy,estar,verb,person:1;tense:pres,A1,am (state)
+bien,bien,adverb,,A1,well
+porque,porque,phrase,connector,A2,because
+ayer,ayer,noun,time,A2,yesterday
+casa,casa,noun,gender:fem,A1,home; house
+te,tú,pronoun,clitic,A1,you (object)
+llamas,llamar,verb,person:2;tense:pres;reflexive,A1,call (2nd person, reflexive)
+mucho,mucho,adjective,degree:pos,A1,much; a lot
+gusto,gusto,noun,gender:masc,A1,pleasure
+¿cómo?,cómo,adverb,interrogative,A1,how
+por,por,preposition,,A1,for
+favor,favor,noun,gender:masc,A1,favor
+gracias,gracias,interjection,,A1,thanks
