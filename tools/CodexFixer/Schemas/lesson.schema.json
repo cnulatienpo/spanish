@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lesson",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "nickname",
+    "level",
+    "unit",
+    "lesson_number",
+    "tags",
+    "steps",
+    "source_files"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "nickname": {"type": "string"},
+    "level": {
+      "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "UNSET"]
+    },
+    "unit": {"type": "integer"},
+    "lesson_number": {"type": "integer"},
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "phase": {
+            "enum": [
+              "english_anchor",
+              "system_logic",
+              "meaning_depth",
+              "spanish_entry",
+              "examples"
+            ]
+          },
+          "line": {"type": "string"},
+          "origin": {"type": "string"},
+          "story": {"type": "string"},
+          "items": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "required": ["phase"]
+      }
+    },
+    "notes": {"type": "string"},
+    "source_files": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}
