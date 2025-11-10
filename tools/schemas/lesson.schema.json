@@ -2,7 +2,6 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MixMethod Spanish Lesson",
   "type": "object",
-  "additionalProperties": false,
   "required": [
     "id",
     "title",
@@ -15,42 +14,31 @@
     "source_files"
   ],
   "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^mmspanish__grammar_[a-z0-9_-]+$"
-    },
-    "title": {
-      "type": "string",
-      "minLength": 1
-    },
-    "nickname": {
-      "type": "string",
-      "minLength": 1
-    },
-    "level": {
-      "type": "string",
-      "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "UNSET"]
-    },
-    "unit": {
-      "type": "integer",
-      "minimum": 0
-    },
-    "lesson_number": {
-      "type": "integer",
-      "minimum": 0
-    },
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "nickname": { "type": "string" },
+    "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "UNSET"] },
+    "unit": { "type": "integer" },
+    "lesson_number": { "type": "integer" },
     "tags": {
       "type": "array",
-      "items": { "type": "string" },
-      "uniqueItems": true
+      "items": { "type": "string" }
     },
     "steps": {
       "type": "array",
       "items": {
         "type": "object",
-        "additionalProperties": false,
+        "required": ["phase"],
         "properties": {
-          "phase": { "type": "string" },
+          "phase": {
+            "enum": [
+              "english_anchor",
+              "system_logic",
+              "meaning_depth",
+              "spanish_entry",
+              "examples"
+            ]
+          },
           "line": { "type": "string" },
           "origin": { "type": "string" },
           "story": { "type": "string" },
@@ -58,18 +46,13 @@
             "type": "array",
             "items": { "type": "string" }
           }
-        },
-        "required": ["phase"]
+        }
       }
     },
-    "notes": {
-      "type": "string"
-    },
+    "notes": { "type": "string" },
     "source_files": {
       "type": "array",
-      "items": { "type": "string" },
-      "minItems": 1,
-      "uniqueItems": true
+      "items": { "type": "string" }
     }
   }
 }

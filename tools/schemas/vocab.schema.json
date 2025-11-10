@@ -2,56 +2,30 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MixMethod Spanish Vocabulary",
   "type": "object",
-  "additionalProperties": false,
   "required": [
     "id",
     "spanish",
     "pos",
-    "gender",
     "english_gloss",
     "definition",
-    "origin",
-    "story",
     "examples",
     "level",
     "tags",
     "source_files"
   ],
   "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^mmspanish__vocab_[0-9]{5}$"
-    },
-    "spanish": {
-      "type": "string",
-      "minLength": 1
-    },
-    "pos": {
-      "type": "string",
-      "enum": ["noun", "verb", "adj", "adv", "prep", "det", "pron", "conj", "expr"]
-    },
-    "gender": {
-      "type": ["string", "null"],
-      "enum": ["masculine", "feminine", null]
-    },
-    "english_gloss": {
-      "type": "string",
-      "minLength": 1
-    },
-    "definition": {
-      "type": "string"
-    },
-    "origin": {
-      "type": "string"
-    },
-    "story": {
-      "type": "string"
-    },
+    "id": { "type": "string" },
+    "spanish": { "type": "string" },
+    "pos": { "enum": ["noun", "verb", "adj", "adv", "prep", "det", "pron", "conj", "expr"] },
+    "gender": { "enum": ["masculine", "feminine", null] },
+    "english_gloss": { "type": "string" },
+    "definition": { "type": "string" },
+    "origin": { "type": ["string", "null"] },
+    "story": { "type": ["string", "null"] },
     "examples": {
       "type": "array",
       "items": {
         "type": "object",
-        "additionalProperties": false,
         "required": ["es", "en"],
         "properties": {
           "es": { "type": "string" },
@@ -59,20 +33,15 @@
         }
       }
     },
-    "level": {
-      "type": "string",
-      "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "UNSET"]
-    },
+    "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "UNSET"] },
     "tags": {
       "type": "array",
-      "items": { "type": "string" },
-      "uniqueItems": true
+      "items": { "type": "string" }
     },
     "source_files": {
       "type": "array",
-      "items": { "type": "string" },
-      "minItems": 1,
-      "uniqueItems": true
-    }
+      "items": { "type": "string" }
+    },
+    "notes": { "type": "string" }
   }
 }
