@@ -44,43 +44,35 @@
     "steps": [
       {
         "phase": "english_anchor",
-        "line": "My name is Ray.",
-        "cue": "Start in English. Simple, familiar."
+        "line": "Evenings on the block always start with a name before the story."
       },
       {
         "phase": "system_logic",
-        "line": "In English you describe your name as something you own—'my name.' Spanish doesn’t use ownership; it uses action. You don’t have a name, you call yourself one.",
-        "cue": "Imagine saying your own name out loud, like you’re turning on a light."
+        "line": "English treats a name like property: my name, a tag stitched inside a shirt. We announce it the way we list belongings. Spanish wakes the verb instead: to name yourself is to act, to ring your own bell."
       },
       {
         "phase": "spanish_entry",
-        "line": "In Spanish you say, 'me llamo.' It means 'I call myself.'",
-        "cue": "Say it slowly: me… llamo."
+        "line": "Me llamo Ray—two beats, a soft bell that calls me into the room."
       },
       {
         "phase": "mix_repetition",
         "pattern": [
-          "My name is Ray.",
-          "I call myself Ray.",
-          "Me llamo Ray."
-        ],
-        "cue": "Repeat the three lines in rhythm. Feel how the logic shifts from having to being."
+          "My name is Ray, said like a label on a jacket.",
+          "I call myself Ray, letting the sound swing back toward me.",
+          "Me llamo Ray, me llamo Ray."
+        ]
       },
       {
         "phase": "meaning_depth",
-        "story": "The phrase comes from Latin *clamāre*, 'to call out.' Spanish turned that outward shout inward—'me' makes it reflexive, a call toward yourself. It’s how Spanish builds identity through action.",
-        "wrap_line": "That little *me* is awareness: the self recognizing itself through language. Every 'me llamo' is you appearing in the world."
+        "story": "The phrase carries Latin *clamāre*, the street cry for attention that once bounced off stone alleys and market awnings. Hawkers shouted to be heard; the verb was all outward force. Spanish folded that cry inward when it paired *clamāre* with the reflexive ending, teaching the shout to circle back home. Over centuries the sound smoothed to *llamar*, then to the quiet mirror of *me llamo*: I am both caller and called. The action is small but electric. You create yourself every time the words leave your mouth, tracing a loop from chest to air and back to awareness. In English you possess a name; in Spanish you make it happen, as if identity were a door you open by speaking.",
+        "wrap_line": "You say “me llamo Ray” and the room now knows you."
       },
       {
         "phase": "context_scene",
         "npc": "elotero",
-        "es": "¡Hola!",
-        "you": "Hola. Me llamo Ray.",
-        "cue": "Only use what you know: greeting plus your new phrase."
-      },
-      {
-        "phase": "rest",
-        "line": "Breathe. You can now greet someone and give your name in Spanish."
+        "es": "¿Cómo te llamas, joven?",
+        "you": "Me llamo Ray.",
+        "wrap_line": "He hands you the steaming elote as your name hangs in the night air and his smile widens."
       }
     ]
   },
