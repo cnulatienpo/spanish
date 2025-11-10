@@ -1,0 +1,27 @@
+name: vocab-leak-guard
+on:
+  pull_request:
+    paths:
+      - 'lessons/**'
+      - 'vocab/**'
+      - 'progress/learned/**'
+      - 'tools/gate/**'
+      - 'gate/config/**'
+      - 'docs/**'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --upgrade pip
+      - name: Enforce no Spanish before taught (A1 step_0002 as example)
+        run: |
+          python tools/gate/enforce_no_leak.py \
+            --bank vocab/bank.csv \
+            --learned progress/learned/A1_step_0002.json \
+            --scan lessons/out/ docs/ ui/ \
+            --mode check --strict \
+            --report reports/leaks.json
