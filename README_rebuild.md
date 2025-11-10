@@ -1,14 +1,12 @@
 # Repo Healer Quickstart
 
-This repository ships with a standalone healing pipeline that normalizes the
+This repository now ships a TypeScript-powered healer that normalizes the
 `content/` tree and produces canonical lesson and vocabulary bundles.
 
 ## Environment
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+npm install
 ```
 
 ## Usage
@@ -16,13 +14,13 @@ pip install -r requirements.txt
 Run a dry validation to see what would be produced:
 
 ```bash
-python tools/repo_healer.py --check
+npm run check
 ```
 
 Generate canonical artifacts and audit reports:
 
 ```bash
-python tools/repo_healer.py --write
+npm run rebuild
 ```
 
-Add `--strict` to make unknown CEFR levels fail the run.
+Add `--strict` to either command to fail on invalid items or unknown CEFR levels.
