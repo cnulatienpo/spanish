@@ -23,3 +23,17 @@ build
 # OS
 .DS_Store
 Thumbs.db
+
+# --- generated exports (keep out of PRs) ---
+vocab/out/
+reports/
+lessons/out/
+lessons/playable/
+build/
+
+# --- generated exports (keep out of PRs) ---
+vocab/out/
+reports/
+lessons/out/
+lessons/playable/
+build/
