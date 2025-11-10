@@ -103,3 +103,8 @@ python tools/report.py --scan-dir vocab/out --out reports/agg.json --summary rep
 ```
 
 **Targets:** A1:600 A2:1000 B1:1400 B2:1400 C1:900 C2:700  (Total 6000)
+
+## Curation Passes
+
+- **Curation Style Guide** — See [curator/style_guide.md](curator/style_guide.md) for tone and formatting rules covering the `english`, `origin`, `story`, and `example` fields. All curation passes must follow it.
+
