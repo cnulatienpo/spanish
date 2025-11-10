@@ -1,0 +1,150 @@
+tesis central
+marco argumental
+línea de razonamiento
+cadena inferencial
+criterio de evaluación
+estándar de prueba
+carga de la prueba
+contrapeso
+contraprueba
+contratexto
+premisa oculta
+supuesto de base
+sesgo de confirmación
+sesgo de disponibilidad
+falacia ad hominem
+falacia de autoridad
+falso dilema
+petición de principio
+generalización apresurada
+causa espuria
+correlación espuria
+muestreo sesgado
+confusión de variables
+refutación empírica
+réplica metodológica
+crítica interna
+crítica externa
+revisión por pares
+observación matizada
+objeción sustantiva
+contraejemplo
+delimitación de alcance
+salvedad
+advertencia metodológica
+condición de validez
+umbral de significancia
+intervalo de plausibilidad
+planteamiento normativo
+análisis costo-beneficio
+impacto distributivo
+equidad intergeneracional
+trade-off (compensación)
+externalidad
+riesgo regulatorio
+captura regulatoria
+benchmarking
+comparador internacional
+mejor práctica
+estudio comparado
+recomendación de política
+lineamiento técnico
+consulta pública
+comentario técnico
+memoria justificativa
+exposición de motivos
+resumen ejecutivo ampliado
+síntesis crítica
+considerando
+disposición transitoria
+evaluación ex post
+calendario de implementación
+hoja de ruta
+indicador de resultado
+indicador de proceso
+trazabilidad
+rendición de cuentas avanzada
+transparencia activa
+acceso a la información
+tesis retórica
+ethos
+pathos
+logos
+disposición (ordo)
+inventio
+elocutio
+memoria (retórica)
+actio
+captatio benevolentiae
+exordio
+narratio
+argumentatio
+peroratio
+concesión estratégica
+pregunta retórica
+paradoja eficaz
+antítesis
+aposiopesis
+correctio
+epíteto
+amplificatio
+gradatio
+clausula rítmica
+periodo oratorio
+clausura persuasiva
+registro institucional
+registro jurídico
+registro administrativo
+redacción técnica
+redacción ejecutiva
+tono diplomático
+tono conciliador
+tono firme
+tono asertivo
+tono consultivo
+acuerdo marco
+memorando de entendimiento
+acta
+minuta
+anexo técnico
+fe de erratas
+galerada
+prueba de imprenta
+estilo de casa
+manual editorial
+norma tipográfica
+ortotipografía
+prueba cruzada
+edición de contenido
+edición de estilo
+edición sustantiva
+maquetación
+prensa de pruebas
+corrección de pruebas
+control de versiones
+ciclo de aprobación
+portafolio
+dossier
+nota de concepto
+brief creativo
+pitch
+propuesta técnica
+términos de referencia
+alcance y entregables
+criterios de adjudicación
+pliego
+licitación
+negociación distributiva
+negociación integrativa
+BATNA
+intereses subyacentes
+zona de posible acuerdo
+mediación profesional
+facilitación
+gestión de conflictos
+comunicación no violenta
+retroalimentación bidireccional
+alineación de expectativas
+gobernanza del proyecto
+riesgo reputacional
+protocolo de escalamiento
