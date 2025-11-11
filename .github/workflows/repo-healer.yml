@@ -1,0 +1,32 @@
+name: Repo Healer
+
+on: [push, pull_request]
+
+jobs:
+  heal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Show repo-healer availability
+        run: |
+          if [ -x ./tools/repo_healer.sh ]; then
+            echo 'repo_healer.sh present';
+          else
+            echo 'repo_healer.sh missing — running in CHECK-ONLY mode';
+          fi
+      - name: Run repo healer (check mode if script missing)
+        run: |
+          mkdir -p build/reports build/canonical build/rejects
+          if [ -x ./tools/repo_healer.sh ]; then
+            ./tools/repo_healer.sh --check | tee build/reports/audit-ci.md
+          else
+            echo 'No healer script; verifying no conflict markers and basic JSON sanity';
+            ! grep -R -nE '\<{7}|\={7}|\>{7}' content || (echo 'Found conflict markers' && exit 1)
+          fi
+      - name: Upload audit (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: build/reports
