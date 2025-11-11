@@ -1,9 +1,0 @@
-data_collected:
-  - category: 'App info and performance'
-    items: ['Crash logs','Diagnostics']
-  - category: 'Personal info'
-    items: ['Email (optional support)']
-data_shared: []
-security:
-  data_encrypted_in_transit: true
-  data_deletion_request_supported: true
