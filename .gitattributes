@@ -1,0 +1,4 @@
+# normalize LF and use union merges for JSON to reduce conflict churn
+* text=auto eol=lf
+*.json text eol=lf merge=union
+*.md   text eol=lf

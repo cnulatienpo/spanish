@@ -1,8 +1,0 @@
-$ go run ./tools/fixcodex --write
-🔍  Scanned 0 files
-⚔️  Resolved 0 conflicts
-📘  0 vocab | 0 lessons
-✅  0 duplicates merged
-⚠️  0 with UNSET level
-🚫  0 rejects
-✨ Done! Canonical JSONs written to build/canonical/

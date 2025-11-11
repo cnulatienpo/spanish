@@ -1,0 +1,16 @@
+name: Conflict Marker Guard
+
+on: [pull_request]
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if conflict markers exist under content/
+        run: |
+          if grep -R -nE '\<{7}|\={7}|\>{7}' content; then
+            echo 'Conflict markers found under content/. Please run the repo-healer first.'
+            exit 1
+          fi
+          echo 'No conflict markers. All good.'
