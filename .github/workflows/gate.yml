@@ -1,0 +1,83 @@
+name: spanglish-gate
+
+on:
+  push:
+    paths:
+      - 'lessons/out/**'
+      - 'vocab/**'
+      - 'progress/steps/**'
+      - 'gate/config/**'
+      - 'tools/gate/**'
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check A1 step_0001
+        run: |
+          python tools/gate/check_dependencies.py \
+            --level A1 \
+            --bank vocab/bank.csv \
+            --kits vocab/kits.csv \
+            --forms-map gate/config/forms_map.json \
+            --always-allow gate/config/always_allow.json \
+            --prior progress/steps/A1/step_0000.learned.json \
+            --scan lessons/out/A1
+          python tools/gate/spanglish_compile.py \
+            --level A1 \
+            --step progress/steps/A1/step_0001.learned.json \
+            --scan lessons/out/A1 \
+            --out lessons/playable/A1/step_0001 \
+            --mode mix
+      - name: Check A1 step_0002
+        run: |
+          python tools/gate/check_dependencies.py \
+            --level A1 \
+            --bank vocab/bank.csv \
+            --kits vocab/kits.csv \
+            --forms-map gate/config/forms_map.json \
+            --always-allow gate/config/always_allow.json \
+            --prior progress/steps/A1/step_0001.learned.json \
+            --scan lessons/out/A1
+          python tools/gate/spanglish_compile.py \
+            --level A1 \
+            --step progress/steps/A1/step_0002.learned.json \
+            --scan lessons/out/A1 \
+            --out lessons/playable/A1/step_0002 \
+            --mode mix
+      - name: Check A1 step_0003
+        run: |
+          python tools/gate/check_dependencies.py \
+            --level A1 \
+            --bank vocab/bank.csv \
+            --kits vocab/kits.csv \
+            --forms-map gate/config/forms_map.json \
+            --always-allow gate/config/always_allow.json \
+            --prior progress/steps/A1/step_0002.learned.json \
+            --scan lessons/out/A1
+          python tools/gate/spanglish_compile.py \
+            --level A1 \
+            --step progress/steps/A1/step_0003.learned.json \
+            --scan lessons/out/A1 \
+            --out lessons/playable/A1/step_0003 \
+            --mode mix
+      - name: Create gated lessons PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "auto: gated playable lessons"
+          title: "Auto: Spanglish-gated lessons"
+          body: "Adds playable lessons per step with vocabulary gating."
+          branch: auto/spanglish
+          branch-suffix: timestamp
+          add-paths: |
+            lessons/playable/**
+          base: ${{ github.ref_name }}
+          skip-if-no-changes: true

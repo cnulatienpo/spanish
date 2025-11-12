@@ -1,0 +1,5 @@
+{
+  "normalize": true,
+  "lower": true,
+  "strip_punct": true
+}
