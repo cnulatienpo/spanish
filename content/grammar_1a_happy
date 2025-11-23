@@ -1,0 +1,393 @@
+{
+  "id": "mmspanish__lesson_A1_punctuation",
+  "title": "Punctuation Marks — The Traffic Lights of Writing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Punctuation controls rhythm. It tells your eyes when to stop or breathe."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish uses extra signs at the start of questions and exclamations (¿ and ¡). They warn your voice before it speaks."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Printers in the 1700s invented opening marks to prepare the reader for tone.",
+      "story": "Your first Spanish question begins with one. It sets up curiosity before the words appear.",
+      "wrap_line": "The upside-down marks are like signals before a curve — they prepare you to turn."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "A period ends a statement.", "es": "[locked]" },
+        { "en": "A question begins with an opening mark.", "es": "[locked]" },
+        { "en": "An exclamation starts with energy.", "es": "[locked]" }
+      ],
+      "cue": "You’ll meet the real marks when vocabulary unlocks."
+    },
+    {
+      "phase": "rest",
+      "line": "Even without vocabulary, you already understand the feeling of a question mark."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_accent_marks",
+  "title": "Accent Marks — The Breathing Rules of Words",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Accent marks show where the sound rests. They are guides, not decorations."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish words follow stress patterns. When one breaks the rule, an accent mark appears to guide your voice."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Accents became part of print to make reading the same across regions.",
+      "story": "Every accent mark is a reminder of rhythm — even when you don’t know the word yet.",
+      "wrap_line": "The accent mark teaches your eyes where to land."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "No accent: sound falls naturally.", "es": "[locked]" },
+        { "en": "Accent added: sound shifts position.", "es": "[locked]" }
+      ],
+      "cue": "Concrete examples appear when the words unlock."
+    },
+    {
+      "phase": "rest",
+      "line": "You’ll notice them before you know why they’re there, and that’s exactly right."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_syllables_stress",
+  "title": "Syllables and Stress — Where the Voice Lands",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Every word has beats. One beat gets the push — the stress."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish rhythm feels natural because every word has a rule for which syllable carries weight."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Writers added accent marks later to show where the natural voice already fell.",
+      "story": "When you hear Spanish, it dances in patterns of strong and soft. That’s stress in motion.",
+      "wrap_line": "Syllables are the hidden heartbeat of speech."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Two beats: first stronger.", "es": "[locked]" },
+        { "en": "Two beats: second stronger.", "es": "[locked]" },
+        { "en": "Three beats: last stronger.", "es": "[locked]" }
+      ],
+      "cue": "You’ll feel these rhythms once you start hearing real words."
+    },
+    {
+      "phase": "rest",
+      "line": "Clap once per beat — you’re already reading music, not just letters."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_capitalization",
+  "title": "Capitalization — When a Word Stands Tall",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Capital letters mark the start of a sentence or a name."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish capitalizes fewer words than English. Only the first word of a sentence and proper names stand tall."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Printers used tall letters to anchor the reader’s eyes to beginnings.",
+      "story": "In your first introduction, your name will wear a capital letter — but the helper words around it stay lowercase.",
+      "wrap_line": "Capital letters are visual promises: this begins something."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Sentence start: capital first letter.", "es": "[locked]" },
+        { "en": "Names: capital first letter.", "es": "[locked]" },
+        { "en": "Days, months, nationalities: lowercase.", "es": "[locked]" }
+      ],
+      "cue": "Spanish uses fewer capitals than English — you’ll see when vocab appears."
+    },
+    {
+      "phase": "rest",
+      "line": "You’ll start seeing them as signals, not rules."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_gender_nouns",
+  "title": "Gender of Nouns — Words That Are Born He or She",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Every noun in Spanish has gender — not about people, but about word families."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Many nouns end in patterns that hint at masculine or feminine. It’s a kind of grammar DNA."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Grammatical gender began as a way to group words by sound, not by meaning.",
+      "story": "Gender helps words agree with their partners. It’s about connection, not hierarchy.",
+      "wrap_line": "Once you know a word’s gender, everything around it lines up neatly."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "One pattern for masculine words.", "es": "[locked]" },
+        { "en": "Another pattern for feminine words.", "es": "[locked]" }
+      ],
+      "cue": "You’ll unlock the actual endings soon."
+    },
+    {
+      "phase": "rest",
+      "line": "Grammar is choreography; gender decides who leads and who follows."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_number_nouns",
+  "title": "Number of Nouns — When One Becomes Many",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Number tells you if a word is singular or plural."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish adds endings to show quantity. The change is small — the idea is big."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The idea of number is ancient. It grew from counting what mattered.",
+      "story": "Words multiply like real things. Plurals remind you that language grows with people.",
+      "wrap_line": "Number keeps grammar honest: one thing, one sound; many things, a shift."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Singular: one item.", "es": "[locked]" },
+        { "en": "Plural: more than one.", "es": "[locked]" }
+      ],
+      "cue": "The exact endings unlock later."
+    },
+    {
+      "phase": "rest",
+      "line": "It’s math for the mouth."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_articles",
+  "title": "Definite and Indefinite Articles — The Words That Point at Things",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Articles point at nouns. They show if you mean something specific or general."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Every noun in Spanish travels with an article that matches its gender and number."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Articles come from old demonstrative words — tiny gestures that became grammar.",
+      "story": "They’re the helpers that quietly tell listeners which thing you mean.",
+      "wrap_line": "Articles are the hands that gesture toward a noun."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The apple. (specific)", "es": "[locked]" },
+        { "en": "An apple. (any)", "es": "[locked]" }
+      ],
+      "cue": "These will unlock with nouns."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you learn them, the language feels organized."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_word_order",
+  "title": "Word Order — The Normal Way to Say a Thing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Word order gives structure to meaning."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish usually follows Subject–Verb–Object, but can shift for emphasis."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Writers learned that position changes emotion as much as accuracy.",
+      "story": "When you move a word forward, you make it shine. Grammar allows it; style decides it.",
+      "wrap_line": "Word order is rhythm disguised as logic."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Normal: Subject before Verb.", "es": "[locked]" },
+        { "en": "Emphasis: move a word to the front.", "es": "[locked]" }
+      ],
+      "cue": "Spanish examples unlock later."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you can rearrange words, you’re playing with emphasis, not rules."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_subject_pronouns",
+  "title": "Subject Pronouns — Who’s Doing the Talking",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Pronouns replace names. They keep speech light."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish often drops them because the verb already shows who’s acting. That’s efficiency, not mystery."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "This habit began centuries ago — a shortcut that became identity.",
+      "story": "You’ll soon see how Spanish verbs carry the speaker’s fingerprint inside them.",
+      "wrap_line": "Pronouns are optional, but understanding them explains the code inside verbs."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I, you, he, she, we, they — all exist but may hide.", "es": "[locked]" }
+      ],
+      "cue": "Real pronoun forms appear once the vocab unlocks."
+    },
+    {
+      "phase": "rest",
+      "line": "Grammar lets you speak without repeating yourself."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_reflexive_forms",
+  "title": "Reflexive Forms — The Words That Point Back at You",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Reflexive verbs show that the action circles back to the speaker."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish adds a tiny helper before the verb to show self-action. The first one you’ll learn lives in '[locked]', part of the phrase 'me llamo'."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Reflexive structures came from old languages that wanted to mark ownership of action.",
+      "story": "When you say 'me llamo', you’re literally describing yourself by name — the action starts and ends with you.",
+      "wrap_line": "Reflexive forms are grammar’s mirror: the subject and object are the same person."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "¿[locked]?",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I call myself…", "es": "me llamo" },
+        { "en": "He calls himself…", "es": "[locked]" }
+      ],
+      "cue": "New reflexive forms will appear as vocabulary grows."
+    },
+    {
+      "phase": "rest",
+      "line": "You see yourself in the sentence before you even say your name."
+    }
+  ]
+}
+
