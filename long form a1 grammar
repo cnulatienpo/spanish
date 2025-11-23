@@ -1,0 +1,1405 @@
+{
+  "id": "mmspanish__lesson_A1_001_punctuation",
+  "title": "Punctuation Marks — The Traffic Lights of Writing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, punctuation is the set of signals that tell readers when to stop, pause, or raise their voice. You already know periods, commas, and question marks. Spanish uses those too but adds opening marks—an upside-down question mark and exclamation point—at the start of the sentence so your tone knows where it’s going before it begins."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Each sentence in Spanish ends with the same punctuation you know from English. The new part is the opener: ¿ for questions and ¡ for exclamations. These come before the first word of the sentence and always pair with their closing marks. There’s no extra space between them and the word that follows. Everything else—commas, periods, quotation marks—behaves almost the same as English."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Opening punctuation was formalized by the Real Academia Española in the 1700s.",
+      "story": "Writers realized that readers couldn’t tell a statement from a question until they reached the end. The upside-down marks fixed that by warning the voice early. It was an invention of empathy—helping the reader read aloud correctly without guessing.",
+      "wrap_line": "Spanish punctuation starts with consideration; it ends with clarity."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Statement: I am here.", "es": "[locked]" },
+        { "en": "Question: Are you here? (shows with ¿)", "es": "[locked]" },
+        { "en": "Exclamation: Great! (shows with ¡)", "es": "[locked]" }
+      ],
+      "cue": "Notice that Spanish opens and closes emotional sentences, guiding tone from the start."
+    },
+    {
+      "phase": "rest",
+      "line": "Those small flips at the beginning teach your eyes to think ahead—the first Spanish habit you’ll learn."
+    }
+  ]
+}{
+  "id": "mmspanish__lesson_A1_002_accent_marks",
+  "title": "A1.02 Accent Marks — The Breathing Rules of Words",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we rely on feel to know where a word’s stress goes: music, banana, computer. We rarely write it down. Spanish does—if a word breaks the normal pattern, it wears an accent mark (´) over its stressed vowel. English hides stress in memory; Spanish prints it where you can see it."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Most Spanish words follow one of two stress rules. If a word ends in a vowel, n, or s, stress the second-to-last syllable. If it ends in any other letter, stress the last syllable. When a word ignores those rules, a written accent shows where the voice should land: canción, inglés, rápido. Only vowels—á, é, í, ó, ú—carry the mark. Never guess; if you see it, hit it."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The written accent was standardized in the 1700s to unify pronunciation across Spain and the Americas.",
+      "story": "Before that, regional speech scattered stress in unpredictable ways. Printing forced writers to choose. The accent mark became a small contract between the page and the voice: this is where the air falls, no matter your accent or hometown. It’s a promise of rhythm, not decoration.",
+      "wrap_line": "Every accent mark is a breath the writer took for you."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Ends in vowel, n, or s → stress next-to-last syllable.", "es": "[locked]" },
+        { "en": "Ends in other consonant → stress last syllable.", "es": "[locked]" },
+        { "en": "Accent mark → follow the mark, not the rule.", "es": "[locked]" }
+      ],
+      "cue": "Accent marks don’t decorate—they steer sound. When in doubt, trust the mark."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you can hear stress, reading Spanish starts to sound like music instead of guessing."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_003_syllables_stress",
+  "title": "A1.03 Syllables and Stress — Where the Voice Lands",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we don’t often think about syllables—just where to breathe. But Spanish depends on them. Each word breaks into clear beats, and one of those beats always carries the stress. English stress wanders and mumbles; Spanish beats are predictable and clean, like clapping along to a song."
+    },
+    {
+      "phase": "system_logic",
+      "line": "To count syllables, listen for each full vowel sound. Spanish vowels rarely hide or blend, so every sound counts. Stress normally falls on the second-to-last syllable if the word ends in a vowel, n, or s; otherwise, it falls on the last syllable. If a word disobeys those patterns, it will show an accent mark. Each syllable has equal length, so rhythm—not volume—carries meaning."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish developed from Latin, which loved balance—one beat of strong syllable, one of weak.",
+      "story": "As Latin spread, regional accents blurred timing. Spanish rebuilt order: one vowel, one sound, one beat. The result is a language that breathes evenly, built for poetry and song. You can almost feel it when you clap: da-DA, da-da-DA. The rules free your ear from guessing.",
+      "wrap_line": "Every Spanish word walks to its own metronome."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Ends in vowel → stress second-to-last syllable.", "es": "[locked]" },
+        { "en": "Ends in consonant → stress last syllable.", "es": "[locked]" },
+        { "en": "Accent mark → stress the marked syllable.", "es": "[locked]" }
+      ],
+      "cue": "Each rule is audible: tap your fingers as you say the beats."
+    },
+    {
+      "phase": "rest",
+      "line": "Master rhythm before vocabulary—sound is the skeleton every word hangs on."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_004_capitalization",
+  "title": "A1.04 Capitalization — When a Word Stands Tall",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we capitalize a lot: months, days, nationalities, languages, titles, even the word I. It’s a habit of formality. Spanish is quieter. It saves capitals for true beginnings and proper names. English shouts respect with capital letters; Spanish whispers it through context and punctuation."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Capitalize the first word of any sentence and any proper noun—people, places, specific holidays. Do not capitalize months, days of the week, nationalities, or languages. Titles of books or movies only capitalize the first word and any proper names inside. Words after a colon remain lowercase unless they begin a complete new sentence."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish printers simplified capitalization rules in the eighteenth century to make reading smoother.",
+      "story": "Before that, people used capital letters everywhere, following Latin’s formal style. The reformers believed lowercase letters carried the rhythm of speech—faster, lighter, closer to how people actually talked. By reserving capitals for beginnings and names, Spanish encouraged readers to focus on meaning instead of hierarchy. It made writing democratic: everyone starts lowercase except the story itself.",
+      "wrap_line": "Spanish capitals lead, they don’t dominate."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Sentence start: Capital first letter.", "es": "[locked]" },
+        { "en": "Name: María → capital; month: enero → lowercase.", "es": "[locked]" },
+        { "en": "Language: español → lowercase even when it means Spanish.", "es": "[locked]" }
+      ],
+      "cue": "Capitals appear at beginnings and for real names—nothing else demands attention."
+    },
+    {
+      "phase": "rest",
+      "line": "Lowercase keeps sentences humble; capitals only rise when the story begins or a name stands tall."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_005_gender_of_nouns",
+  "title": "A1.05 Gender of Nouns — Words That Are Born He or She",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, nouns don’t have gender—‘the table,’ ‘the book,’ ‘the sun’ all feel neutral. Spanish thinks differently: every noun belongs to a family, masculine or feminine. It’s not about people, it’s about patterns. English keeps words plain; Spanish dresses them in endings that show their group."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Most nouns ending in -o are masculine; most ending in -a are feminine. El libro (book), la casa (house). Words ending in -dad, -ción, and -tad are almost always feminine. Some exceptions flip endings or use neutral forms that learners memorize over time. The article—el or la—must always agree with the noun’s gender, like a matched pair."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited grammatical gender from Latin, where endings kept sentences balanced.",
+      "story": "Latin marked nouns to help verbs and adjectives connect correctly, and the habit stuck. Over time, gender lost its link to real-world sex but kept its grammar purpose: structure. The rule shapes rhythm; you can hear balance in phrases like el cielo or la tierra. Gender is the architecture behind Spanish flow.",
+      "wrap_line": "It’s not about identity—it’s about harmony between words."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Masculine: the book → ends in -o.", "es": "[locked]" },
+        { "en": "Feminine: the house → ends in -a.", "es": "[locked]" },
+        { "en": "Feminine: the city → ends in -dad.", "es": "[locked]" }
+      ],
+      "cue": "Articles and endings travel together—see one, expect the other."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you start hearing patterns of gender, Spanish sounds less memorized and more alive."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_006_number_of_nouns",
+  "title": "A1.06 Number of Nouns — When One Becomes Many",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we show number mostly by adding –s: book → books, car → cars. Spanish works the same way but the spelling and sound change to fit its rhythm. English simply adds the letter; Spanish adds a vowel sound so the ending flows. English ends sharp; Spanish ends open and musical."
+    },
+    {
+      "phase": "system_logic",
+      "line": "If a noun ends in a vowel, add –s to make it plural: libro → libros. If it ends in a consonant, add –es: color → colores. Words ending in –z change z to c before –es: lápiz → lápices. When the article joins, both must show number: el libro / los libros, la mesa / las mesas. Every partner in the phrase agrees in singular or plural form."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish plural endings evolved from Latin patterns that used vowels to keep speech smooth.",
+      "story": "Latin speakers disliked closing words with hard consonants; they wanted endings that carried air. As Spanish grew, the language kept that comfort—plural endings open the mouth instead of shutting it. That’s why even multiple objects sound lyrical. Number isn’t just math here; it’s a breath that widens sound and meaning together.",
+      "wrap_line": "Plural endings let Spanish count things without losing its melody."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Ends in vowel → add –s (book → books).", "es": "[locked]" },
+        { "en": "Ends in consonant → add –es (color → colors).", "es": "[locked]" },
+        { "en": "Ends in –z → change z to c before –es.", "es": "[locked]" }
+      ],
+      "cue": "Article and noun both switch number; Spanish multiplies agreement, not just letters."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you hear how plurals open the sound, counting starts to feel like singing."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_007_articles",
+  "title": "A1.07 Definite and Indefinite Articles — The Words That Point at Things",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we point at nouns with two short helpers: 'the' for something specific and 'a' or 'an' for something general. Spanish does the same job but its articles must agree with gender and number. English uses one word for everyone; Spanish tailors its pointers to match what they point at."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Use definite articles—el, la, los, las—when both speaker and listener know the noun. Use indefinite articles—un, una, unos, unas—when mentioning something new or nonspecific. The article always comes before the noun and matches it in gender and number. English says 'the book'; Spanish says '[locked]' because both article and noun wear masculine singular forms."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited articles from late Latin demonstratives that once meant 'that' or 'this.'",
+      "story": "As Latin simplified, these little words stopped pointing to space and started pointing to ideas. They grew into markers of familiarity. Definite articles pull known things close; indefinite ones introduce new arrivals. The system is small but emotional—it separates what you already share from what you’re still discovering.",
+      "wrap_line": "Articles make grammar feel human: recognition, introduction, belonging."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Definite: the book → known thing.", "es": "[locked]" },
+        { "en": "Indefinite: a house → new mention.", "es": "[locked]" },
+        { "en": "Plural: the books / some books → both match in number.", "es": "[locked]" }
+      ],
+      "cue": "The article and noun travel together, adjusting endings so their grammar stays in step."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you start hearing articles as tiny introductions, sentences sound more personal and clear."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_008_word_order",
+  "title": "A1.08 Word Order — The Normal Way to Say a Thing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we rely on word order to make sense: subject first, verb second, object last—'I eat apples.' Change the order, and it stops making sense. Spanish follows the same pattern most of the time but can move pieces around for focus. English freezes order; Spanish moves it for emotion and rhythm."
+    },
+    {
+      "phase": "system_logic",
+      "line": "The neutral order in Spanish is Subject–Verb–Object: '[locked]' → 'I eat apples.' But Spanish allows Verb–Subject or Object–Verb–Subject when the speaker wants to emphasize a word or answer a question. Context and verb endings protect meaning even when the pieces shift. The verb’s ending tells who’s acting, so order becomes a stylistic choice, not a rule of survival."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Flexible order developed from Latin, where word endings—not placement—carried the information.",
+      "story": "As Spanish evolved, endings stayed strong enough to label who did what, freeing writers to play with order. Poets, journalists, and everyday speakers rearrange words for emphasis or surprise. What English hears as formality, Spanish hears as music—shifting the beat to highlight what matters most in the moment.",
+      "wrap_line": "Word order in Spanish listens to meaning first, grammar second."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Normal: Subject–Verb–Object → I eat apples.", "es": "[locked]" },
+        { "en": "Emphasis: Object–Verb–Subject → Apples I eat!", "es": "[locked]" },
+        { "en": "Question: Verb–Subject → Eat you apples?", "es": "[locked]" }
+      ],
+      "cue": "Spanish can bend order because verb endings keep identity clear—it’s rhythm with guardrails."
+    },
+    {
+      "phase": "rest",
+      "line": "Learning Spanish order feels like learning choreography—same steps, new ways to dance."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_009_subject_pronouns",
+  "title": "A1.09 Subject Pronouns — Who’s Doing the Talking",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we always show who acts: I run, you read, she sings. Pronouns name the subject so listeners know the actor. Spanish has the same pronouns but doesn’t always say them. English repeats the subject every time; Spanish hides it because the verb ending already tells who’s doing the action."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish subject pronouns are yo, tú, él, ella, nosotros, vosotros, ellos, ellas, and usted or ustedes for formality. Each matches a distinct verb ending. Because verbs carry personal endings, the pronoun is often dropped unless you need contrast or emphasis. 'Yo' before a verb means 'I, specifically.' Spanish saves words by letting the verb itself wear the label of its subject."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "This drop-the-pronoun habit comes from Latin, whose verbs carried strong personal endings.",
+      "story": "Early Latin speakers didn’t waste effort repeating the subject when the verb already told the story. Spanish inherited that efficiency, making speech quick and musical. The listener hears the verb and instantly knows the person acting. When a pronoun appears, it’s personal—it insists: not him, not them, me. Grammar doubles as spotlight control.",
+      "wrap_line": "Spanish verbs remember who’s speaking even when the pronoun stays quiet."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I speak → pronoun optional.", "es": "[locked]" },
+        { "en": "She reads → often just the verb.", "es": "[locked]" },
+        { "en": "We run → pronoun added for emphasis.", "es": "[locked]" }
+      ],
+      "cue": "If the verb ending already answers 'who?', Spanish leaves the pronoun resting offstage."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you trust the endings, you’ll start hearing subjects without seeing their names."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_010_reflexive_forms",
+  "title": "A1.10 Reflexive Forms — The Words That Point Back at You",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use reflexive words like myself, yourself, or themselves when an action turns inward: I wash myself, she blames herself. Spanish builds that inward loop differently. It adds a tiny helper before the verb that shows the subject and object are the same person. English adds a second word; Spanish changes the shape of the first."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish reflexive verbs attach small pronouns—me, te, se, nos, os, se—before the verb or after an infinitive. They change form to match the subject: me for I, te for you, se for he/she. These helpers show that the subject performs and receives the action. To say 'I call myself,' Spanish uses '[locked],' literally 'I call me.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Reflexive structure comes from Latin phrases that paired verbs with words meaning 'the self.'",
+      "story": "Over centuries, the phrase fused into a single idea. In daily speech, reflexives capture actions you manage alone—getting up, getting dressed, naming yourself. It’s grammar’s way of reflecting human independence. When you learn one, you’re describing agency, routine, and identity all at once.",
+      "wrap_line": "Reflexives turn grammar into a mirror—you act and see the act at the same time."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I wake myself up.", "es": "[locked]" },
+        { "en": "She dresses herself.", "es": "[locked]" },
+        { "en": "We call ourselves by name.", "es": "[locked]" }
+      ],
+      "cue": "Reflexive helpers always travel with the verb—they never wander alone."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you grasp reflexives, you’ll notice how often Spanish pauses to acknowledge the self inside every action."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_011_ser",
+  "title": "A1.11 The Verb “Ser” — The Verb That Defines You",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, the verb to be covers everything: I am happy, I am here, I am tall. Spanish divides this giant idea into two verbs—ser and estar. Ser handles what you are by nature or identity; estar handles how you are in a moment. English uses one word for both; Spanish splits existence into essence and condition."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Ser appears in forms like soy, eres, es, somos, sois, son. It links a subject to something permanent—profession, origin, personality, time, or material. Use ser to describe what defines or classifies: 'She is a doctor,' 'It is gold,' 'Today is Monday.' It never describes emotions or locations; that job belongs to estar. Ser’s endings change with the subject but its meaning stays steady—being as identity."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Ser descends from the Latin verb esse, meaning 'to exist or to be in essence.'",
+      "story": "In Latin philosophy, being wasn’t just existing; it was purpose. Spanish kept that gravity. Ser introduces facts that feel unchangeable—heritage, character, truth. When someone says 'Soy estudiante,' it’s more than occupation; it’s belonging. Ser tells the world how you fit into it, defining the line between who you are and everything else.",
+      "wrap_line": "Ser is the grammar of permanence—a word that carries your label quietly but firmly."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I am a teacher → identity.", "es": "[locked]" },
+        { "en": "It is Monday → time.", "es": "[locked]" },
+        { "en": "They are friends → relationship.", "es": "[locked]" }
+      ],
+      "cue": "Ser anchors what something is by nature, not what it feels like or where it is."
+    },
+    {
+      "phase": "rest",
+      "line": "Every time you use ser, you draw a line around the unchanging parts of yourself."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_012_estar",
+  "title": "A1.12 The Verb “Estar” — The Verb That Describes How You Feel",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use the verb to be for both permanent and temporary states: I am tired, I am in Chicago, I am a teacher. Spanish divides this work between two verbs. Ser handles what you are by nature; estar handles how or where you are right now. English uses one container; Spanish labels the feeling and the location separately."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Estar appears as estoy, estás, está, estamos, estáis, están. Use it for physical locations, emotional states, and temporary conditions. 'Estoy cansado' means 'I am tired right now.' 'Estamos en casa' means 'We are at home.' The form changes with the subject, but the idea stays the same—estar measures situations that can change."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Estar comes from the Latin verb stare, meaning 'to stand' or 'to stay in place.'",
+      "story": "In old Latin, being somewhere was described as standing there. Spanish turned that sense of position into a grammar of presence and emotion. Estar marks the body, not the soul—where you stand, how you feel, how the day has found you. It’s the verb of weather, moods, and motion, always tracing life as it shifts.",
+      "wrap_line": "Estar listens to your current state and writes it down in real time."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I am tired → temporary feeling.", "es": "[locked]" },
+        { "en": "We are at home → location.", "es": "[locked]" },
+        { "en": "She is happy → current emotion.", "es": "[locked]" }
+      ],
+      "cue": "Use estar whenever you describe a state or place that can change—it measures moments, not definitions."
+    },
+    {
+      "phase": "rest",
+      "line": "Ser defines you; estar finds you. Spanish keeps both truths side by side."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_013_ser_vs_estar",
+  "title": "A1.13 Ser vs. Estar — Two Ways to Be",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, the verb to be covers every kind of being: I am tall, I am tired, I am in the park. Spanish splits this idea into two verbs—ser and estar. Ser handles what something is by definition; estar handles how or where it is for now. English uses one verb for both; Spanish keeps essence and state in separate boxes."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Use ser for identity, origin, profession, time, and permanent qualities. Use estar for emotions, locations, and temporary states. 'Ella es médica' means she is a doctor—an identity. 'Ella está cansada' means she is tired—today. Ser describes inherent truth; estar records current condition. Both change form with the subject but never trade jobs."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The two verbs trace back to separate Latin roots: esse for existence, stare for standing or staying.",
+      "story": "Spanish kept both because it values precision in being. Ser speaks from the bones—the unchanging facts of life and nature. Estar speaks from the pulse—the passing moods and moments. Together they draw a full picture of existence: what remains and what moves. English lost the distinction, but Spanish kept the poetry of it.",
+      "wrap_line": "Ser is the portrait; estar is the photograph."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Ser: She is tall → permanent quality.", "es": "[locked]" },
+        { "en": "Estar: She is tired → temporary state.", "es": "[locked]" },
+        { "en": "Ser: It is Monday / Estar: We are at home.", "es": "[locked]" }
+      ],
+      "cue": "Both mean 'to be,' but one describes identity, the other describes circumstance."
+    },
+    {
+      "phase": "rest",
+      "line": "Learning ser and estar is learning to see yourself as both constant and changing."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_014_tener",
+  "title": "A1.14 The Verb “Tener” — The Verb That Owns Things",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use the verb to have for ownership and relationships: I have a car, I have time, I have a friend. Spanish uses tener for the same idea but also for physical states and age. English says 'I am twenty'; Spanish says 'I have twenty years.' English describes; Spanish claims possession even over experience."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Tener appears as tengo, tienes, tiene, tenemos, tenéis, tienen. It always agrees with the subject. Use tener with nouns to show possession or necessity: 'Tengo un libro' (I have a book). Idiomatic expressions extend it: 'tener hambre' (to be hungry), 'tener frío' (to be cold). When paired with que and an infinitive, it shows obligation—'tener que' means 'to have to.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Tener comes from the Latin tenere, meaning 'to hold or keep.'",
+      "story": "Latin speakers imagined ownership as holding something physically. Spanish kept that image—tener is still about grasping. Whether it’s an object, an age, or a feeling, the grammar says you hold it in your hands for now. It’s a gentle reminder that possession can be temporary: what you have, you may also release.",
+      "wrap_line": "Tener teaches possession with humility—everything you hold is momentary."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I have a book → possession.", "es": "[locked]" },
+        { "en": "I have twenty years → age.", "es": "[locked]" },
+        { "en": "I have to study → obligation (tener + que).", "es": "[locked]" }
+      ],
+      "cue": "Tener covers what you own, feel, or must do—it holds more than objects."
+    },
+    {
+      "phase": "rest",
+      "line": "Every tener sentence feels like a hand closing gently around life’s details."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_015_haber",
+  "title": "A1.15 The Verb “Haber” — The Verb That Brings Things Into Existence",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use the words there is or there are to say something exists, and we also use have as a helper in perfect tenses: I have eaten. Spanish uses the single verb haber for both jobs. English separates existence and completion; Spanish connects them with one elegant tool that brings things into being and records that they happened."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Haber works in two ways. As an impersonal verb, 'hay' means 'there is' or 'there are'—it never changes for number: 'hay un libro' or 'hay libros.' As an auxiliary verb, it joins with a past participle to form perfect tenses: 'he comido' means 'I have eaten.' Only haber carries this duty; tener never replaces it. It’s the quiet architect of every completed action."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Haber descends from the Latin habere, meaning 'to hold or to have.'",
+      "story": "Over centuries, haber stopped meaning physical possession and began expressing presence. It now marks that something exists, or that it has already happened. Every 'hay' introduces the world; every 'he, has, ha' recalls what’s done. The shift from holding objects to holding time shows how language grew from touch toward memory.",
+      "wrap_line": "Haber is grammar’s proof of existence—what is here and what has been."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "There is a book on the table → hay + noun.", "es": "[locked]" },
+        { "en": "There are apples → same form, hay.", "es": "[locked]" },
+        { "en": "I have eaten → he + participle.", "es": "[locked]" }
+      ],
+      "cue": "Haber never describes ownership—it only verifies that something exists or has occurred."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you understand haber, Spanish time feels less like a line and more like a record kept in light."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_016_ir",
+  "title": "A1.16 The Verb “Ir” — The Verb That Moves",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use go to talk about movement: I go home, you go out, we go together. Spanish uses ir for the same purpose, but its forms look different from what you’d expect. English changes tense by adding endings; Spanish changes the whole word. English stays simple; Spanish shows motion through transformation."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Ir is irregular in almost every form: voy, vas, va, vamos, vais, van. It combines with prepositions to express direction—‘voy a casa’ (I go home), ‘va al trabajo’ (he goes to work). To describe near-future plans, pair ir with ‘a’ and an infinitive—‘voy a estudiar’ means ‘I’m going to study.’ The form voy marks the present; adding 'a + verb' projects intention forward."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Ir comes from the fusion of two Latin verbs: ire (to go) and vadere (to advance).",
+      "story": "When Latin split across regions, speakers blended both words to create a single, flexible verb. Ir inherited the logic of travel—it bends because movement is rarely straight. Every form carries motion: voy feels immediate, fui feels done, iré looks ahead. It’s grammar that walks, showing how time itself is a journey from one place to another.",
+      "wrap_line": "Ir is the pulse of progress—language proving it knows how to leave and arrive."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I go home → present action.", "es": "[locked]" },
+        { "en": "I went yesterday → past movement.", "es": "[locked]" },
+        { "en": "I am going to study → future plan (ir + a + verb).", "es": "[locked]" }
+      ],
+      "cue": "Ir covers direction, distance, and desire—it carries every step through time."
+    },
+    {
+      "phase": "rest",
+      "line": "Every new tense of ir feels like another footprint—grammar leaving proof you were moving."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_017_hacer",
+  "title": "A1.17 The Verb “Hacer” — The Verb That Builds",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use do and make for action: I do homework, I make dinner, I do my best. Spanish uses one verb—hacer—for both ideas. English separates effort and creation; Spanish joins them. English divides between doing and making; Spanish treats them as the same act of bringing something into being."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Hacer appears as hago, haces, hace, hacemos, hacéis, hacen. Use it for both 'to do' and 'to make.' 'Hago mi tarea' means I do my homework. 'Hace frío' literally means it makes cold—Spanish uses hacer in weather phrases too. As a helper, it builds compound tenses like 'hacer + infinitive' to express causing another action: 'hacer reír' (to make someone laugh)."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Hacer descends from Latin facere, meaning 'to make or to act.'",
+      "story": "Facere carried the spirit of craftsmanship. Spanish kept that creative energy—hacer became the everyday word for action that produces results, whether physical or emotional. It’s a builder’s verb, one that measures life by effort. Each use of hacer marks something done, shaped, or changed. It doesn’t care if the task is big or small; what matters is motion toward completion.",
+      "wrap_line": "Hacer is the heartbeat of productivity—the grammar of shaping the world by hand."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I make dinner → everyday action.", "es": "[locked]" },
+        { "en": "I do my homework → task or duty.", "es": "[locked]" },
+        { "en": "It’s cold → literal weather phrase, 'makes cold.'", "es": "[locked]" }
+      ],
+      "cue": "Hacer replaces both 'do' and 'make'—any action that builds or performs belongs to it."
+    },
+    {
+      "phase": "rest",
+      "line": "Every time you say hacer, you acknowledge motion—something existed only because you acted."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_018_negation",
+  "title": "A1.18 Negation — How to Say No Politely",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we form negatives by adding not: I do not know, I am not ready, I don’t like it. Spanish uses a single word—no—placed before the verb. English attaches not to helpers or contractions; Spanish keeps it simple: one word in front, no extra steps. English spreads negation; Spanish centers it."
+    },
+    {
+      "phase": "system_logic",
+      "line": "To make a sentence negative, place no directly before the verb: 'No entiendo' (I don’t understand), 'No tengo tiempo' (I don’t have time). If a negative word like nunca (never) or nadie (no one) appears, it partners with no for emphasis: 'No veo nada' (I see nothing). Double negatives are correct and normal in Spanish—they reinforce each other instead of canceling out."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited its double-negative pattern from Latin, where repetition strengthened the idea of absence.",
+      "story": "English eventually treated two negatives as a positive, but Spanish never stopped trusting reinforcement. Saying 'no' twice feels natural, not rude. It adds rhythm and certainty—the sentence becomes a full-body shake of the head. Negation in Spanish is compact, direct, and musical; it sounds like boundaries spoken with grace.",
+      "wrap_line": "Spanish turns refusal into rhythm: one clean syllable, steady and calm."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I don’t understand → no before the verb.", "es": "[locked]" },
+        { "en": "I never go → no + nunca = emphasis.", "es": "[locked]" },
+        { "en": "I see nothing → no + nada = normal double negative.", "es": "[locked]" }
+      ],
+      "cue": "Spanish doubles up negatives for strength, not mistake—each 'no' keeps the door closed."
+    },
+    {
+      "phase": "rest",
+      "line": "Negation teaches you the power of small words: one 'no' can hold an entire sentence still."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_019_basic_questions",
+  "title": "A1.19 Basic Questions — How to Ask Without Panicking",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we make questions by flipping the order: You are → Are you? We use helper verbs like do and does to signal curiosity. Spanish asks questions by keeping the same words but changing the melody. English moves pieces; Spanish moves tone. English builds questions with grammar; Spanish builds them with sound and punctuation."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish uses the same sentence structure for statements and questions. Add an opening ¿ and closing ? to mark the difference, then lift your voice at the end. 'Tú vienes' (you come) becomes '¿Tú vienes?' (are you coming?). Inverting subject and verb is optional—context and the rising tone do the work. No helper words are ever needed."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited its question rhythm from Latin, which used inflection more than structure.",
+      "story": "In Latin conversation, pitch carried meaning; Spanish kept that music. The upside-down question mark is a written reminder to start reading with a lifted voice. It’s the grammar of empathy—telling your listener a question is coming so they can meet you halfway. Spanish questions sound friendly because they start with invitation, not interrogation.",
+      "wrap_line": "A Spanish question begins where curiosity meets courtesy."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "You eat → statement.", "es": "[locked]" },
+        { "en": "¿You eat? → question by tone and marks.", "es": "[locked]" },
+        { "en": "Are you coming? → same words, raised melody.", "es": "[locked]" }
+      ],
+      "cue": "Questions in Spanish don’t rearrange—they smile upward with sound and signs."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you trust punctuation and tone, Spanish questions start to sound like conversation instead of tests."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_020_question_words",
+  "title": "A1.20 Question Words — Who, What, When, Where, Why",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we start most questions with who, what, when, where, or why. They tell us what kind of answer to expect. Spanish uses the same system, but these words wear accent marks to signal they’re asking, not stating. English changes position to ask; Spanish changes sound and spelling."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Each question word corresponds directly: quién (who), qué (what), cuándo (when), dónde (where), por qué (why). Notice the accents—they only appear when the word asks a question. Without them, the words act like connectors instead. Question words appear at the start of the sentence, usually followed by a verb, and always carry a rising tone."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited its interrogative forms from Latin pronouns that carried small markers for stress and focus.",
+      "story": "The accent marks in question words aren’t decoration—they’re road signs for the reader’s voice. They remind you to lift the pitch, even on paper. Over time, this small mark came to symbolize curiosity itself. Every question word is an arrow, pointing outward toward another person, inviting an answer. It’s language as open hand, not command.",
+      "wrap_line": "Accents in question words are tiny lanterns guiding meaning through curiosity."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Who is there? → quién.", "es": "[locked]" },
+        { "en": "What is that? → qué.", "es": "[locked]" },
+        { "en": "Why are you here? → por qué.", "es": "[locked]" }
+      ],
+      "cue": "Every Spanish question word carries an accent when it truly asks, never when it simply connects."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you spot the accents, you can hear curiosity even in silence on the page."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_021_commands_tu",
+  "title": "A1.21 Commands (Tú Form) — How to Tell Someone Nicely What to Do",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we make commands by dropping the subject: Sit down. Be quiet. The tone alone makes it a command. Spanish does the same but changes the verb ending to show it’s directed at 'you.' English changes tone; Spanish changes form. English relies on context; Spanish makes it official in grammar."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Affirmative tú commands use the third-person singular present tense of the verb: hablar → habla, comer → come, vivir → vive. Irregulars include ven, haz, di, pon, sal, sé, ten, ve. For negatives, start with 'no' and use the subjunctive ending: 'no hables,' 'no comas,' 'no vivas.' Pronouns attach to the end in positive commands but move before the verb in negatives: 'hazlo' vs. 'no lo hagas.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish commands evolved from polite suggestions in Latin that slowly shortened into direct forms.",
+      "story": "Over centuries, tone softened even as grammar became precise. The form says 'do this,' but the culture shapes it through warmth and rhythm. Spanish commands often sound like invitations rather than orders. A gentle lilt, a soft vowel at the end—grammar and tone working together to guide, not scold.",
+      "wrap_line": "Commands in Spanish are structured kindness—the grammar of guidance instead of control."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Speak! → positive (hablar → habla).", "es": "[locked]" },
+        { "en": "Don’t speak! → negative (no hables).", "es": "[locked]" },
+        { "en": "Do it! / Don’t do it! → attach or move pronoun.", "es": "[locked]" }
+      ],
+      "cue": "Positive commands attach pronouns; negative commands pull them forward—the tone changes but respect stays."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish commands remind you that direction and courtesy can share the same breath."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_022_time_expressions",
+  "title": "A1.22 Time Expressions — How to Say When",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we talk about time by attaching words like today, tomorrow, or last night to our sentences. We say I work today, I’ll go tomorrow. Spanish does the same but often places the time phrase differently. English relies on position; Spanish relies on flow. Both languages turn time into a guide for action."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Time expressions usually appear at the beginning or end of a Spanish sentence: 'Hoy trabajo' (Today I work) or 'Trabajo hoy' (I work today). There’s no change in meaning—just rhythm. Common time words include hoy (today), mañana (tomorrow), ayer (yesterday), ahora (now), luego (later), siempre (always), nunca (never). They never agree in gender or number, and punctuation stays simple: no commas unless emphasis demands it."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish time adverbs descend from Latin words that described the natural cycle of daylight.",
+      "story": "Roman farmers divided life by light and shadow, not clocks. Spanish kept that pattern—its time words still sound like living with the sun. Mañana can mean both 'morning' and 'tomorrow,' showing how language feels the day move forward. Time in Spanish is flexible; phrases bend around emotion and schedule alike.",
+      "wrap_line": "Time expressions keep Spanish rooted in rhythm, not machinery."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Today I study → time at start.", "es": "[locked]" },
+        { "en": "I study today → time at end.", "es": "[locked]" },
+        { "en": "Tomorrow we rest → flexible placement, same meaning.", "es": "[locked]" }
+      ],
+      "cue": "Spanish places time phrases freely; the verb keeps sense no matter where time stands."
+    },
+    {
+      "phase": "rest",
+      "line": "Learning Spanish time words is like learning to breathe with the day instead of the clock."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_023_adjectives_agreement",
+  "title": "A1.23 Adjectives and Agreement — When Words Dress Alike",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, adjectives never change: one tall tree, two tall trees. Spanish makes adjectives match what they describe. If the noun is feminine or plural, the adjective changes its ending to agree. English keeps adjectives neutral; Spanish dresses them to fit. English ignores agreement; Spanish celebrates coordination."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Most adjectives end in –o for masculine nouns and –a for feminine nouns: 'niño alto,' 'niña alta.' Add –s for plurals: 'niños altos,' 'niñas altas.' Adjectives that end in –e or a consonant stay the same for gender but add –s or –es for plural. They usually follow the noun they describe, though some common ones like 'bueno' or 'grande' can appear before it for style."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited gender agreement from Latin, which used endings to keep sentences balanced.",
+      "story": "In Latin, endings acted like color codes to show which words belonged together. Spanish turned that system into music—nouns and adjectives harmonizing by gender and number. Each pairing feels deliberate: the adjective leans toward its noun, matching sound and rhythm. Agreement becomes both grammar and design, turning description into symmetry.",
+      "wrap_line": "Agreement keeps Spanish sentences dressed in coordination and grace."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Masculine singular: tall boy → ends in –o.", "es": "[locked]" },
+        { "en": "Feminine plural: tall girls → ends in –as.", "es": "[locked]" },
+        { "en": "Neutral –e adjectives: interesting book / books → add –s only.", "es": "[locked]" }
+      ],
+      "cue": "Spanish adjectives echo their nouns in gender and number—grammar’s way of dressing in pairs."
+    },
+    {
+      "phase": "rest",
+      "line": "When adjectives agree, Spanish sounds like it’s nodding yes to every noun it meets."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_024_prepositions_intro",
+  "title": "A1.24 Prepositions (Intro) — The Little Words That Show Where",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use short words like in, on, at, and under to show where things live in space or time. They’re called prepositions. Spanish uses them too, but each one follows its own rhythm and often connects differently. English separates direction and place; Spanish blends them into movement and relationship."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Prepositions in Spanish always sit before the noun or pronoun they govern. Core ones include en (in, on, at), a (to, toward), de (of, from), con (with), sin (without), and por or para (for). They never change form. Spanish sometimes uses one preposition where English uses another: 'en casa' covers both 'in' and 'at home.' Context decides meaning, not a fixed chart."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish prepositions come from Latin expressions that described physical contact and direction.",
+      "story": "Over centuries, the words shrank but kept their sense of connection. Each preposition is like a thread—tying one idea to another. They’re invisible until you tug on meaning and feel the pull. Spanish keeps them close to the words they serve, reminding you that grammar isn’t just about position; it’s about relationship and nearness.",
+      "wrap_line": "Prepositions are the quiet glue holding thought and place together."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "in / on / at → en.", "es": "[locked]" },
+        { "en": "to / toward → a.", "es": "[locked]" },
+        { "en": "with / without → con / sin.", "es": "[locked]" }
+      ],
+      "cue": "Each Spanish preposition covers more ground than its English twin—listen for sense, not translation."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you feel how prepositions link ideas, Spanish stops being a list of places and starts being a map of connections."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_025_conjunctions_intro",
+  "title": "A1.25 Conjunctions (Intro) — The Tiny Words That Glue Sentences",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, conjunctions link ideas: I like apples and oranges; I’m tired but happy. Spanish uses the same concept with its own small connectors. English joins thoughts by habit; Spanish does it with sound harmony. English sticks to fixed words; Spanish bends a few to stay smooth when spoken."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Common conjunctions include y (and), o (or), pero (but), porque (because), and aunque (although). They sit between clauses or phrases exactly where English puts them. For pronunciation, y changes to e before words beginning with i or hi, and o changes to u before o or ho: 'padre e hijo,' 'siete u ocho.' It’s all about ease of sound, not new meaning."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish conjunctions evolved from Latin words that once meant 'together' or 'beside.'",
+      "story": "Their job has always been to hold conversation steady. Spanish speakers value rhythm, so conjunctions flex to keep flow. That small vowel swap—y to e, o to u—is language’s way of keeping sentences breathable. The words may be tiny, but they manage peace between phrases, stitching ideas with invisible thread.",
+      "wrap_line": "Conjunctions are grammar’s soft glue—keeping movement smooth without ever being noticed."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "and → y / e before i sound.", "es": "[locked]" },
+        { "en": "or → o / u before o sound.", "es": "[locked]" },
+        { "en": "but / because → pero / porque.", "es": "[locked]" }
+      ],
+      "cue": "Spanish swaps vowels in connectors for easier sound flow—grammar shaped by the ear."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you hear how conjunctions protect rhythm, you’ll feel sentences click together like breathing."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_026_adverbs_intro",
+  "title": "A1.26 Adverbs (Intro) — The Words That Tell You How",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, adverbs tell us how, when, or where something happens: She sings beautifully, He runs quickly, We arrive soon. Spanish works the same way but forms many adverbs by adding –mente to an adjective. English uses new words to modify; Spanish transforms what it already has. English borrows; Spanish builds."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Take the feminine singular form of an adjective and add –mente: rápido → rápidamente (quickly), claro → claramente (clearly). Adverbs don’t change for gender or number and usually follow the verb they describe. When using more than one, –mente appears only once at the end: lenta y cuidadosamente. They modify verbs, adjectives, or other adverbs, never nouns."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish adverbs descend from Latin adverbia, literally 'words added to verbs.'",
+      "story": "In Latin, precision mattered—writers wanted to describe not just actions but the feeling behind them. Spanish kept that instinct but made it musical, blending the soft ending –mente, meaning 'with mind' or 'in manner.' Each adverb carries intention: how the speaker shapes effort or emotion. Saying 'claramente' feels like pulling light through the sentence.",
+      "wrap_line": "Adverbs turn action into art—the sound of intention added to movement."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "quick → quickly → rápido → rápidamente.", "es": "[locked]" },
+        { "en": "clear → clearly → claro → claramente.", "es": "[locked]" },
+        { "en": "slow and careful → lenta y cuidadosamente.", "es": "[locked]" }
+      ],
+      "cue": "Adverbs describe how actions feel—Spanish builds them from qualities you already know."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you hear the –mente ending, you can almost feel the word lean into motion."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_027_demonstratives",
+  "title": "A1.27 Demonstratives — This, That, and the Other",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use this and that to point at distance: this book near me, that book across the table. Spanish does the same but adds a third level for something even farther away. English divides space into near and far; Spanish divides it into near, mid, and distant. English points; Spanish measures closeness."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish demonstratives agree in gender and number with the noun: este, esta, estos, estas (this, these); ese, esa, esos, esas (that, those near); aquel, aquella, aquellos, aquellas (that, those far away). They come before the noun and sometimes stand alone. Pronunciation shifts slightly but meaning rests on distance and context—how near the object feels to the speaker."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Demonstratives come from Latin pronouns used to show physical direction during speech.",
+      "story": "In crowded markets and open fields, speakers needed words that pointed beyond gesture. Over time, grammar took over the work of the finger. Spanish refined distance into three clear stages—what’s here, what’s there, what’s out there. The system feels spatial but it’s also emotional: este means mine, ese means yours, aquel means memory.",
+      "wrap_line": "Spanish turns pointing into storytelling—the grammar of closeness and belonging."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "this / these → este / estos (near speaker).", "es": "[locked]" },
+        { "en": "that / those → ese / esos (near listener).", "es": "[locked]" },
+        { "en": "that one over there → aquel / aquellos (distant).", "es": "[locked]" }
+      ],
+      "cue": "Demonstratives link language to space—each form marks how far the noun stands from you."
+    },
+    {
+      "phase": "rest",
+      "line": "Learning demonstratives teaches distance, but it also teaches how Spanish feels proximity as belonging."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_028_possessives",
+  "title": "A1.28 Possessives — Showing What’s Yours",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we mark ownership with ’s or with words like my, your, and their. Spanish does both jobs with short adjectives that agree with the thing owned, not the owner. English adjusts for person; Spanish adjusts for gender and number. English personalizes possession; Spanish matches it to what’s possessed."
+    },
+    {
+      "phase": "system_logic",
+      "line": "The main possessive adjectives are mi, tu, su, nuestro/a, vuestro/a, and sus plurals. They go before the noun and change to agree with it: mi libro, mis libros; nuestra casa, nuestras casas. Possessive pronouns like mío, tuyo, suyo stand alone when the noun is understood: 'El mío' (mine). Context decides whether su means his, her, or their."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited possessive forms from Latin genitives that showed belonging through endings rather than new words.",
+      "story": "In Latin, possession was part of the noun’s shape—ownership lived inside the word. Spanish simplified but kept the idea that belonging reflects the object’s nature. When you say 'mi casa,' the adjective bends to the noun’s form, not your identity. It’s a subtle reminder: ownership adapts to the thing, not the person.",
+      "wrap_line": "Possessives in Spanish sound less like control and more like care."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "my book / my books → mi libro / mis libros.", "es": "[locked]" },
+        { "en": "our house / our houses → nuestra casa / nuestras casas.", "es": "[locked]" },
+        { "en": "mine / yours → el mío / el tuyo.", "es": "[locked]" }
+      ],
+      "cue": "Possessive words agree with what they describe—the noun decides the outfit, not the owner."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish possession feels shared: grammar turns having into harmony instead of claim."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_029_pronoun_placement_intro",
+  "title": "A1.29 Pronoun Placement (Intro) — Where the Tiny Words Go",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, pronouns stay in one spot: I see you, you see me. They never leave the middle. Spanish pronouns move more freely—they can appear before or after the verb depending on the kind of sentence. English locks position; Spanish adjusts it to match rhythm, tone, and purpose."
+    },
+    {
+      "phase": "system_logic",
+      "line": "In normal statements and negatives, pronouns appear before the conjugated verb: 'Me veo' (I see myself), 'No te entiendo' (I don’t understand you). When the verb is in infinitive, gerund, or affirmative command form, pronouns attach to the end: 'Verte,' 'Entendiéndote,' 'Dímelo.' One rule changes placement: negative commands pull the pronoun back to the front."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "This flexibility comes from Latin, where word endings marked meaning so clearly that pronouns could roam for emphasis.",
+      "story": "Spanish kept that freedom but wrapped it in sound balance. The shifting pronoun creates rhythm—the sentence expands or contracts like breathing. Placing it before the verb highlights the person; attaching it after highlights the action. It’s grammar shaped by melody and weight, proof that communication listens as much as it speaks.",
+      "wrap_line": "Pronouns move to keep Spanish sentences breathing evenly between thought and sound."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I see you → pronoun before verb.", "es": "[locked]" },
+        { "en": "I want to see you → pronoun attached to infinitive.", "es": "[locked]" },
+        { "en": "Tell me → pronoun joins command (attached).", "es": "[locked]" }
+      ],
+      "cue": "Pronouns slide before or after verbs depending on focus—Spanish choreographs clarity with motion."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you understand placement, Spanish sentences start to feel like choreography instead of puzzles."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_030_gender_number_agreement_review",
+  "title": "A1.30 Gender and Number Agreement (Review) — Keeping Everything in Tune",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we rarely change words to show agreement. We say the red car, the red cars—only the noun changes. Spanish requires every connected word to match in gender and number. English leaves adjectives and articles still; Spanish makes them dance together. English uses silence; Spanish uses harmony."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Every adjective, article, and pronoun agrees with its noun. If the noun is masculine singular, all connected words take masculine singular endings; if feminine plural, all shift to feminine plural. 'El libro rojo,' 'Los libros rojos,' 'La casa roja,' 'Las casas rojas.' Agreement follows both gender (o/a) and number (s/es). One noun sets the pattern; everything else follows its lead."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "This agreement system comes from Latin, where word endings acted as visual guides to sentence structure.",
+      "story": "Latin writers used endings to prevent confusion when sentences grew long. Spanish kept that clarity but added melody. Agreement became a rhythm you can hear. When a phrase aligns—article, noun, adjective—it sounds complete, like a chord resolving. The rule isn’t about strictness; it’s about coherence. Agreement lets grammar hum in tune.",
+      "wrap_line": "When words agree, Spanish feels balanced—as if grammar is breathing evenly."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Masculine singular: el libro rojo (the red book).", "es": "[locked]" },
+        { "en": "Feminine plural: las casas rojas (the red houses).", "es": "[locked]" },
+        { "en": "Mixed gender defaults to masculine plural.", "es": "[locked]" }
+      ],
+      "cue": "Articles, adjectives, and pronouns mirror the noun’s gender and number to keep meaning clear."
+    },
+    {
+      "phase": "rest",
+      "line": "Agreement is Spanish’s quiet promise that every word belongs exactly where it stands."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_031_comparatives",
+  "title": "A1.31 Comparatives — Measuring Differences",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we compare by adding –er or using more and less: taller, more interesting, less expensive. Spanish does the same, but always builds comparisons with short helper words instead of endings. English changes adjectives; Spanish keeps them whole and lets grammar handle the measuring."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Use más (more) or menos (less) before an adjective, adverb, or noun, then link both sides with que: 'más alto que' (taller than), 'menos dinero que' (less money than). For equality, use tan ... como (as ... as). Never add –er to Spanish adjectives. To express superiority or inferiority, grammar adds helpers—never reshapes the word itself."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish borrowed its comparison system from Latin constructions using 'magis' for more and 'minus' for less.",
+      "story": "Latin speakers compared by adding words instead of changing endings, and Spanish kept that precision. The structure sounds balanced: subject, measure, link. Because the adjective doesn’t bend, tone carries the emotion—admiration, envy, or humor. Saying 'más bonito que' feels less mathematical and more like gentle judgment. It’s a formula that leaves room for feeling.",
+      "wrap_line": "Comparatives in Spanish weigh the world without sounding competitive—they measure softly."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "more + adjective + than → más alto que.", "es": "[locked]" },
+        { "en": "less + noun + than → menos dinero que.", "es": "[locked]" },
+        { "en": "as + adjective + as → tan bonito como.", "es": "[locked]" }
+      ],
+      "cue": "Spanish keeps adjectives unchanged; helpers like más and menos do the lifting."
+    },
+    {
+      "phase": "rest",
+      "line": "Comparing in Spanish feels like observation, not rivalry—grammar built for noticing, not winning."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_032_superlatives",
+  "title": "A1.32 Superlatives — Saying What’s the Most",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we show extremes with –est or most: tallest, fastest, most beautiful. Spanish builds the same idea with helper words. Instead of changing the adjective, it adds definite articles and comparison markers. English shortens; Spanish constructs. English edits the word; Spanish frames it like a sentence."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Use el, la, los, or las before más or menos plus the adjective: 'el más alto' (the tallest), 'la menos interesante' (the least interesting). Include de to show the group: 'el más alto de la clase.' For absolute intensity, attach –ísimo to the adjective: 'altísimo' (very tall). Agreement still matters—every ending matches the noun’s gender and number."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Superlatives grew from Latin phrases combining 'magnus' (great) with comparative endings.",
+      "story": "Roman speakers wanted stronger praise, so they doubled comparison into exaggeration. Spanish inherited both paths: structured comparison with más, and expressive exaggeration with –ísimo. Together they let you admire or complain with precision—grammar turning feeling into architecture. Where English relies on tone, Spanish builds an entire structure to hold emphasis.",
+      "wrap_line": "Superlatives give Spanish its drama—carefully measured intensity with handmade flair."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "the tallest student → el más alto.", "es": "[locked]" },
+        { "en": "the least expensive book → el menos caro.", "es": "[locked]" },
+        { "en": "very tall → altísimo (absolute superlative).", "es": "[locked]" }
+      ],
+      "cue": "Add más or menos for comparison; use –ísimo when words need extra height or depth."
+    },
+    {
+      "phase": "rest",
+      "line": "Superlatives teach that passion in Spanish isn’t loud—it’s beautifully engineered."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_033_negatives_indefinites",
+  "title": "A1.33 Negatives and Indefinites — Nothing and Everything in Between",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use words like nobody, nothing, or something to talk about absence or uncertainty. Spanish uses a similar family—nadie, nada, algo, alguien—but places them differently. English limits double negatives; Spanish encourages them. English cancels two negatives out; Spanish lets them reinforce each other like an echo of certainty."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Negative words—nadie (nobody), nada (nothing), ningún/ninguno (none)—appear with no before the verb: 'No veo nada' (I don’t see anything). Indefinite words—alguien (someone), algo (something), algún (some)—express possibility. When using a negative word after the verb, no must stay in front. Double negatives are required, not errors: 'No tengo ningún problema.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish preserved Latin’s rule of repetition for emphasis in negation and uncertainty.",
+      "story": "In old Latin, repeating a negative strengthened the meaning, like pounding the table twice for clarity. Spanish kept that rhythm of insistence. Each repetition tightens the circle: no escape, no mistake. Indefinites, on the other hand, open the door a crack—'someone,' 'something'—small words that keep hope alive in grammar’s gray spaces.",
+      "wrap_line": "Spanish handles nothing and everything with balance—firm refusal, gentle possibility."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I don’t see anything → no veo nada.", "es": "[locked]" },
+        { "en": "No one is here → no hay nadie.", "es": "[locked]" },
+        { "en": "I have some time → tengo algo de tiempo.", "es": "[locked]" }
+      ],
+      "cue": "Negatives close meaning; indefinites open it—Spanish repeats or softens as the feeling demands."
+    },
+    {
+      "phase": "rest",
+      "line": "Learning these words is learning balance—the grammar of certainty and maybe, spoken in the same breath."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_034_expressions_with_tener",
+  "title": "A1.34 Expressions with “Tener” — Feelings You Hold",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we describe states of being with the verb to be: I am hungry, I am cold, I am afraid. Spanish uses tener—'to have'—for many of these. English labels emotions as conditions; Spanish treats them as possessions. English says you are hungry; Spanish says you have hunger."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Use tener + a noun to describe physical feelings, age, or temporary needs: tener hambre (to be hungry), tener sed (to be thirsty), tener calor (to be hot), tener años (to be a certain age). The structure never changes—it’s always tener plus the noun. Negative or plural forms follow the same logic: 'No tengo hambre,' 'Tenemos sueño.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "These expressions come from Latin, where states were described as things one possessed rather than became.",
+      "story": "To 'have hunger' or 'have cold' turns emotion into something you hold briefly. Spanish sees feelings as companions, not identities. They visit, you hold them, and they pass. Age works the same way: you don’t exist as twenty; you hold twenty years. Grammar here teaches perspective—ownership without permanence.",
+      "wrap_line": "Tener makes experience something you carry, not something that consumes you."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I am hungry → I have hunger → tener hambre.", "es": "[locked]" },
+        { "en": "She is cold → She has cold → tener frío.", "es": "[locked]" },
+        { "en": "I am twenty → I have twenty years → tener veinte años.", "es": "[locked]" }
+      ],
+      "cue": "Use tener with nouns for body states and age—Spanish carries what English becomes."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you learn tener expressions, emotions stop owning you—you just hold them for a while."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_035_weather_expressions",
+  "title": "A1.35 Weather Expressions — Talking About the Sky",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we talk about the weather with the verb to be: it is hot, it is raining, it is cold. Spanish divides this idea between different verbs. Some phrases use hacer (to make), others use estar (to be), and some use hay (there is). English uses one weather formula; Spanish switches depending on what the sky is doing."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Hacer expresses general conditions: 'Hace frío' (It’s cold), 'Hace sol' (It’s sunny). Estar describes current states: 'Está nublado' (It’s cloudy), 'Está lloviendo' (It’s raining). Hay introduces presence: 'Hay viento' (There’s wind), 'Hay tormenta' (There’s a storm). Spanish never says 'it' for weather—the verbs themselves carry the scene. Each pattern follows its own rhythm and keeps the subject silent."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Spanish inherited weather verbs from Latin expressions that personified nature as an active force.",
+      "story": "In Latin, the sky did things—it made heat, threw wind, gave rain. Spanish kept that poetry. The weather isn’t described; it performs. 'Hace frío' literally means 'it makes cold,' a small reminder that nature acts on us, not the other way around. The verbs shift with mood: steady hacer, passing estar, sudden hay—all echoing how weather changes thought.",
+      "wrap_line": "Spanish treats the sky like a character—it creates, feels, and surprises."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "It’s cold → hace frío (it makes cold).", "es": "[locked]" },
+        { "en": "It’s cloudy → está nublado (state of being).", "es": "[locked]" },
+        { "en": "There’s wind → hay viento (existence).", "es": "[locked]" }
+      ],
+      "cue": "Spanish weather uses verbs of action and being—the sky itself becomes the subject."
+    },
+    {
+      "phase": "rest",
+      "line": "Once you speak about weather in Spanish, you start hearing the world as alive and moving."
+    }
+  ]
+}
+{
+  
+    }
+  ]
+}
+
