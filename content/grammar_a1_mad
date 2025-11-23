@@ -1,0 +1,392 @@
+{
+  "id": "mmspanish__lesson_A1_punctuation_alt",
+  "title": "Punctuation Marks — The Tiny Bosses of Writing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Punctuation exists to stop you mid-thought. It’s the grammar version of someone cutting you off."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish even adds more of them — upside-down ones (¿ and ¡). Because apparently one mark wasn’t enough to tell you it’s a question."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Printers made them so readers couldn’t pretend to be surprised halfway through a sentence.",
+      "story": "They act like polite hall monitors: 'Excuse me, tone coming through.' Sure, thanks for the warning, I guess.",
+      "wrap_line": "They don’t trust you to get it right on your own, so they flip the mark to make sure."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Statement. You survived.", "es": "[locked]" },
+        { "en": "Question? Already doubting yourself.", "es": "[locked]" },
+        { "en": "Exclamation! Overreacting again.", "es": "[locked]" }
+      ],
+      "cue": "You’ll meet the real marks once you’ve earned their trust."
+    },
+    {
+      "phase": "rest",
+      "line": "Even punctuation can’t relax — it has to make everything official."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_accent_marks_alt",
+  "title": "Accent Marks — The Rules That Never Let You Relax",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Accent marks are like supervisors who show up the moment you sound confident."
+    },
+    {
+      "phase": "system_logic",
+      "line": "They exist to remind you that even simple words can be wrong if you breathe in the wrong place."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Some printer centuries ago decided we’d all need extra chores when writing.",
+      "story": "They sit above vowels, glaring down like, 'Don’t forget about me.' Because heaven forbid you say a word the easy way.",
+      "wrap_line": "Each one whispers: 'Try again, but more correctly.'"
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "No accent: peace and quiet.", "es": "[locked]" },
+        { "en": "With accent: rules return.", "es": "[locked]" }
+      ],
+      "cue": "You’ll meet them soon. They’ll be judging you kindly."
+    },
+    {
+      "phase": "rest",
+      "line": "Every accent is a reminder that calm pronunciation is a myth."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_syllables_stress_alt",
+  "title": "Syllables and Stress — The Grammar That Yells",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Every word has a beat. Some beats just refuse to stay subtle."
+    },
+    {
+      "phase": "system_logic",
+      "line": "If you misplace the stress, Spanish will immediately correct you — loudly — like it’s offended."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Speech rhythm existed before teachers started clapping at you in class.",
+      "story": "It’s not your fault words insist on having drama. They can’t stand being pronounced evenly.",
+      "wrap_line": "Stress is what keeps a word from falling apart, apparently."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Two beats: first one demands attention.", "es": "[locked]" },
+        { "en": "Two beats: second one refuses to be ignored.", "es": "[locked]" },
+        { "en": "Three beats: the last one shows off.", "es": "[locked]" }
+      ],
+      "cue": "Soon you’ll meet real words and real drama."
+    },
+    {
+      "phase": "rest",
+      "line": "Even rhythm has an ego."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_capitalization_alt",
+  "title": "Capitalization — When Words Demand Attention",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Capitals are words shouting, 'Look at me, I’m important.'"
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish keeps it chill — fewer capitals, less ego. English could learn from that."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Printers made tall letters so readers wouldn’t wander off.",
+      "story": "Now every sentence begins with a little tower of authority. Because apparently, lowercase can’t handle responsibility.",
+      "wrap_line": "Capital letters are confidence made visible."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Sentence starts: a letter flexes.", "es": "[locked]" },
+        { "en": "Names: ego justified.", "es": "[locked]" },
+        { "en": "Everything else: stay small.", "es": "[locked]" }
+      ],
+      "cue": "Spanish capital rules appear when you learn names."
+    },
+    {
+      "phase": "rest",
+      "line": "Even letters want recognition sometimes."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_gender_nouns_alt",
+  "title": "Gender of Nouns — Words That Argue About Everything",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Every noun in Spanish insists on being called he or she — even when no one asked."
+    },
+    {
+      "phase": "system_logic",
+      "line": "It’s not about logic. It’s about grammar’s obsession with labeling things that don’t need labels."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Linguists still argue about why gender exists. The answer is 'because it can.'",
+      "story": "One day, words decided they needed relationships — matching endings, matching moods — and now we all have homework.",
+      "wrap_line": "Grammar never learned boundaries."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Masculine: acts like it knows better.", "es": "[locked]" },
+        { "en": "Feminine: refuses to change for anyone.", "es": "[locked]" }
+      ],
+      "cue": "You’ll unlock the endings soon — prepare for drama."
+    },
+    {
+      "phase": "rest",
+      "line": "Language loves gossip. Gender keeps it alive."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_number_nouns_alt",
+  "title": "Number of Nouns — When One Isn’t Enough",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Number tells you if one word wasn’t enough to complain about."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Add an ending, make it plural, suddenly there’s more to deal with. Congratulations, chaos multiplied."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Humans couldn’t stop counting things, so grammar joined in.",
+      "story": "You get one word, you want more. That’s how plurals happen — greed in linguistic form.",
+      "wrap_line": "Even words get lonely."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Singular: one problem.", "es": "[locked]" },
+        { "en": "Plural: many problems.", "es": "[locked]" }
+      ],
+      "cue": "You’ll get the endings soon. Brace yourself."
+    },
+    {
+      "phase": "rest",
+      "line": "Grammar keeps multiplying responsibilities."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_articles_alt",
+  "title": "Definite and Indefinite Articles — The Words That Can’t Mind Their Business",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Articles exist to point at things you already see — like that person who repeats your joke louder."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish gives every noun a little shadow that follows it everywhere, agreeing in gender and number, like an over-helpful friend."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Old demonstratives evolved into articles once people realized they loved attention.",
+      "story": "They hover before every noun like stage parents whispering, 'Go on, sweetie, tell them who you are.'",
+      "wrap_line": "Tiny, loyal, and impossible to get rid of."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The apple: acting famous.", "es": "[locked]" },
+        { "en": "An apple: acting mysterious.", "es": "[locked]" }
+      ],
+      "cue": "Real words appear once vocabulary behaves."
+    },
+    {
+      "phase": "rest",
+      "line": "Every noun wants a hype man."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_word_order_alt",
+  "title": "Word Order — The Grammar of Control Freaks",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Word order is the part of grammar that panics when anything moves."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish is flexible, but don’t tell it that. It’ll still lecture you about 'clarity.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Writers invented order so readers wouldn’t riot.",
+      "story": "If you move a word to the front, the sentence gets jealous. Everyone wants the spotlight.",
+      "wrap_line": "Word order is just politics with punctuation."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Subject before verb: behaving.", "es": "[locked]" },
+        { "en": "Verb before subject: rebellion.", "es": "[locked]" }
+      ],
+      "cue": "You’ll see real fights when examples unlock."
+    },
+    {
+      "phase": "rest",
+      "line": "Grammar loves control — even when it calls itself creative."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_subject_pronouns_alt",
+  "title": "Subject Pronouns — The Grammar of Trust Issues",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Pronouns replace names because apparently we talk too much."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish often skips them, pretending it’s mysterious. 'Guess who’s talking,' it says — like we have time for riddles."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Dropping pronouns started as efficiency, turned into pride.",
+      "story": "Verbs do all the work and still want credit. Pronouns hover nearby, waiting for attention.",
+      "wrap_line": "Grammar trusts verbs more than people."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I, you, he, she… or maybe not. Spanish keeps secrets.", "es": "[locked]" }
+      ],
+      "cue": "Forms unlock later — once Spanish stops being coy."
+    },
+    {
+      "phase": "rest",
+      "line": "Even grammar plays hard to get."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A1_reflexive_forms_alt",
+  "title": "Reflexive Forms — The Grammar That Stares in the Mirror Too Long",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Reflexive verbs mean you do it to yourself — because apparently no one else will."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish loves attaching tiny helpers to verbs just to show off. The first one you’ll learn hides in 'me llamo' — even your name comes with paperwork."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Old languages invented reflexives to make responsibility unavoidable.",
+      "story": "Saying 'me llamo' literally means you call yourself — as if you’re both the caller and the call. Congratulations, you’re a one-person bureaucracy.",
+      "wrap_line": "Grammar’s way of saying, 'You did this to yourself.'"
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "¿[locked]?",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I call myself… because no one else will.", "es": "me llamo" },
+        { "en": "He calls himself… of course he does.", "es": "[locked]" }
+      ],
+      "cue": "Other forms unlock when you’re emotionally ready."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish starts with self-reflection — it only gets more personal from here."
+    }
+  ]
+}
