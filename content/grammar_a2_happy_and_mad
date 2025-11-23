@@ -1,0 +1,636 @@
+{
+  "id": "mmspanish__lesson_A2_reflexive_verbs",
+  "title": "Reflexive Verbs — The Ones That Point Back at You",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Reflexive verbs describe actions you do to yourself — washing, waking, calling, getting dressed. They loop the energy back to the subject."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish marks reflexive verbs with a small helper before the verb. It changes shape with the subject. It’s grammar’s way of showing ownership of action."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Reflexive verbs evolved from older phrases that literally said 'wash the self' or 'call the self.' Over time, they merged into single words.",
+      "story": "You met your first reflexive when you learned '[locked]' inside the phrase 'me llamo.' That little word is the mirror — it reflects the action back at you.",
+      "wrap_line": "When you use a reflexive, the subject and object are the same person — grammar closes the loop."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I wake up.", "es": "[locked]" },
+        { "en": "You get dressed.", "es": "[locked]" },
+        { "en": "She calls herself.", "es": "[locked]" }
+      ],
+      "cue": "Each reflexive adds a tiny helper before the verb — they’ll unlock once vocabulary does."
+    },
+    {
+      "phase": "rest",
+      "line": "Reflexive verbs remind you that grammar can notice the difference between doing and happening to yourself."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_reflexive_verbs_alt",
+  "title": "Reflexive Verbs — The Grammar of Doing Everything Yourself",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Reflexive verbs mean you’re the one doing it and cleaning up after it. Grammar just rubs it in."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish throws a tiny helper before the verb to remind you that yes, you’re on your own. The helper changes shape depending on who’s stuck doing it."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "They started as full phrases like 'wash the self.' Then language decided to skip the middleman and make you responsible directly.",
+      "story": "The first time you said 'me llamo,' you met that helper. It’s the paperwork of identity: even saying your name requires extra grammar.",
+      "wrap_line": "Reflexives prove that Spanish believes in self-service."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I wake up (again).", "es": "[locked]" },
+        { "en": "You get dressed — because who else will.", "es": "[locked]" },
+        { "en": "She calls herself, like she’s got nobody else to do it.", "es": "[locked]" }
+      ],
+      "cue": "Real words unlock later, once you’ve accepted that self-care is mandatory."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish starts its day by making you responsible for yourself. Charming, really."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_direct_object_pronouns",
+  "title": "Direct Object Pronouns — Replacing the Thing You Just Mentioned",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Direct object pronouns save breath. Instead of repeating a noun, you replace it with a short word that stands in for it."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish puts the pronoun before the verb. It changes shape depending on what it replaces — a pattern that makes speech smoother once you get used to it."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Languages invented pronouns to avoid sounding repetitive. Spanish just moved them closer to the action.",
+      "story": "These tiny words are like stagehands — moving objects around quietly so the sentence looks effortless.",
+      "wrap_line": "When the direct object repeats, the pronoun steps in and takes the hit."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I see it.", "es": "[locked]" },
+        { "en": "She buys them.", "es": "[locked]" },
+        { "en": "We read it.", "es": "[locked]" }
+      ],
+      "cue": "The real forms will unlock once the vocabulary appears."
+    },
+    {
+      "phase": "rest",
+      "line": "Pronouns make sentences move like shortcuts — invisible, but fast."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_direct_object_pronouns",
+  "title": "Direct Object Pronouns — Replacing the Thing You Just Mentioned",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Direct object pronouns save breath. Instead of repeating a noun, you replace it with a short word that stands in for it."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish puts the pronoun before the verb. It changes shape depending on what it replaces — a pattern that makes speech smoother once you get used to it."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Languages invented pronouns to avoid sounding repetitive. Spanish just moved them closer to the action.",
+      "story": "These tiny words are like stagehands — moving objects around quietly so the sentence looks effortless.",
+      "wrap_line": "When the direct object repeats, the pronoun steps in and takes the hit."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I see it.", "es": "[locked]" },
+        { "en": "She buys them.", "es": "[locked]" },
+        { "en": "We read it.", "es": "[locked]" }
+      ],
+      "cue": "The real forms will unlock once the vocabulary appears."
+    },
+    {
+      "phase": "rest",
+      "line": "Pronouns make sentences move like shortcuts — invisible, but fast."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_direct_object_pronouns_alt",
+  "title": "Direct Object Pronouns — Grammar’s Way of Saying 'You Know What I Mean'",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Direct object pronouns exist because repeating yourself is exhausting and apparently unforgivable."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish hides the pronoun before the verb like it’s embarrassed. Change one noun, and the whole lineup changes. Drama in miniature."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "People got tired of saying the same thing twice, so grammar gave them smaller words to forget instead.",
+      "story": "They’re like tiny assistants cleaning up after nouns that can’t stay on stage. No gratitude, just efficiency.",
+      "wrap_line": "If a noun shows up twice, Spanish rolls its eyes and replaces it."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I see it. Again. Thrilling.", "es": "[locked]" },
+        { "en": "She buys them because apparently one wasn’t enough.", "es": "[locked]" },
+        { "en": "We read it, like we had a choice.", "es": "[locked]" }
+      ],
+      "cue": "Real forms unlock once Spanish decides you’re worthy."
+    },
+    {
+      "phase": "rest",
+      "line": "Pronouns: less talking, more guessing what got replaced."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_indirect_object_pronouns",
+  "title": "Indirect Object Pronouns — Giving, Showing, Sending",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Indirect object pronouns mark the person who receives something — the one who benefits or suffers from the action."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish places the pronoun before the verb, just like direct ones, but these answer the question 'to whom?' or 'for whom?' The form changes with the person receiving."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Older languages used full prepositional phrases. Spanish shrank them into tiny markers to make kindness — or blame — faster.",
+      "story": "Every time you give, tell, or show, grammar slips one of these in to keep score of who’s on the receiving end.",
+      "wrap_line": "Indirect pronouns are the quiet middlemen of every transaction."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I give her a gift.", "es": "[locked]" },
+        { "en": "He shows them a photo.", "es": "[locked]" },
+        { "en": "We tell you the story.", "es": "[locked]" }
+      ],
+      "cue": "Actual forms unlock once vocabulary teaches giving and showing verbs."
+    },
+    {
+      "phase": "rest",
+      "line": "Indirect pronouns prove grammar knows how to point fingers politely."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_indirect_object_pronouns_alt",
+  "title": "Indirect Object Pronouns — Grammar That Keeps Receipts",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Indirect object pronouns track who’s getting what — and who’s not. Spanish never misses a transaction."
+    },
+    {
+      "phase": "system_logic",
+      "line": "They sit before the verb like nosy accountants, marking who benefits or suffers. Change one person and they all need to be updated. Bureaucracy in miniature."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Long ago, people said whole phrases for 'to him' and 'for her.' Spanish chopped them up and filed them as pronouns — less poetry, more paperwork.",
+      "story": "They’re grammar’s way of saying 'we saw who got the gift' so you can’t pretend otherwise. It’s bookkeeping with verbs.",
+      "wrap_line": "Every sentence comes with a receipt."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I give her a gift she didn’t ask for.", "es": "[locked]" },
+        { "en": "He shows them proof they ignored.", "es": "[locked]" },
+        { "en": "We tell you the story again, because you weren’t listening.", "es": "[locked]" }
+      ],
+      "cue": "The real pronouns unlock once you’ve learned to keep score."
+    },
+    {
+      "phase": "rest",
+      "line": "Indirect pronouns: grammar’s way of tattling."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_double_object_pronouns",
+  "title": "Double Object Pronouns — When Two Pronouns Collide",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Sometimes a sentence needs both a giver and a thing being given. Double object pronouns keep both ideas, but shrink them so they fit together."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish puts the indirect pronoun first, then the direct one, both before the verb. When two short forms starting with the same sound meet, Spanish swaps one out to make it easier to say."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Speech rhythm forced change: saying two little words in a row felt clumsy, so speakers fused them. Writing later followed what the mouth already fixed.",
+      "story": "It’s grammar choreography — two pronouns share one space without bumping elbows. If you say it smoothly, it’s right.",
+      "wrap_line": "Double pronouns show how Spanish values rhythm over clutter."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I give it to you.", "es": "[locked]" },
+        { "en": "She tells it to him.", "es": "[locked]" },
+        { "en": "We show them to her.", "es": "[locked]" }
+      ],
+      "cue": "Real forms unlock when you learn both direct and indirect pronouns."
+    },
+    {
+      "phase": "rest",
+      "line": "Two helpers, one verb — balance keeps the sentence moving."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_double_object_pronouns_alt",
+  "title": "Double Object Pronouns — Grammar’s Worst Traffic Jam",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Two pronouns walk into a sentence, and suddenly nobody’s sure who’s supposed to move first."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish lines them up like cars in rush hour: the indirect one first, then the direct one. If they sound too similar, grammar waves its little hands and makes one change clothes."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "People talked too fast and tripped over their own words, so grammar rewired the sentence. Now everyone still trips, just officially.",
+      "story": "It’s a balancing act between clarity and chaos. Half the time you’re fixing a sentence that wasn’t broken until grammar touched it.",
+      "wrap_line": "Two pronouns, one verb, zero patience."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I give it to you — eventually.", "es": "[locked]" },
+        { "en": "She tells it to him again, like he remembered.", "es": "[locked]" },
+        { "en": "We show them to her, and she still complains.", "es": "[locked]" }
+      ],
+      "cue": "Real forms unlock once you stop blaming the messenger."
+    },
+    {
+      "phase": "rest",
+      "line": "Double pronouns prove that grammar was designed by committee."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_gustar_and_company",
+  "title": "Gustar and Company — Verbs That Flip the Subject",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Some verbs in Spanish work backward from what you expect. Instead of saying 'I like coffee,' you say something closer to 'Coffee pleases me.'"
+    },
+    {
+      "phase": "system_logic",
+      "line": "These verbs flip the order of feeling: the thing liked becomes the subject, and the person liking becomes the indirect object. Grammar points the arrow the other way."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The pattern comes from Latin, where feelings were described as experiences done to you, not actions you chose.",
+      "story": "Spanish kept the logic: emotion happens to you. It’s grammar admitting that liking, hurting, or missing are things you can’t control.",
+      "wrap_line": "You don’t act on the feeling; the feeling acts on you."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I like coffee.", "es": "[locked]" },
+        { "en": "Music interests her.", "es": "[locked]" },
+        { "en": "Rain bothers them.", "es": "[locked]" }
+      ],
+      "cue": "You’ll learn the real forms of these flipped verbs later."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish treats feelings like weather — they happen to you whether you asked or not."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_gustar_and_company_alt",
+  "title": "Gustar and Company — Verbs That Blame the Object",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Spanish feelings come pre-blamed. You don’t like coffee — coffee annoys you. Grammar refuses to let it be your fault."
+    },
+    {
+      "phase": "system_logic",
+      "line": "These verbs flip the blame. The thing doing the bothering becomes the subject, and you get stuck as the helpless recipient. Grammar loves drama."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Latin speakers decided emotions were accidents, not choices. Spanish kept that tradition of emotional helplessness alive.",
+      "story": "So instead of 'I like you,' it’s closer to 'You cause me liking.' Which sounds romantic until it doesn’t.",
+      "wrap_line": "Grammar says you didn’t choose to feel this way — convenient, huh?"
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Coffee pleases me, and it knows it.", "es": "[locked]" },
+        { "en": "Music interests her — she can’t help it.", "es": "[locked]" },
+        { "en": "Rain bothers them, like it’s personal.", "es": "[locked]" }
+      ],
+      "cue": "Real forms unlock when you stop arguing with grammar about feelings."
+    },
+    {
+      "phase": "rest",
+      "line": "In Spanish, emotions are weather reports: you just stand there getting rained on."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_comparatives",
+  "title": "Comparatives — Measuring Differences",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Comparatives let you measure one thing against another — taller, smarter, faster, slower."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish builds comparison with short linking words that mean 'more,' 'less,' or 'as...as.' It’s simple math, just written in words."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Comparison is one of the oldest tools in language — it came from our instinct to rank everything we see.",
+      "story": "You’ll use these patterns constantly, because people can’t stop comparing: places, weather, jobs, lives.",
+      "wrap_line": "Grammar gives you polite ways to say one thing wins."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "This book is bigger than that one.", "es": "[locked]" },
+        { "en": "She runs faster than I do.", "es": "[locked]" },
+        { "en": "They are as tired as we are.", "es": "[locked]" }
+      ],
+      "cue": "The comparison words will unlock when adjectives do."
+    },
+    {
+      "phase": "rest",
+      "line": "Comparatives are friendly competition built into sentences."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_comparatives_alt",
+  "title": "Comparatives — Grammar for People Who Can’t Stop Competing",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Comparatives exist so we can prove we’re doing slightly better or slightly worse than someone else. Grammar loves petty math."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish uses tiny words that mean 'more' or 'less.' They look harmless until you start comparing siblings, coworkers, or haircuts."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Humans invented language, then immediately used it to rank things.",
+      "story": "The system is tidy: plus, minus, equal. The emotions underneath it? Never tidy.",
+      "wrap_line": "It’s not just grammar — it’s social fuel."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "This book is bigger and still not interesting.", "es": "[locked]" },
+        { "en": "She runs faster and won’t let you forget it.", "es": "[locked]" },
+        { "en": "They’re as tired as we are — and twice as dramatic.", "es": "[locked]" }
+      ],
+      "cue": "Real comparison words unlock once you’re emotionally prepared."
+    },
+    {
+      "phase": "rest",
+      "line": "Comparatives: grammar’s polite way to start arguments."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_A2_superlatives",
+  "title": "Superlatives — Saying What’s the Most",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "Superlatives take comparison to its limit — they name the top of the scale. The tallest, the smartest, the best."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Spanish builds superlatives with small helper words before the adjective or by changing the ending to mean 'very' or 'extremely.' Grammar turns measurement into praise or complaint."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Superlatives began as exaggerations in speech — hunters bragging, storytellers competing. Writing just caught up.",
+      "story": "You’ll use them to celebrate or to criticize. Same structure, different tone.",
+      "wrap_line": "Grammar doesn’t know pride from sarcasm — only degree."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "She is the nicest person here.", "es": "[locked]" },
+        { "en": "This is the biggest room.", "es": "[locked]" },
+        { "en": "He’s the fastest runner.", "es": "[locked]" }
+      ],
+      "cue": "Superlative endings unlock when adjectives do."
+    },
+    {
+      "phase": "rest",
+      "line": "Superlatives are grammar’s way of handing out trophies."
+    }
+  ]
+}
+{
+  "id": "mmspanish__grammar_001_present_intro_alt",
+  "title": "The Present Tense — Everyday Reality",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "We use the present tense to talk about what we do — or what we keep doing even when it feels heavy."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Examples: trabajo (I work), estudio (I study), vivo (I live) — same endings, different moods."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin praesens — 'being here, showing up.'",
+      "story": "Some days, showing up is enough. Spanish lets you say that quietly: Trabajo todos los días y sigo cansado.",
+      "wrap": "Grammar doesn’t judge. It just gives you the words to name the moment."
+    },
+    {
+      "phase": "example",
+      "line": "Trabajo todos los días y sigo cansado."
+    },
+    {
+      "phase": "example",
+      "line": "Vivo en esta ciudad, pero a veces quiero irme."
+    },
+    {
+      "phase": "example",
+      "line": "Estudio mucho y todavía no entiendo todo."
+    }
+  ]
+}
+{
+  "id": "mmspanish__grammar_ir_alt",
+  "title": "Ir — The Verb That Hesitates",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "To go — or to keep putting it off."
+    },
+    {
+      "phase": "system_logic",
+      "line": "Every language has a word for leaving, and a reason not to. English says 'go.' Spanish says 'ir.' It’s still the motion word — even when your body hasn’t moved yet."
+    },
+    {
+      "phase": "spanish_entry",
+      "line": "The base form is 'ir.' But it doesn’t follow the normal patterns. To say 'I go,' you say 'yo voy.' To say 'I was supposed to go,' you still start with 'ir.'"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "‘Ir’ comes from Latin *ire*, 'to travel, to move.' Another old Latin verb, *vadere* ('to advance, to step forward'), blended with it over time. Their fusion gave Spanish its strange, irregular forms: voy, fui, iré.",
+      "story": "‘Ir’ is two old paths woven into one. One moves ahead; the other looks back at what could’ve been. That’s why it keeps changing shape — hesitation is a kind of motion too.",
+      "wrap_line": "‘Ir’ is the verb that never decides. Every form is proof that you almost went."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "vecina",
+      "es": "Hola.",
+      "you": "Hola. No sé si voy.",
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I go now.", "es": "Yo voy ahora." },
+        { "en": "I went yesterday.", "es": "Yo fui ayer, pero sin ganas." },
+        { "en": "I will go tomorrow.", "es": "Yo iré mañana… si me animo." }
+      ],
+      "cue": "Each time the word changes, the doubt changes. That’s how Spanish shows time: through motion and pause."
+    },
+    {
+      "phase": "rest",
+      "line": "Say 'Voy. Fui. Iré.' slowly. Feel how it wavers — present, past, future — the same road waiting."
+    }
+  ]
+}
