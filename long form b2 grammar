@@ -1,0 +1,1200 @@
+{
+  "id": "mmspanish__lesson_B2_171_perfect_tenses_overview",
+  "title": "B2.171 Perfect Tenses Overview — The Grammar of Reflection",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use 'have' to connect the past with the present: 'I have seen it,' 'She has finished,' 'They had gone.' Spanish does the same with **haber + past participle**—but it uses the perfect tenses more consciously to show how actions ripple through time. English does this by feeling; Spanish does it by structure, marking whether something happened recently, long ago, or before another past moment. It’s the grammar of memory—of what still echoes after it’s done."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The Formula:**\nAll perfect tenses use *haber* + past participle. The participle never changes form—it always ends in *-ado* (for -ar verbs) or *-ido* (for -er/-ir verbs): *hablado, comido, vivido.*\n\n**2️⃣ Main Perfect Tenses:**\n| Tense | Structure | Example | Meaning |\n|-------|------------|----------|----------|\n| **Present Perfect** | *he, has, ha, hemos, habéis, han + participle* | *He visto la película.* | I’ve seen the movie (recent past with present link). |\n| **Past Perfect (Pluperfect)** | *había, habías, había, habíamos, habíais, habían + participle* | *Había comido antes de salir.* | I had eaten before leaving (past before past). |\n| **Future Perfect** | *habré, habrás, habrá, habremos, habréis, habrán + participle* | *Habré terminado para entonces.* | I will have finished by then (action expected by a future time). |\n| **Conditional Perfect** | *habría, habrías, habría, habríamos, habríais, habrían + participle* | *Habría ido si pudiera.* | I would have gone if I could (unreal past). |\n\n**3️⃣ How it works:**\nThe auxiliary *haber* changes to mark the time frame; the participle marks the action itself. *He visto* looks backward from now; *había visto* looks backward from another point in the past; *habré visto* imagines looking back from the future.\n\n**4️⃣ Agreement note:**\nUnlike *ser* or *estar,* participles after *haber* never change for gender or number: *ellas han comido* (not *comidas*). The event, not the doer, is what counts.\n\n**5️⃣ Shortcut summary:**\n| When to Use | Time View |\n|-------------|------------|\n| *He hablado* | Recent, still relevant |\n| *Había hablado* | Earlier than another past moment |\n| *Habré hablado* | Expected completion in the future |\n| *Habría hablado* | Missed or hypothetical past |\nSpanish builds emotional time lines by bending *haber* through memory."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s auxiliary *habere* ('to have, to hold'), Spanish turned ownership into temporality—what we 'have done' becomes what we carry forward in memory.",
+      "story": "Perfect tenses in Spanish are verbs turned inward—they measure not when something happened, but how it still lives in the present mind. *He amado* ('I have loved') doesn’t describe a fact; it confesses endurance. *Había amado* pulls the thread deeper, remembering love before it faded.\n\nSpanish perfect tenses move through time like ripples. The present perfect (*he hecho*) feels close, warm, unfinished. The pluperfect (*había hecho*) belongs to stories told by firelight—what was already over when something else began. The future perfect (*habré hecho*) imagines completion before arrival; the conditional perfect (*habría hecho*) mourns the chance that never came.\n\nEvery use of *haber* carries weight. It’s a ledger of experience, not just grammar. The verb’s rhythm reminds speakers that time is cumulative. Even when moments pass, Spanish grammar keeps them accountable—each action stored as something still owned by memory.",
+      "wrap_line": "Spanish perfect tenses remind us that the past never disappears—it becomes part of what we have, what we hold, and what we are."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I’ve seen the movie → he visto la película.", "es": "[locked]" },
+        { "en": "I had eaten before leaving → había comido antes de salir.", "es": "[locked]" },
+        { "en": "I would have gone if I could → habría ido si pudiera.", "es": "[locked]" }
+      ],
+      "cue": "Each perfect tense shifts when we look back—grammar that measures not time itself, but how we remember it."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doesn’t just record actions—it carries them. Every *he visto* or *habría ido* is a small reflection of how the past still shapes the present."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_172_present_perfect_vs_preterite",
+  "title": "B2.172 Present Perfect vs. Preterite — Experience vs. Event",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we say 'I’ve eaten' or 'I ate,' often using them interchangeably. But Spanish draws a sharper line between the two. The **present perfect** (*he comido*) connects a past action to the present—it still feels relevant. The **preterite** (*comí*) marks a completed event, sealed in the past. English does this by tone and context; Spanish does it through grammar, deciding whether the past still echoes or has already closed."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nBoth use *haber + past participle* or a simple past form, but they serve different timelines.\n\n| Tense | Formula | Example | Meaning |\n|-------|----------|----------|----------|\n| Present Perfect | *he, has, ha, hemos, habéis, han + participle* | *He comido.* | I’ve eaten (recent, still relevant). |\n| Preterite | *comí, comiste, comió, comimos, comisteis, comieron* | *Comí.* | I ate (finished, detached from now). |\n\n**2️⃣ Core Difference:**\nThe **present perfect** describes actions affecting or continuing into the present.\n- *He leído ese libro.* (I’ve read that book → I know it now.)\n- *¿Has visto a Marta hoy?* (Have you seen Marta today? → 'Today' is not over yet.)\n\nThe **preterite** describes actions completed in a finished time frame.\n- *Leí ese libro el año pasado.* (I read that book last year → finished period.)\n- *Vi a Marta ayer.* (I saw Marta yesterday → closed moment.)\n\n**3️⃣ Regional variation:**\nIn Spain, the **present perfect** often replaces the preterite for recent actions:\n- *He comido hace poco.* (I ate recently.)\nIn Latin America, speakers prefer the **preterite** for almost all completed events:\n- *Comí hace poco.* (Same meaning, but grammatically preterite.)\n\n**4️⃣ Quick guide:**\n| Meaning Type | Choose | Example |\n|---------------|---------|----------|\n| Ongoing / relevant now | Present perfect | *He perdido mis llaves.* (I’ve lost my keys.) |\n| Completed / past moment | Preterite | *Perdí mis llaves ayer.* (I lost my keys yesterday.) |\n\n**5️⃣ Tip:**\nIf time feels open → *he hecho.* If it feels closed → *hice.* Spanish uses tense to measure connection, not just chronology."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin perfect systems, Spanish inherited both 'present relevance' and 'completed past' forms, preserving the emotional link between action and memory.",
+      "story": "The difference between *he hecho* and *hice* lies in how Spanish treats memory. The present perfect holds the past like a photo in your hand—it’s recent, meaningful, still alive. The preterite stores it in an album—it happened, but the moment has passed.\n\nThis distinction reflects how Spanish perceives time as layered, not linear. *He vivido muchas cosas* is experience remembered with warmth—it continues to shape you. *Viví muchas cosas* is recollection, a chapter already turned. The grammar doesn’t just locate time; it measures closeness of feeling.\n\nIn everyday conversation, these tenses paint tone. A Spanish speaker might say *he tenido un día difícil* to invite empathy—the day isn’t done yet. But *tuve un día difícil* closes the door; it belongs to the past. Writers use this contrast to move characters through reflection and resolution. Each choice bends time through emotion.",
+      "wrap_line": "In Spanish, grammar carries distance—*he visto* remembers, *vi* recalls. One reaches back; the other leaves it there."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I’ve eaten → he comido.", "es": "[locked]" },
+        { "en": "I ate yesterday → comí ayer.", "es": "[locked]" },
+        { "en": "Have you seen Marta today? → ¿has visto a Marta hoy?", "es": "[locked]" }
+      ],
+      "cue": "Use *he + participle* for open, present-linked moments; *preterite* for closed events—grammar that measures how near the past still feels."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish keeps memory close or lets it go with choice of tense. Between *he hecho* and *hice*, the heart quietly decides how far away the past truly is."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_173_past_perfect_pluscuamperfecto",
+  "title": "B2.173 Past Perfect (Pluscuamperfecto) — The Grammar of 'Before the Before'",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use 'had' to talk about an action that happened before another past action: 'I had eaten before she arrived,' 'He had already left when I called.' Spanish does the same with the **past perfect**, also called the **pluscuamperfecto**, using *haber* in the imperfect + a past participle: *había comido, habías ido, habían visto.* English does this by sequencing time with 'had'; Spanish does it by building a structure that holds one memory inside another."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nFormula: *haber (imperfect) + past participle.*\n| Subject | Haber (imperfect) | Example (viajar) |\n|----------|------------------|------------------|\n| yo | había | había viajado |\n| tú | habías | habías viajado |\n| él/ella/usted | había | había viajado |\n| nosotros | habíamos | habíamos viajado |\n| vosotros | habíais | habíais viajado |\n| ellos/ustedes | habían | habían viajado |\n\n**2️⃣ Function:**\nUsed to describe **what had already happened** before another past moment. It’s the past of the past—the story inside the story.\n- *Cuando llegué, ellos ya habían comido.* (When I arrived, they had already eaten.)\n- *Nunca había visto tanta nieve antes.* (I had never seen so much snow before.)\n\n**3️⃣ Time markers that pair naturally:**\n*ya* (already), *todavía no* (not yet), *antes de* (before), *después de* (after), *cuando* (when).\n- *Ya habían salido cuando llegamos.* (They had already left when we arrived.)\n- *Todavía no había terminado la tarea.* (I hadn’t finished the homework yet.)\n\n**4️⃣ Contrast with preterite:**\n| Situation | Tense | Example |\n|------------|-------|----------|\n| Simple past (one event) | Preterite | *Llegué a casa.* (I arrived home.) |\n| Past before another past | Pluscuamperfecto | *Había llegado cuando llamaste.* (I had arrived when you called.) |\n\n**5️⃣ Summary tip:**\nIf you tell a story and one event happened earlier, step one tense back—to the **pluscuamperfecto**. It’s how Spanish layers time, keeping past moments orderly and connected."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s pluperfect tense (*habueram* + participle), Spanish developed the pluscuamperfecto to mark distance and completion within layered past narratives.",
+      "story": "The **pluscuamperfecto** is the grammar of reflection—it looks backward inside the past. Where the preterite simply reports, the past perfect revisits. It’s how Spanish remembers with structure, saying not only what happened, but what had happened before it.\n\nStorytellers love this tense. It’s what lets them rewind time elegantly: *Había vivido en Madrid antes de mudarme a Sevilla.* It places the listener inside the chronology without confusion. The tense carries nostalgia too—it’s how speakers revisit what was already gone when something else began.\n\nIn everyday speech, it appears in memory and confession: *Nunca había sentido algo así.* It invites introspection, giving emotional depth to what might otherwise be just a sequence of facts. Spanish uses grammar to slow time down, to think before the next scene turns.\n\nEven in literature, the pluscuamperfecto whispers distance—it’s the voice of someone looking back on who they once were. Every *había amado*, *había creído*, *había perdido* becomes a moment preserved in recollection, not action.",
+      "wrap_line": "The past perfect is the grammar of hindsight—Spanish gives memory a tense of its own, where the past can look back at itself."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "They had already eaten when I arrived → ya habían comido cuando llegué.", "es": "[locked]" },
+        { "en": "I had never seen so much snow → nunca había visto tanta nieve.", "es": "[locked]" },
+        { "en": "He had lived in Madrid before moving to Seville → había vivido en Madrid antes de mudarse a Sevilla.", "es": "[locked]" }
+      ],
+      "cue": "Use the past perfect to anchor one memory before another—grammar that builds time inside time."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doesn’t just tell what happened—it tells what had happened, tracing one moment’s shadow across another. The past perfect remembers the past remembering itself."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_174_future_perfect",
+  "title": "B2.174 Future Perfect — Anticipating Completion",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use 'will have' to imagine something completed in the future: 'By tomorrow, I will have finished,' 'She will have arrived by noon.' Spanish expresses the same idea with the **future perfect**, built from *haber* in the future + a past participle: *habré terminado, habrás llegado, habrán comido.* English does this by predicting completion through 'will have'; Spanish does it by imagining the future as already remembered—a tense that looks forward and backward at once."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nFormula: *haber (future) + past participle.*\n| Subject | Haber (future) | Example (estudiar) |\n|----------|----------------|--------------------|\n| yo | habré | habré estudiado |\n| tú | habrás | habrás estudiado |\n| él/ella/usted | habrá | habrá estudiado |\n| nosotros | habremos | habremos estudiado |\n| vosotros | habréis | habréis estudiado |\n| ellos/ustedes | habrán | habrán estudiado |\n\n**2️⃣ Core uses:**\n1. **Completion before a future point in time:**\n   - *Para las diez, ya habré terminado el trabajo.* (By ten, I’ll have finished the work.)\n2. **Assumption or probability about a past event:**\n   - *Habrá llegado tarde.* (He’s probably arrived late.)\n   - *¿Dónde estará Juan? Habrá salido.* (Where’s Juan? He must’ve gone out.)\n\n**3️⃣ Time markers:**\n*para, dentro de, antes de, cuando, ya, todavía no.*\n- *Dentro de un año, habremos aprendido mucho.* (Within a year, we’ll have learned a lot.)\n- *Para entonces, ya habrán llegado.* (By then, they’ll have already arrived.)\n\n**4️⃣ Comparison with other tenses:**\n| Tense | Function | Example |\n|--------|-----------|----------|\n| Future Simple | Event that will happen | *Llegaré mañana.* (I’ll arrive tomorrow.) |\n| Future Perfect | Event that will be completed before another future moment | *Habré llegado para mañana.* (I’ll have arrived by tomorrow.) |\n\n**5️⃣ Tip:**\nThe future perfect is not only prediction—it’s reflection. Spanish uses it to imagine completed outcomes, both logical and emotional. The structure looks ahead, but the feeling belongs to hindsight."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s 'futurum exactum,' this tense carried forward the notion of an action completed before a defined point in the future.",
+      "story": "The future perfect is Spanish’s most philosophical tense. It speaks from the future as if looking back, allowing speakers to live inside a moment that hasn’t yet arrived. When someone says *habré terminado*, they’re not only forecasting success—they’re rehearsing relief.\n\nSpanish uses this tense to express both expectation and reflection. It’s how you talk about what will one day be memory. *Dentro de cinco años, habremos cambiado mucho* doesn’t just mark time—it anticipates transformation. The verb *haber* here means 'to have' in its purest sense: to hold something complete in the future’s hands.\n\nThis tense also lets Spanish express gentle speculation about the past: *¿Habrá llegado ya?* (Has he probably arrived by now?). It’s a guess softened by grammar, proof that Spanish prefers wonder to certainty. The future perfect is not just prediction—it’s contemplation, a grammatical way of imagining fulfillment.\n\nIn writing, it often closes circles of thought. It’s used by planners, poets, and dreamers alike: those who picture what will have been and find comfort in that imagined conclusion.",
+      "wrap_line": "The future perfect looks ahead with memory in its eyes—grammar that predicts not only what will happen, but how it will feel to have arrived there."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "By ten, I’ll have finished the work → para las diez, habré terminado el trabajo.", "es": "[locked]" },
+        { "en": "He’s probably arrived late → habrá llegado tarde.", "es": "[locked]" },
+        { "en": "Within a year, we’ll have learned a lot → dentro de un año, habremos aprendido mucho.", "es": "[locked]" }
+      ],
+      "cue": "Use the future perfect to mark what will already be complete—grammar that imagines the finish line before the race is done."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doesn’t just plan—it remembers the future. Every *habré hecho* carries faith in the work ahead, already trusted as finished in the mind."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_175_conditional_perfect",
+  "title": "B2.175 Conditional Perfect — The Grammar of Hypothetical Past",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we say 'would have done' to describe something that didn’t happen but could have: 'I would have gone,' 'She would have called,' 'They would have helped.' Spanish expresses this with the **conditional perfect**, made from *haber* in the conditional + a past participle: *habría ido, habrías llamado, habrían ayudado.* English does this by layering condition on top of the past; Spanish does it by bending time completely—imagining a past that never was, but might have been."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nFormula: *haber (conditional) + past participle.*\n| Subject | Haber (conditional) | Example (hacer) |\n|----------|---------------------|------------------|\n| yo | habría | habría hecho |\n| tú | habrías | habrías hecho |\n| él/ella/usted | habría | habría hecho |\n| nosotros | habríamos | habríamos hecho |\n| vosotros | habríais | habríais hecho |\n| ellos/ustedes | habrían | habrían hecho |\n\n**2️⃣ Main Uses:**\n1. **Hypothetical past events:** what would have happened if something else had been different.\n   - *Si hubiera tenido tiempo, habría ido contigo.* (If I had had time, I would have gone with you.)\n2. **Regret or reflection:** expressing what one wishes had been done.\n   - *Habría estudiado más si lo hubiera sabido.* (I would have studied more if I’d known.)\n3. **Polite speculation:** soft guesses about past events.\n   - *Habría llegado tarde.* (He must have arrived late.)\n\n**3️⃣ Relationship with the pluperfect subjunctive:**\nConditional perfect and pluperfect subjunctive often appear together in “if” clauses:\n- *Si hubiera sabido, habría venido.* (If I had known, I would have come.)\n→ *hubiera sabido* = impossible condition, *habría venido* = imagined outcome.\n\n**4️⃣ Quick Contrast:**\n| Meaning | English | Spanish Example |\n|----------|----------|------------------|\n| Hypothetical past | would have done | *habría hecho* |\n| Actual past | did | *hizo* |\n| Present condition | would do | *haría* |\n\n**5️⃣ Summary Tip:**\nUse the **conditional perfect** when your mind looks backward but still wonders, “What if?” Spanish captures that alternate history not with sadness, but with precision—grammar for memory’s imagination."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s conditional periphrasis, Spanish evolved *haber + participle* to express unrealized or imagined completion in the past.",
+      "story": "The conditional perfect is where Spanish turns regret into structure. It’s the grammar of hindsight—the ability to look at time and say, 'If only.' When someone says *habría ido*, they don’t just state what didn’t happen—they trace the outline of what could have been.\n\nThis form is more than technical; it’s emotional geometry. The *si hubiera... habría...* pattern lets speakers map cause and absence with elegance. Spanish doesn’t hide longing—it formalizes it. *Habría estudiado más* isn’t despair; it’s awareness. The grammar admits imperfection without punishment.\n\nIn conversation, this tense softens reflection. *Habría llegado antes, pero había tráfico* (I would have arrived earlier, but there was traffic) sounds forgiving, not frustrated. It lets speakers narrate missed moments with gentleness. In literature, the conditional perfect becomes the tense of reflection and destiny—the imagined life parallel to the one we live.\n\nIt’s a tense that forgives time for being irreversible, because it gives us the language to dream of changing it.",
+      "wrap_line": "The conditional perfect is Spanish’s way of forgiving the past—grammar that turns 'what if' into quiet understanding."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "If I had known, I would have come → si hubiera sabido, habría venido.", "es": "[locked]" },
+        { "en": "I would have studied more if I’d known → habría estudiado más si lo hubiera sabido.", "es": "[locked]" },
+        { "en": "He must have arrived late → habría llegado tarde.", "es": "[locked]" }
+      ],
+      "cue": "Use the conditional perfect to express what might have been—grammar that gently rewrites the past without changing it."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish holds space for the lives we didn’t live. Every *habría hecho* or *habría ido* is a grammatical sigh—acceptance framed in reflection."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_176_subjunctive_present_perfect",
+  "title": "B2.176 Subjunctive Present Perfect — Doubt Meets Memory",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we sometimes express hope, doubt, or emotion about something that has already happened: 'I’m glad you’ve come,' 'I doubt they’ve finished,' 'It’s possible she’s left.' Spanish captures this exact feeling with the **present perfect subjunctive**—a combination of *haber* in the present subjunctive (*haya, hayas, haya, hayamos, hayan*) plus a past participle. English does this through tone and context; Spanish does it by blending two layers of time—uncertainty about what’s already done."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nFormula: *haber (present subjunctive) + past participle.*\n| Subject | Haber (subjunctive) | Example (comer) |\n|----------|----------------------|------------------|\n| yo | haya | haya comido |\n| tú | hayas | hayas comido |\n| él/ella/usted | haya | haya comido |\n| nosotros | hayamos | hayamos comido |\n| vosotros | hayáis | hayáis comido |\n| ellos/ustedes | hayan | hayan comido |\n\n**2️⃣ Function:**\nUsed when the main clause expresses emotion, doubt, uncertainty, or influence about something **that has already occurred.**\n\n- *Me alegra que hayas venido.* (I’m glad you’ve come.)\n- *Dudo que lo hayan visto.* (I doubt they’ve seen it.)\n- *Es posible que haya llegado tarde.* (It’s possible he’s arrived late.)\n\n**3️⃣ Tense relationship:**\n| Main Verb | Time Sense | Subordinate Verb |\n|------------|-------------|------------------|\n| Present / Future | Emotion or doubt about a completed action | Present Perfect Subjunctive |\n| Past / Conditional | Emotion or doubt about a past action | Pluperfect Subjunctive |\n\n**4️⃣ Comparison with indicative:**\nIf the speaker believes the event actually happened → **indicative**: *Creo que ha llegado.* (I believe he’s arrived.)  \nIf they doubt, feel, or react → **subjunctive**: *Dudo que haya llegado.* (I doubt he’s arrived.)\n\n**5️⃣ Common triggers:**\n*me alegra que, dudo que, es posible que, no creo que, ojalá que, temo que, lamento que.*  \nThese phrases all connect emotion or uncertainty with completed reality—the essence of this tense."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s perfect subjunctive, Spanish preserved the ability to mark emotional or uncertain reactions toward completed actions.",
+      "story": "The present perfect subjunctive is grammar’s most delicate mirror—it reflects what’s already happened, but only through emotion or doubt. Spanish uses it when reality has occurred, yet the speaker’s heart isn’t sure how to hold it. *Me alegra que hayas venido* doesn’t confirm the visit—it feels it.\n\nThis form thrives in moments of subtlety: joy for something that just became real, sadness for something just missed, hesitation over something invisible. It’s the tense of afterthoughts and echoes. Spanish bends time so feeling and event coexist, neither fully past nor present.\n\nIn conversation, it adds sincerity. *Dudo que lo hayan entendido* softens judgment—it’s not accusation, it’s wonder. *Ojalá que haya salido bien* shows cautious hope, a wish cast after the fact. The present perfect subjunctive is how Spanish lives inside the boundary between knowing and believing.\n\nWriters love it because it lets emotion linger in grammar. The verbs carry warmth, doubt, and reflection, giving human weight to what otherwise would be mere statement.",
+      "wrap_line": "The present perfect subjunctive is grammar that listens—it feels the past while still asking if it’s truly complete."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I’m glad you’ve come → me alegra que hayas venido.", "es": "[locked]" },
+        { "en": "I doubt they’ve seen it → dudo que lo hayan visto.", "es": "[locked]" },
+        { "en": "It’s possible he’s arrived late → es posible que haya llegado tarde.", "es": "[locked]" }
+      ],
+      "cue": "Use the present perfect subjunctive when emotion or doubt reaches backward—grammar that wonders about what’s already happened."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doesn’t separate feeling from time—it lets you doubt, hope, or rejoice after the fact. The present perfect subjunctive gives voice to emotion’s echo."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_177_passive_voice",
+  "title": "B2.177 Passive Voice — Perspective Shift",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use the passive voice to shift focus from who did something to what was done: 'The book was written by her,' 'The house was built in 1920.' Spanish does the same, using **ser + past participle**, but it feels more formal and deliberate. English uses the passive naturally in everyday speech; Spanish uses it when the **action itself** matters more than the doer. English does this with word order; Spanish does it by flipping the sentence’s light—from subject to event."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nFormula: *ser (in the appropriate tense) + past participle (+ por + agent).*  \n- *El libro fue escrito por García Márquez.* (The book was written by García Márquez.)\n- *La casa será construida el próximo año.* (The house will be built next year.)\n\n**2️⃣ Verb Agreement:**\nThe **past participle agrees in gender and number** with the subject, not the doer:\n- *Los cuadros fueron pintados por Picasso.* (The paintings were painted by Picasso.)\n- *Las cartas fueron enviadas ayer.* (The letters were sent yesterday.)\n\n**3️⃣ Time Shifts:**\nChange *ser* to reflect when the action happened:\n| Time | Ser Form | Example |\n|------|-----------|----------|\n| Present | es/son | *El trabajo es hecho por Ana.* |\n| Past (preterite) | fue/fueron | *El trabajo fue hecho por Ana.* |\n| Future | será/serán | *El trabajo será hecho por Ana.* |\n| Conditional | sería/serían | *El trabajo sería hecho por Ana.* |\n\n**4️⃣ Passive vs. Active:**\n| Focus | Structure | Example |\n|--------|------------|----------|\n| Active | subject → action → object | *Ana escribió el libro.* |\n| Passive | object → action → agent | *El libro fue escrito por Ana.* |\n\n**5️⃣ When not to use it:**\nSpanish often prefers **se passives** or **impersonal forms** in casual speech.\n- *Se venden casas.* (Houses are sold.)\n- *Se dice que es verdad.* (It is said that it’s true.)\n→ More natural than *Las casas son vendidas* in everyday conversation.\n\n**6️⃣ Summary:**\nUse the *ser* passive when formality, process, or authorship matters—when you want to highlight the action’s gravity rather than its actor."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s reflexive and participial constructions, Spanish inherited the ability to separate the action from its agent, preserving the sense of causation without the presence of the doer.",
+      "story": "In Spanish, the passive voice is architecture—it organizes responsibility, not just words. When you say *fue escrito*, the sentence itself turns away from the writer and stares at the creation. The grammar shifts the light to what remains after human hands have finished their work.\n\nThis structure carries cultural tone. Spanish values humility in expression—where English might ask 'Who did it?', Spanish often asks 'What was done?' It’s a language comfortable with removing the subject when the product speaks for itself. In art, history, or tragedy, the passive gives weight to endurance over agency: *La ciudad fue destruida*, 'The city was destroyed,' focuses on loss, not blame.\n\nIn everyday life, speakers reach for the *se* form instead—it’s quicker, lighter. But the *ser* passive still lingers in literature, law, and ceremony, giving formality and permanence to the story. It’s how Spanish makes action timeless, turning verbs into monuments.",
+      "wrap_line": "The passive voice is Spanish’s quiet reverence for what’s been done—grammar that honors result over author, creation over creator."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The book was written by García Márquez → el libro fue escrito por García Márquez.", "es": "[locked]" },
+        { "en": "The letters were sent yesterday → las cartas fueron enviadas ayer.", "es": "[locked]" },
+        { "en": "Houses are sold → se venden casas.", "es": "[locked]" }
+      ],
+      "cue": "Use the *ser* passive to highlight the action; use *se* for natural flow—grammar that shifts focus from who did it to what endures."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish uses the passive to preserve what matters most—the work itself. Every *fue hecho* or *fue dicho* lets the action live longer than the one who caused it."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_178_active_vs_passive_restatement",
+  "title": "B2.178 Active vs. Passive Restatement — The Grammar of Focus",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we can say the same idea two ways: 'The artist painted the mural' (active) or 'The mural was painted by the artist' (passive). Both describe the same event, but they change what we emphasize—the doer or the action. Spanish follows the same principle with **active and passive structures**, yet uses them more deliberately. English shifts focus by word order; Spanish does it by grammar and rhythm, choosing between energy (active) and elegance (passive)."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Active voice — subject acts:**\nFormula: *subject + verb + object.*\n- *El chef preparó la cena.* (The chef prepared dinner.)\nActive voice centers the **agent**—who performs the action. It’s direct, vivid, and used in everyday speech.\n\n**2️⃣ Passive voice — subject receives action:**\nFormula: *ser + past participle (+ por + agent).* \n- *La cena fue preparada por el chef.* (Dinner was prepared by the chef.)\nHere, the focus shifts to **the object or result.** The doer becomes secondary or optional.\n\n**3️⃣ Se passive — Spanish’s natural restatement:**\nSpanish prefers *se* to *ser* when the actor isn’t important:\n- *Se preparó la cena.* (Dinner was prepared.)\n- *Se vendieron todas las entradas.* (All the tickets were sold.)\nThis form sounds smoother and is more common than *fue preparada* in conversation.\n\n**4️⃣ Choosing focus intentionally:**\n| Goal | Preferred Form | Example |\n|------|----------------|----------|\n| Emphasize the doer | Active | *Los niños rompieron la ventana.* (The kids broke the window.) |\n| Emphasize the result | Passive | *La ventana fue rota por los niños.* (The window was broken by the kids.) |\n| Hide or generalize the doer | Se passive | *Se rompió la ventana.* (The window broke / was broken.) |\n\n**5️⃣ Common mistake:**\nAvoid overusing the *ser* passive—it can sound overly formal or stiff in everyday Spanish. Instead, use *se* or simply restructure actively: *Los ingenieros construyeron el puente* is cleaner than *El puente fue construido por los ingenieros.*"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s dual structure of action (*activa*) and reception (*passiva*), Spanish preserved two grammatical paths for describing the same event while adding the reflexive *se* as a modern simplification.",
+      "story": "Active and passive forms in Spanish mirror how people tell stories: sometimes you speak to celebrate the doer; other times, to honor what was done. In Spanish, the shift between the two is not just technical—it’s philosophical. The voice you choose reveals where your attention lies.\n\nActive voice feels alive. *El maestro escribió el poema* brings presence and agency—it honors creation in motion. The passive, *el poema fue escrito*, feels like a pause, letting the work stand apart from the worker. Spanish reserves this for formal, reflective, or objective tones—newspapers, history, or reverence.\n\nBut Spanish went further than English. The *se* passive evolved for subtlety, to keep sentences flowing and remove unnecessary subjects. *Se dice que lloverá* carries both mystery and rhythm—it feels communal, not anonymous. Through this, Spanish preserves balance between clarity and grace.\n\nEvery choice—*fue hecho*, *se hizo*, *lo hicieron*—is a decision of light and shadow. Grammar becomes art direction: who stands in the spotlight, and who steps aside.",
+      "wrap_line": "Voice in Spanish is perspective—grammar that decides whether to tell the story through the hands that act or through the work that remains."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The chef prepared dinner → el chef preparó la cena.", "es": "[locked]" },
+        { "en": "Dinner was prepared by the chef → la cena fue preparada por el chef.", "es": "[locked]" },
+        { "en": "Dinner was prepared → se preparó la cena.", "es": "[locked]" }
+      ],
+      "cue": "Active shows who acts, passive shows what lasts—grammar that shifts attention without changing the truth."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish tells every story twice: once through the doer, and once through the deed. Between *se hizo* and *lo hizo*, you choose not what happened, but how the world remembers it."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_179_ser_vs_estar_full_revisit",
+  "title": "B2.179 Ser vs. Estar — Essence vs. State in Context",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use one word—'to be'—for almost everything: 'I am tired,' 'She is a teacher,' 'We are here.' Spanish divides this single verb into two: **ser** and **estar.** *Ser* describes essence—what something **is** by nature. *Estar* describes condition—how something **is** at the moment. English does this by context or tone; Spanish does it by grammar, treating identity and state as two different truths: what defines you and what surrounds you."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Ser = Essence (permanent or defining quality):**\nFormula: *ser + noun/adjective/preposition de/time/origin*.\n- *Soy estudiante.* (I am a student.)\n- *Es de México.* (She’s from Mexico.)\n- *La reunión es a las seis.* (The meeting is at six.)\n\nUse *ser* for: identity, origin, material, time, possession, profession, and inherent traits.\n| Category | Example | Meaning |\n|-----------|----------|----------|\n| Identity | *Ella es mi madre.* | She is my mother. |\n| Origin | *Somos de Chile.* | We are from Chile. |\n| Time | *Es lunes.* | It’s Monday. |\n| Material | *La mesa es de madera.* | The table is made of wood. |\n| Character | *Él es amable.* | He’s kind (by nature). |\n\n**2️⃣ Estar = State (temporary or situational condition):**\nFormula: *estar + adjective/preposition + gerund/location*.\n- *Estoy cansado.* (I’m tired.)\n- *Estamos en casa.* (We’re at home.)\n- *Está lloviendo.* (It’s raining.)\n\nUse *estar* for: location, mood, health, results, and temporary descriptions.\n| Category | Example | Meaning |\n|-----------|----------|----------|\n| Location | *El libro está en la mesa.* | The book is on the table. |\n| Mood | *Estamos felices.* | We are happy (now). |\n| Result | *La puerta está cerrada.* | The door is closed (by someone). |\n\n**3️⃣ Same adjective, different meaning:**\n- *Es listo* → clever (by nature). / *Está listo* → ready (for now).  \n- *Es aburrido* → boring (personality). / *Está aburrido* → bored (current feeling).  \n- *Es bueno* → good person. / *Está bueno* → tastes good / attractive.\n\n**4️⃣ Quick trick:**\nIf it **defines**—use *ser.* If it **describes a moment**—use *estar.* Spanish grammatically separates what you **are** from how you **feel.**"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin verbs *esse* (to be by essence) and *stare* (to stand or be situated), Spanish inherited two separate ways of existing—identity and position.",
+      "story": "Every Spanish learner eventually meets *ser* and *estar* like two mirrors—one showing who you are, the other showing how you are. The language divides being into permanence and presence. *Ser* speaks from the soul; *estar* speaks from the senses.\n\nIn everyday life, this distinction feels human. When you say *soy feliz*, you describe a philosophy of living. When you say *estoy feliz*, you describe a moment. Spanish grammar honors both—the lifelong truth and the passing mood. It refuses to confuse essence with circumstance.\n\nThis duality reflects cultural depth. Spanish, born from a world shaped by change and tradition, learned to give names to both endurance and flux. *Ser* anchors you—your name, your nature, your unchanging center. *Estar* accepts movement, emotion, and time. Together they teach balance: that identity can be steady even when feeling shifts.\n\nIn writing, *ser* gives weight; *estar* adds color. A poet may say *la noche es infinita* to speak of eternity, or *la noche está tranquila* to describe a brief calm. Both true, both necessary—two ways to exist in language and life.",
+      "wrap_line": "Between *ser* and *estar*, Spanish divides being into essence and experience—grammar that lets identity and feeling live side by side."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "She is kind → ella es amable.", "es": "[locked]" },
+        { "en": "She is happy → ella está feliz.", "es": "[locked]" },
+        { "en": "The door is closed → la puerta está cerrada.", "es": "[locked]" }
+      ],
+      "cue": "Use *ser* for what defines; use *estar* for what changes—grammar that distinguishes nature from circumstance."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish separates truth into two halves: one that stays and one that moves. Between *ser* and *estar*, being itself becomes a conversation with time."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_180_adjective_placement",
+  "title": "B2.180 Adjective Placement — Logic of Meaning and Emotion",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, adjectives almost always come before nouns: 'a red car,' 'a small house,' 'a kind person.' Spanish can do both—adjectives can appear **before or after** the noun—but the choice changes meaning. When the adjective comes **after**, it describes; when it comes **before**, it interprets or emphasizes. English fixes word order; Spanish lets word order reveal attitude, emotion, or focus. Grammar becomes tone, shaping not just what you say, but how you feel about it."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Basic rule:**\nBy default, Spanish places adjectives **after** the noun.\n- *Un coche rojo* (a red car) → literal description.\n- *Una casa pequeña* (a small house) → objective size.\nWhen the adjective moves **before** the noun, the meaning becomes **subjective or poetic**.\n- *Una pequeña casa* (a lovely little home) → emotional or stylistic tone.\n\n**2️⃣ Position determines meaning:**\n| Adjective | After noun (literal) | Before noun (figurative/emotional) |\n|------------|---------------------|------------------------------------|\n| grande | *un edificio grande* (a big building) | *un gran hombre* (a great man) |\n| viejo | *un amigo viejo* (an old friend, aged) | *un viejo amigo* (a long-time friend) |\n| pobre | *una mujer pobre* (a poor woman, without money) | *una pobre mujer* (a pitiful woman) |\n| cierto | *un hecho cierto* (a true fact) | *una cierta idea* (a certain idea) |\n\n**3️⃣ When order doesn’t change meaning:**\nSome adjectives are neutral in position: *nueva casa / casa nueva* both mean 'new house,' though *nueva casa* can sound more personal or nuanced.\n\n**4️⃣ Multiple adjectives:**\nWhen using two or more adjectives, Spanish orders them logically: value or opinion → size → shape → color → origin → material → purpose.\n- *una elegante mesa redonda de madera española* (an elegant round table made of Spanish wood).\n\n**5️⃣ Emotional shortcut:**\nBefore = subjective, evaluative, emotional.\nAfter = factual, descriptive, neutral.\nSpanish uses position like tone of voice—grammar as inflection."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s flexible syntax, Spanish preserved variable adjective order to carry nuance between denotation and emotion.",
+      "story": "In Spanish, the position of an adjective is not just grammar—it’s perspective. Placed after the noun, it observes; placed before, it feels. The difference between *una casa pequeña* and *una pequeña casa* is the difference between reporting size and remembering home.\n\nWriters, poets, and speakers use this freedom to paint their emotions into language. The before-noun placement adds intimacy: *mi dulce amigo* is not merely 'my sweet friend'—it’s tenderness wrapped in grammar. The after-noun position stays grounded in reality: *amigo dulce* describes character but lacks sentiment.\n\nThis flexibility reflects how Spanish perceives truth: objective and emotional, both valid. One form names, the other reveals. *Un gran día* is not a physically large day—it’s one that matters. Spanish lets grammar mirror the heart’s scale. The rule is less about correctness than resonance—it shows what you notice first: the noun or the feeling it gives you.",
+      "wrap_line": "Spanish adjective order turns grammar into point of view—whether you describe the world as it is or as it feels."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "A great man → un gran hombre.", "es": "[locked]" },
+        { "en": "A poor woman (without money) → una mujer pobre.", "es": "[locked]" },
+        { "en": "A long-time friend → un viejo amigo.", "es": "[locked]" }
+      ],
+      "cue": "Adjectives after nouns describe; before nouns, they interpret—grammar that shifts from observation to emotion."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish adjectives stand where the heart tells them to. Whether naming facts or feelings, placement decides what matters most in the sentence—and to the speaker."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_181_quantifiers",
+  "title": "B2.181 Quantifiers — The Grammar of Amount and Intention",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use words like 'all,' 'some,' 'none,' and 'a lot' to describe quantity: 'All people,' 'some water,' 'no time.' Spanish uses **quantifiers** too—**todo, algún, ningún, mucho, poco, varios, demasiado**—but they follow strict agreement rules for gender and number. English uses fixed words for any noun; Spanish adjusts each one, shaping even quantity into agreement. English does this with static words; Spanish does it by letting grammar count, feel, and specify every amount precisely."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Core concept:**\nQuantifiers express **how much** or **how many**—covering both countable (things) and uncountable (substances or ideas) nouns.\n\n**2️⃣ Agreement rules:**\nQuantifiers must match the **gender and number** of the noun they describe.\n| Quantifier | Masculine Singular | Feminine Singular | Masculine Plural | Feminine Plural |\n|-------------|-------------------|-------------------|------------------|------------------|\n| all | todo | toda | todos | todas |\n| some | algún | alguna | algunos | algunas |\n| none | ningún | ninguna | — | — |\n| many/much | mucho | mucha | muchos | muchas |\n| little/few | poco | poca | pocos | pocas |\n| several | varios | varias | — | — |\n| too much/many | demasiado | demasiada | demasiados | demasiadas |\n\n**3️⃣ Placement:**\nQuantifiers typically **precede** the noun: *muchos libros, poca agua, toda la gente.* But *todo* can also come after to emphasize inclusion: *la vida toda* (life itself, poetic).\n\n**4️⃣ Special cases:**\n- *Alguno / ninguno* drop the final -o before a masculine singular noun: *algún libro, ningún problema.*\n- *Todo* with definite articles can mean 'the whole': *todo el día* (the whole day).\n- *Todo + de* shows range or extent: *todo de flores* (full of flowers).\n\n**5️⃣ Common contrasts:**\n| Concept | Spanish | Example |\n|----------|----------|----------|\n| all | todo/toda/todos/todas | *Todos los estudiantes aprobaron.* (All the students passed.) |\n| some | algún/alguna/algunos/algunas | *¿Tienes alguna idea?* (Do you have any idea?) |\n| none | ningún/ninguna | *No tengo ningún problema.* (I don’t have any problem.) |\n| much / many | mucho/muchos | *Hay muchas razones.* (There are many reasons.) |\n| little / few | poco/pocos | *Queda poco tiempo.* (There’s little time left.) |\n\n**6️⃣ Shortcut memory rule:**\n- Use *todo* for inclusion, *mucho* for intensity, *poco* for scarcity, *algún* for possibility, *ningún* for denial. Spanish makes even counting poetic—each amount reveals attitude, not just math."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin adjectives of measure and scope, Spanish retained agreement to show that quantity itself belongs to the noun’s identity.",
+      "story": "Quantifiers in Spanish aren’t just numbers—they’re emotions disguised as grammar. *Todo* feels generous, *poco* sounds restrained, *ninguno* closes a door. By requiring agreement, Spanish ensures that even abstraction stays connected to the world it describes.\n\nIn English, we say 'some water' or 'some people' without distinction. Spanish insists on detail: *alguna gente* feels indefinite yet familiar, while *ninguna persona* feels absolute. The language measures not only amount, but also certainty, intimacy, and inclusion. Each choice defines how you see what surrounds you.\n\nCulturally, this reflects Spanish sensitivity to context. *Todo el mundo* means 'everyone,' but literally 'the whole world'—an image of community rather than number. *Mucho amor* isn’t just 'a lot of love'—it’s a wish. *Poca paciencia* is both complaint and confession. Grammar becomes a tool for character, not calculation.\n\nIn poetry and speech alike, quantifiers turn into rhythm. *Demasiadas palabras, poca verdad* says more than a statistic—it’s philosophy in syntax.",
+      "wrap_line": "Spanish quantifiers count with feeling—grammar that measures not just how much, but how deeply something exists."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "All the students passed → todos los estudiantes aprobaron.", "es": "[locked]" },
+        { "en": "Do you have any idea? → ¿tienes alguna idea?", "es": "[locked]" },
+        { "en": "There’s little time left → queda poco tiempo.", "es": "[locked]" }
+      ],
+      "cue": "Quantifiers anchor meaning to scope—grammar that balances precision with personality."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish counts with intention. Every *todo*, *poco*, or *mucho* is more than arithmetic—it’s the speaker’s perspective made grammatical."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_182_double_negation",
+  "title": "B2.182 Double Negation — Logic Through Negatives",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we avoid using two negatives together because they cancel each other out: 'I don’t know nothing' means the opposite of what we intend. Spanish, however, embraces **double negation**—and sometimes even more. You can say *no sé nada* ('I don’t know anything') or *no veo a nadie* ('I don’t see anyone'), and it’s grammatically correct. English cancels negatives; Spanish strengthens them, turning denial into rhythm and emphasis."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The core rule:**\nWhen a negative word appears in a Spanish sentence, **all other negative elements must agree**—no contradiction, only harmony.\nFormula: *no + verb + [negative word]*.\n- *No tengo nada.* (I don’t have anything.)\n- *No veo a nadie.* (I don’t see anyone.)\n- *No dijeron nunca la verdad.* (They never told the truth.)\n\n**2️⃣ Common negative words:**\n| English | Spanish | Placement |\n|----------|----------|------------|\n| nothing / anything | nada | after verb |\n| no one / anyone | nadie | after verb (with personal 'a' when referring to people) |\n| never / ever | nunca / jamás | before or after verb |\n| neither / nor | ni… ni | before elements being linked |\n| none / not any | ningún / ninguno / ninguna | before or after noun |\n\n**3️⃣ Sentence patterns:**\n1. **Single-negative (English sense):**\n   - *Nadie vino.* (No one came.) → no need for *no* when the sentence starts with a negative.\n2. **Double-negative (Spanish structure):**\n   - *No vino nadie.* (No one came.) → *no* reinforces the negation.\n3. **Multiple negation for emphasis:**\n   - *No dije nada a nadie nunca.* (I never said anything to anyone.) → poetic and powerful.\n\n**4️⃣ Placement notes:**\n- If the negative word comes **before** the verb, omit *no*.\n  - *Nadie sabe.* ✅ / *No nadie sabe.* ❌\n- If the negative comes **after**, *no* must precede the verb.\n  - *No sabe nadie.* ✅\n\n**5️⃣ Tip:**\nThink of *no* as the gatekeeper—once it opens, everything inside stays negative. Spanish sees multiple negatives not as confusion, but as consistency."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Rooted in Old Romance syntax, Spanish preserved the Latin practice of cumulative negation—each word reinforcing, not reversing, denial.",
+      "story": "Spanish turns negation into music. Where English subtracts, Spanish layers—each *no*, *nada*, and *nunca* adding weight until certainty becomes echo. *No tengo nada* doesn’t sound redundant; it sounds resolute. The rhythm insists: not one thing, not ever, not at all.\n\nThis pattern reveals a worldview of emphasis rather than precision. Spanish prefers expression that feels true over one that’s mathematically exact. *No vi a nadie nunca* expands like poetry, the language echoing itself to make sure the listener feels the depth of absence. In English, logic ends where repetition begins; in Spanish, repetition is logic.\n\nCulturally, this is the same impulse that shapes Spanish storytelling—emotion through reinforcement. You don’t just say something once; you say it until it resonates. Double negation mirrors that cadence, weaving meaning through rhythm. Grammar and art share the same heartbeat.",
+      "wrap_line": "Spanish negatives don’t cancel—they agree, uniting grammar and emotion in the shared act of saying 'nothing' completely."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I don’t know anything → no sé nada.", "es": "[locked]" },
+        { "en": "I don’t see anyone → no veo a nadie.", "es": "[locked]" },
+        { "en": "They never said anything to anyone → no dijeron nada a nadie nunca.", "es": "[locked]" }
+      ],
+      "cue": "Use *no* before the verb and keep the rest negative—grammar that reinforces meaning instead of canceling it."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doubles its negatives not to confuse, but to affirm—each word deepening the silence it describes, until 'nothing' becomes a kind of certainty."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_183_relative_clauses_with_subjunctive",
+  "title": "B2.183 Relative Clauses with Subjunctive — The Grammar of the Unknown",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use phrases like 'I’m looking for someone who can help me' or 'There’s nobody who understands.' Spanish expresses these ideas too, but when the person or thing is **uncertain, unknown, or doesn’t exist**, it switches to the **subjunctive.** English shows uncertainty with context or words like 'maybe'; Spanish does it by changing the verb. English hopes; Spanish grammatically admits that what’s being described might not exist at all."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Core structure:**\nFormula: *Main clause (with search, desire, or negation) + que + verb (subjunctive if unknown / indicative if known).*  \n\n**Indicative (certain / known):**\n- *Busco al profesor que enseña francés.* (I’m looking for the teacher who teaches French.) → Specific teacher known.\n\n**Subjunctive (uncertain / unknown):**\n- *Busco un profesor que enseñe francés.* (I’m looking for a teacher who teaches French.) → Any teacher; none identified yet.\n\n**2️⃣ Triggering conditions for subjunctive:**\nUse the **subjunctive** when the person, place, or thing you’re referring to is:\n- hypothetical or not yet found (*Quiero un coche que sea rápido.* → I want a car that’s fast.)\n- denied or non-existent (*No hay nadie que entienda esto.* → There’s no one who understands this.)\n- uncertain or indefinite (*¿Hay alguien que sepa la respuesta?* → Is there anyone who knows the answer?)\n\n**3️⃣ Quick comparison:**\n| Meaning Type | Verb Mood | Example |\n|---------------|------------|----------|\n| Known / certain | Indicative | *Conozco a alguien que vive allí.* (I know someone who lives there.) |\n| Unknown / hypothetical | Subjunctive | *Busco a alguien que viva allí.* (I’m looking for someone who lives there.) |\n| Denied existence | Subjunctive | *No hay nadie que viva allí.* (There’s no one who lives there.) |\n\n**4️⃣ Key signals of the unknown:**\n- Words like *ningún, nadie, nada, cualquier, un/una (indefinite article), alguien, tal vez* often lead to subjunctive.\n- Negative or interrogative main clauses automatically create uncertainty.\n\n**5️⃣ Memory trick:**\nIf what follows *que* is not guaranteed to exist, Spanish lowers it into the subjunctive—it’s grammar holding its breath until the unknown becomes real."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Derived from Latin’s subjunctive of potentiality, this use in relative clauses preserved the distinction between known reality and imagined possibility.",
+      "story": "In Spanish, the subjunctive inside relative clauses marks the difference between searching and finding, between what is real and what is still a dream. It’s not pessimism—it’s humility. The speaker acknowledges that what they want may not yet exist.\n\nWhen someone says *quiero una persona que me comprenda*, the grammar turns the wish into poetry. The subjunctive admits longing—it’s not just 'someone who understands me,' but 'someone who might.' The indicative would sound factual, grounded; the subjunctive trembles slightly, open-ended.\n\nThis form fits Spanish’s cultural patience with uncertainty. It mirrors how speakers live comfortably between reality and imagination, knowing that hope deserves grammar too. In everyday speech, it shows subtlety: *no hay nada que me moleste* feels precise but gentle, while *hay algo que me molesta* re-enters the concrete. Writers use this form to talk about love, faith, and dreams—things that exist only when spoken aloud.",
+      "wrap_line": "The subjunctive in relative clauses gives voice to longing—grammar that speaks from the space between what we seek and what we find."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I’m looking for a teacher who teaches French → busco un profesor que enseñe francés.", "es": "[locked]" },
+        { "en": "There’s no one who understands → no hay nadie que entienda.", "es": "[locked]" },
+        { "en": "I want someone who understands me → quiero a alguien que me comprenda.", "es": "[locked]" }
+      ],
+      "cue": "Use the subjunctive when what follows *que* might not exist—grammar that holds possibility like a question."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish gives even uncertainty a structure. With *que* and the subjunctive, it keeps hope grammatically alive until what’s imagined finally becomes known."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_184_sequence_of_moods",
+  "title": "B2.184 Sequence of Moods — Grammar of Dependency",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we change verb tense naturally to match context: 'I know he is coming,' 'I knew he was coming.' Spanish does this too—but it also aligns **mood** between clauses. When one verb expresses emotion, doubt, or influence, the next verb shifts its mood to match. This is called **sequence of moods**—the rule that keeps verbs emotionally and logically in tune. English manages this through context and auxiliary verbs; Spanish does it with elegant grammar, harmonizing feeling and time across the sentence."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The core idea:**\nWhen the main clause triggers the **subjunctive**, the tense of the second verb depends on the time relationship between both actions.\n\n**2️⃣ Step 1 — Identify the main clause’s tense.**\nIf the main verb is in the **present or future**, use **present** or **present perfect subjunctive** in the subordinate clause.\n- *Espero que llegues temprano.* (I hope you arrive early.)\n- *Me alegra que hayas venido.* (I’m glad you’ve come.)\n\nIf the main verb is in the **past (imperfect, preterite, conditional)**, use **imperfect** or **pluperfect subjunctive**.\n- *Esperaba que llegaras temprano.* (I hoped you would arrive early.)\n- *Me alegró que hubieras venido.* (I was glad you had come.)\n\n**3️⃣ Step 2 — Match time and mood:**\n| Main clause (mood/time) | Subordinate clause (mood/time) | Example |\n|--------------------------|--------------------------------|----------|\n| Present / Future | Present Subjunctive | *Espero que venga.* (I hope he comes.) |\n| Present / Future | Present Perfect Subjunctive | *Dudo que haya llegado.* (I doubt he’s arrived.) |\n| Past / Conditional | Imperfect Subjunctive | *Esperaba que viniera.* (I hoped he would come.) |\n| Past / Conditional | Pluperfect Subjunctive | *Esperaba que hubiera llegado.* (I hoped he had arrived.) |\n\n**4️⃣ Step 3 — Remember the emotional link:**\nSequence of moods depends not on strict time, but **relationship**. The two verbs belong to the same emotional or logical chain—when one bends to feeling, the other follows in harmony.\n\n**5️⃣ Tip:**\nIf both verbs belong to the same “emotional moment,” they move together. Spanish keeps clauses synchronized like dancers moving to one rhythm."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "This system descends from Latin’s mood harmony, which synchronized verb moods across dependent clauses to preserve consistency in meaning and emotion.",
+      "story": "The sequence of moods is Spanish’s way of keeping sentences emotionally honest. Every clause reacts to its partner—if the first feels, hopes, or doubts, the second must join in that uncertainty. Grammar becomes empathy: each verb aware of the other’s mood.\n\nThis rule reflects something deeper about the Spanish mind. The language resists emotional contradiction—it doesn’t let one part of a sentence live in certainty while the other trembles in doubt. *Esperaba que llegaras* isn’t just logic—it’s alignment between expectation and the reality of waiting. Both verbs lean into each other like mirrors.\n\nIn daily life, this sequence adds musical balance. *Me alegra que estés bien* sounds whole; *me alegró que estuvieras bien* closes like a sigh. Writers use this harmony to make prose flow like thought—each verb carefully tuned to the time and feeling of the moment. The sequence of moods keeps language coherent, not just in meaning, but in emotion.",
+      "wrap_line": "Spanish coordinates grammar the way people coordinate trust—each verb listens to the other, matching tone and time so the sentence stays whole."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I hope he comes → espero que venga.", "es": "[locked]" },
+        { "en": "I hoped he would come → esperaba que viniera.", "es": "[locked]" },
+        { "en": "I was glad he had come → me alegró que hubiera venido.", "es": "[locked]" }
+      ],
+      "cue": "The main verb sets the emotional key—grammar that ensures every clause moves in harmony with it."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish aligns mood like melody. Each verb carries the next in its rhythm, ensuring that time and feeling always speak the same language."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_185_imperative_mood_advanced",
+  "title": "B2.185 Imperative Mood (Advanced) — Commands and Tone",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, giving a command is simple: 'Come here,' 'Be quiet,' 'Let’s go.' Spanish also uses the **imperative mood** for orders, requests, and advice—but it changes form depending on who you’re speaking to and how formal you are. *Ven aquí, venga aquí, vengan aquí* all mean 'come here,' but each carries a different tone. English changes politeness with voice; Spanish does it through grammar, shaping tone directly into the verb."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The forms:**\nSpanish imperatives depend on **who** is being addressed. Only the **affirmative commands** use unique forms; **negative commands** borrow from the subjunctive.\n\n| Person | Affirmative | Negative |\n|---------|--------------|-----------|\n| tú | *habla, come, vive* | *no hables, no comas, no vivas* |\n| usted | *hable, coma, viva* | *no hable, no coma, no viva* |\n| vosotros | *hablad, comed, vivid* | *no habléis, no comáis, no viváis* |\n| ustedes | *hablen, coman, vivan* | *no hablen, no coman, no vivan* |\n| nosotros | *hablemos, comamos, vivamos* | *no hablemos, no comamos, no vivamos* |\n\n**2️⃣ Irregulars you must know:**\n| Verb | Tú (affirmative) | Usted / Ustedes | Negative Tú |\n|------|------------------|----------------|--------------|\n| decir | di | diga / digan | no digas |\n| hacer | haz | haga / hagan | no hagas |\n| ir | ve | vaya / vayan | no vayas |\n| poner | pon | ponga / pongan | no pongas |\n| salir | sal | salga / salgan | no salgas |\n| ser | sé | sea / sean | no seas |\n| tener | ten | tenga / tengan | no tengas |\n| venir | ven | venga / vengan | no vengas |\n\n**3️⃣ Pronoun placement:**\n- Affirmative → attach pronouns: *Dímelo* (tell it to me), *Levántate* (get up).\n- Negative → place pronouns before: *No me lo digas* (don’t tell it to me).\n\n**4️⃣ Tone and intention:**\nThe imperative is not just for orders—it can express affection (*ven conmigo*), encouragement (*sigue intentando*), or urgency (*¡corre!*). Spanish commands carry mood as much as action, their softness or sharpness defined by formality and form.\n\n**5️⃣ Tip:**\nTo sound natural, match tone to closeness: *hazlo* (casual, familiar), *hágalo* (respectful), *hacedlo* (Spain, plural informal), *háganlo* (Latin America, plural formal)."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The imperative comes from Latin’s command forms, used to mark direct, urgent speech—one of the earliest and most emotional verb moods.",
+      "story": "The imperative is Spanish at its most human—the voice that asks, insists, pleads, or cheers. Every command carries personality: *ven* feels like an embrace, *venga* like a courteous invitation. Grammar becomes emotion made precise.\n\nIn conversation, Spanish uses the imperative not only for commands but for connection. *Dime* (‘tell me’) opens conversation warmly; *escúchame* (‘listen to me’) asserts need. The placement of pronouns, the choice of formality—each detail shapes tone. Even silence changes meaning: *anda* can mean 'come on' playfully, or 'go on' wearily, depending on voice.\n\nSpanish culture gives the imperative range. It lives in kitchens (*prueba esto*), streets (*espere su turno*), lullabies (*duérmete niño*), and protests (*levántate y lucha*). The form adapts to love, respect, and rebellion alike. Where English might soften with please, Spanish simply reshapes the verb—grammar doing the work of emotion.",
+      "wrap_line": "The Spanish imperative is not just order—it’s presence, a mood that commands without always commanding, shaping tone through trust and form."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Come here → ven aquí.", "es": "[locked]" },
+        { "en": "Don’t tell me that → no me digas eso.", "es": "[locked]" },
+        { "en": "Be patient → sé paciente.", "es": "[locked]" }
+      ],
+      "cue": "Use the imperative to express action and attitude—grammar that commands, invites, or comforts depending on how it’s spoken."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish uses the imperative to turn intent into sound. Every *ven, sigue,* or *espera* carries more than command—it’s how the language reaches out and moves the world."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_185_imperative_mood_advanced",
+  "title": "B2.185 Imperative Mood (Advanced) — Commands and Tone",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, giving a command is simple: 'Come here,' 'Be quiet,' 'Let’s go.' Spanish also uses the **imperative mood** for orders, requests, and advice—but it changes form depending on who you’re speaking to and how formal you are. *Ven aquí, venga aquí, vengan aquí* all mean 'come here,' but each carries a different tone. English changes politeness with voice; Spanish does it through grammar, shaping tone directly into the verb."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The forms:**\nSpanish imperatives depend on **who** is being addressed. Only the **affirmative commands** use unique forms; **negative commands** borrow from the subjunctive.\n\n| Person | Affirmative | Negative |\n|---------|--------------|-----------|\n| tú | *habla, come, vive* | *no hables, no comas, no vivas* |\n| usted | *hable, coma, viva* | *no hable, no coma, no viva* |\n| vosotros | *hablad, comed, vivid* | *no habléis, no comáis, no viváis* |\n| ustedes | *hablen, coman, vivan* | *no hablen, no coman, no vivan* |\n| nosotros | *hablemos, comamos, vivamos* | *no hablemos, no comamos, no vivamos* |\n\n**2️⃣ Irregulars you must know:**\n| Verb | Tú (affirmative) | Usted / Ustedes | Negative Tú |\n|------|------------------|----------------|--------------|\n| decir | di | diga / digan | no digas |\n| hacer | haz | haga / hagan | no hagas |\n| ir | ve | vaya / vayan | no vayas |\n| poner | pon | ponga / pongan | no pongas |\n| salir | sal | salga / salgan | no salgas |\n| ser | sé | sea / sean | no seas |\n| tener | ten | tenga / tengan | no tengas |\n| venir | ven | venga / vengan | no vengas |\n\n**3️⃣ Pronoun placement:**\n- Affirmative → attach pronouns: *Dímelo* (tell it to me), *Levántate* (get up).\n- Negative → place pronouns before: *No me lo digas* (don’t tell it to me).\n\n**4️⃣ Tone and intention:**\nThe imperative is not just for orders—it can express affection (*ven conmigo*), encouragement (*sigue intentando*), or urgency (*¡corre!*). Spanish commands carry mood as much as action, their softness or sharpness defined by formality and form.\n\n**5️⃣ Tip:**\nTo sound natural, match tone to closeness: *hazlo* (casual, familiar), *hágalo* (respectful), *hacedlo* (Spain, plural informal), *háganlo* (Latin America, plural formal)."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "The imperative comes from Latin’s command forms, used to mark direct, urgent speech—one of the earliest and most emotional verb moods.",
+      "story": "The imperative is Spanish at its most human—the voice that asks, insists, pleads, or cheers. Every command carries personality: *ven* feels like an embrace, *venga* like a courteous invitation. Grammar becomes emotion made precise.\n\nIn conversation, Spanish uses the imperative not only for commands but for connection. *Dime* (‘tell me’) opens conversation warmly; *escúchame* (‘listen to me’) asserts need. The placement of pronouns, the choice of formality—each detail shapes tone. Even silence changes meaning: *anda* can mean 'come on' playfully, or 'go on' wearily, depending on voice.\n\nSpanish culture gives the imperative range. It lives in kitchens (*prueba esto*), streets (*espere su turno*), lullabies (*duérmete niño*), and protests (*levántate y lucha*). The form adapts to love, respect, and rebellion alike. Where English might soften with please, Spanish simply reshapes the verb—grammar doing the work of emotion.",
+      "wrap_line": "The Spanish imperative is not just order—it’s presence, a mood that commands without always commanding, shaping tone through trust and form."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Come here → ven aquí.", "es": "[locked]" },
+        { "en": "Don’t tell me that → no me digas eso.", "es": "[locked]" },
+        { "en": "Be patient → sé paciente.", "es": "[locked]" }
+      ],
+      "cue": "Use the imperative to express action and attitude—grammar that commands, invites, or comforts depending on how it’s spoken."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish uses the imperative to turn intent into sound. Every *ven, sigue,* or *espera* carries more than command—it’s how the language reaches out and moves the world."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_187_reported_commands",
+  "title": "B2.187 Reported Commands — Grammar of Indirect Authority",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we report commands with phrases like 'He told me to come,' 'She asked them not to go.' We shift the command into a softer form using 'to' or 'not to.' Spanish does the same but replaces the direct command with a **subjunctive clause** after verbs of telling or requesting. *Me dijo que viniera, les pidió que no fueran.* English builds politeness with structure; Spanish transforms authority into mood—grammar that balances direction and distance."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Core idea:**\nReported (indirect) commands express orders, requests, or suggestions **without quoting directly.** Spanish uses verbs of influence—*decir, pedir, ordenar, aconsejar, mandar, rogar, permitir*—followed by *que + subjunctive.*\n\n**2️⃣ Structure:**\nFormula: *main verb (of command) + que + verb (subjunctive).*  \n- *Me dijo que estudiara.* (He told me to study.)\n- *Nos pidió que llegáramos temprano.* (She asked us to arrive early.)\n- *Te ordeno que lo hagas.* (I order you to do it.)\n\n**3️⃣ Affirmative vs. Negative:**\n- *Me dijo que lo hiciera.* (He told me to do it.)\n- *Me dijo que no lo hiciera.* (He told me not to do it.)\nBoth use the **imperfect subjunctive** because the reporting verb is past.\n\n**4️⃣ Present vs. Past sequence:**\n| Main Clause | Subordinate Verb | Example |\n|--------------|------------------|----------|\n| Present | Present Subjunctive | *Le digo que estudie.* (I tell him to study.) |\n| Past | Imperfect Subjunctive | *Le dije que estudiara.* (I told him to study.) |\n| Conditional | Imperfect Subjunctive | *Le diría que estudiara.* (I’d tell him to study.) |\n\n**5️⃣ Common reporting verbs and meanings:**\n| Verb | English meaning | Example |\n|------|------------------|----------|\n| decir | to tell | *Dijo que vinieras.* |\n| pedir | to ask | *Pidió que esperáramos.* |\n| mandar / ordenar | to order | *Ordenó que se fueran.* |\n| rogar / suplicar | to beg | *Rogó que la perdonaran.* |\n| permitir / prohibir | to allow / forbid | *Prohibieron que entráramos.* |\n\n**6️⃣ Tip:**\nDirect command → *Hazlo.*  \nReported command → *Me dijo que lo hiciera.*  \nSpanish softens direct speech into harmony—letting grammar convey both message and respect."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s dependent command structures using the subjunctive, Spanish preserved the pattern as a way to express influence indirectly and politely.",
+      "story": "Reported commands show how Spanish prefers diplomacy over directness. Instead of repeating someone’s words, the language transforms them—an act of both obedience and distance. When you say *me dijo que viniera*, you’re not quoting power; you’re acknowledging it gracefully.\n\nIn Spanish conversation, tone often replaces confrontation. Direct commands (*hazlo, ven, espera*) feel intimate or urgent; indirect commands create space for respect. *Me pidió que ayudara* sounds gentle, collaborative—a request, not an order. The subjunctive protects both sides: the authority of the speaker and the freedom of the listener.\n\nThis grammar reflects Spanish culture’s relationship with hierarchy and courtesy. A priest might *ordenar que se rece,* a parent *decir que estudies,* a friend *pedir que vengas.* Each carries tone shaped by relationship. Grammar becomes diplomacy—the subjunctive softens obligation into mutual understanding. It’s how Spanish turns instruction into communication instead of confrontation.",
+      "wrap_line": "Reported commands make authority flexible—grammar that asks instead of orders, letting power and respect share the same sentence."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "He told me to study → me dijo que estudiara.", "es": "[locked]" },
+        { "en": "She asked us to arrive early → nos pidió que llegáramos temprano.", "es": "[locked]" },
+        { "en": "They ordered us not to leave → ordenaron que no nos fuéramos.", "es": "[locked]" }
+      ],
+      "cue": "Use *que + subjunctive* to report orders or requests—grammar that turns command into courtesy."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish makes authority sound human. Every *me dijo que hiciera* or *nos pidió que esperáramos* carries both control and compassion, proof that grammar can negotiate power with grace."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_188_conditional_sentences_mixed",
+  "title": "B2.188 Conditional Sentences (Mixed) — Grammar of Imagination",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we say 'If it rains, I’ll stay home,' 'If I studied, I’d pass,' 'If I had known, I would’ve gone.' Each version shifts time and possibility. Spanish follows the same logic but expresses it more precisely through verb forms. **Si + indicative, subjunctive, or pluperfect subjunctive** combine to measure reality, imagination, and regret. English manages this with 'will,' 'would,' and 'would have'; Spanish builds it into the verbs themselves, turning logic into music."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The Three Basic Types (Review):**\n| Type | Structure | Meaning | Example |\n|------|------------|----------|----------|\n| Type 1 – Real | *Si + present → future / present* | Likely situation | *Si llueve, me quedo en casa.* (If it rains, I stay home.) |\n| Type 2 – Unreal (present/future) | *Si + imperfect subjunctive → conditional* | Hypothetical or unlikely | *Si tuviera dinero, viajaría más.* (If I had money, I’d travel more.) |\n| Type 3 – Impossible (past) | *Si + pluperfect subjunctive → conditional perfect* | Regret / impossible past | *Si hubiera estudiado, habría aprobado.* (If I had studied, I’d have passed.) |\n\n**2️⃣ Mixed conditionals (crossing time):**\nThese mix past and present to express **how a past condition affects the present**, or vice versa.\n\n| Type | Structure | Meaning | Example |\n|------|------------|----------|----------|\n| Past → Present | *Si hubiera estudiado, tendría un mejor trabajo.* | If I had studied (then), I’d have a better job (now). |\n| Present → Past | *Si fuera más valiente, habría confesado la verdad.* | If I were braver (now), I would have confessed (then). |\n\n**3️⃣ Key idea:**\nThe Spanish conditional chain works like a timeline of cause and imagination. The *si* clause marks the condition; the other clause reveals the imagined result. Both sides mirror time through mood.\n\n**4️⃣ Common variations:**\n- *Aunque* (even if): *Aunque tuviera tiempo, no iría.* (Even if I had time, I wouldn’t go.)\n- *Como si* (as if): *Habla como si lo supiera todo.* (He talks as if he knew everything.)\n\n**5️⃣ Quick diagnostic:**\nAsk yourself two questions:\n1. Is the condition real, unreal, or impossible?\n2. Is the consequence present, future, or past?\nSpanish will always provide the right pair of tenses to fit your answer."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin conditional and subjunctive pairings, Spanish perfected a system of balance between reality and desire, using mood to measure distance from fact.",
+      "story": "Conditional sentences are where Spanish reveals its philosophical heart. Every *si* clause carries a quiet reflection on possibility. The indicative deals with certainty; the subjunctive with imagination. To say *si tuviera alas, volaría* isn’t simply hypothetical—it’s an act of dreaming within grammar.\n\nThese patterns also capture regret and hope with precision. *Si hubiera sabido, no habría ido* isn’t just sorrow; it’s understanding. The pluperfect subjunctive honors time’s order while admitting human error. Spanish doesn’t run from what can’t be changed—it narrates it elegantly.\n\nMixed conditionals show life’s paradoxes. We live in the present but think about the past; we regret the past while wishing it changed the present. *Si hubiera nacido en otro lugar, hablaría diferente.* (If I had been born elsewhere, I’d speak differently.) Grammar becomes introspection—a structure that holds longing without breaking reason.\n\nEach tense pairing tells a story of awareness: of how people imagine, wish, and reconcile with what didn’t happen.",
+      "wrap_line": "Conditional sentences in Spanish make logic emotional—grammar that allows the mind to wonder and the heart to answer, all within a single 'si.'"
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "If I had studied, I’d have a better job → si hubiera estudiado, tendría un mejor trabajo.", "es": "[locked]" },
+        { "en": "If I were braver, I would have confessed → si fuera más valiente, habría confesado.", "es": "[locked]" },
+        { "en": "If it rains, we’ll stay home → si llueve, nos quedamos en casa.", "es": "[locked]" }
+      ],
+      "cue": "Spanish pairs verbs across time—grammar that lets you dream backward and forward at once."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish uses conditionals to weave what is with what might have been. Each *si hubiera, si tuviera, si llueve* reminds us that imagination, like grammar, lives in possibility."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_189_subjunctive_chain",
+  "title": "B2.189 The Subjunctive Chain — When One Verb Triggers Another",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, verbs usually stand on their own: 'I hope you come,' 'I want her to call,' 'I doubt he knows.' Spanish links these ideas more tightly. When one verb expresses **emotion, desire, doubt, or necessity**, it pulls the next verb into the **subjunctive mood**—a grammatical ripple effect. English signals connection through meaning; Spanish shows it through structure, letting verbs echo each other’s mood until the entire sentence feels emotionally in sync."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The concept:**\nWhen a verb of emotion, will, or doubt appears in the main clause, the verb in the subordinate clause must follow in the **subjunctive**, forming a chain of dependency.\n\nFormula: *Main verb (indicative) + que + subordinate verb (subjunctive).*  \n- *Espero que vengas.* (I hope you come.)\n- *Dudo que sea verdad.* (I doubt it’s true.)\n- *Quiero que me llames.* (I want you to call me.)\n\n**2️⃣ The triggers:**\nVerbs that cause subjunctive chains belong to four main families:\n| Category | Common Triggers | Example |\n|-----------|----------------|----------|\n| Emotion | *alegrarse de, temer, sentir* | *Me alegra que estés aquí.* |\n| Will / Desire | *querer, esperar, pedir, exigir* | *Espero que tengas suerte.* |\n| Doubt / Denial | *dudar, no creer, negar* | *No creo que funcione.* |\n| Influence | *aconsejar, permitir, prohibir* | *Te aconsejo que estudies más.* |\n\n**3️⃣ Sequence of moods (time alignment):**\n| Main Verb Time | Subordinate Verb | Example |\n|-----------------|------------------|----------|\n| Present / Future | Present Subjunctive | *Espero que vengas.* |\n| Past / Conditional | Imperfect Subjunctive | *Esperaba que vinieras.* |\n| Past (referring to earlier action) | Pluperfect Subjunctive | *Esperaba que hubieras venido.* |\n\n**4️⃣ Chain reactions in longer sentences:**\nA subjunctive can trigger another when clauses stack:\n- *Dudo que ella piense que tú estés mintiendo.* (I doubt she thinks you’re lying.)\n- *Quiero que me digas que te alegra que lo haya hecho.* (I want you to tell me you’re glad I did it.)\nEach verb follows the previous one’s emotional or logical tone.\n\n**5️⃣ Quick tip:**\nWhen one clause carries uncertainty or desire, all verbs downstream adjust. Spanish makes logic emotional—one verb’s feeling controls the next verb’s fate."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "Rooted in Latin’s dependent-subjunctive system, Spanish retained a networked structure where subordinate verbs inherit the mood of the main clause.",
+      "story": "The subjunctive chain reveals how Spanish sees relationships—not just between people, but between actions. No verb lives alone. When one expresses hope or fear, others follow its rhythm. Grammar becomes empathy: every verb listens to the first, reacting with humility.\n\nThis dependency creates harmony between thought and feeling. *Quiero que vengas* doesn’t simply mean 'I want you to come'; it means the wanting itself shapes the coming. The structure acknowledges emotional gravity: verbs in the subjunctive surrender certainty to join that emotional world.\n\nIn conversation, this chaining of moods gives Spanish its depth of tone. *Temo que no llegues a tiempo* feels both factual and heartfelt—it’s grammar soaked in care. In literature, writers use it to layer perspective: one character’s doubt triggering another’s uncertainty. The subjunctive chain captures what human connection feels like—one person’s mood affecting another’s action, bound by language.",
+      "wrap_line": "Spanish weaves verbs together like thoughts—each one bending to the feeling that started the sentence."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I hope you come → espero que vengas.", "es": "[locked]" },
+        { "en": "I wanted you to tell me → quería que me dijeras.", "es": "[locked]" },
+        { "en": "I’m glad you’ve come → me alegra que hayas venido.", "es": "[locked]" }
+      ],
+      "cue": "When one verb carries emotion, will, or doubt, it pulls the next into the subjunctive—grammar that turns feeling into syntax."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish connects emotion to action through grammar. The subjunctive chain shows how a single feeling can ripple across a sentence—and, sometimes, across a conversation."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_190_infinitive_as_noun",
+  "title": "B2.190 The Infinitive as Noun — Grammar of Abstraction",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, verbs can sometimes act like nouns: 'Swimming is fun,' 'Reading helps me relax,' 'Eating vegetables is good for you.' Spanish does the same with the **infinitive**, but even more freely. *Nadar es divertido, leer me relaja, comer verduras es sano.* While English often adds '-ing' to create this effect, Spanish simply uses the verb’s basic form. English changes the word; Spanish changes the way it’s seen—turning an action into an idea without altering its shape."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nThe infinitive (*-ar, -er, -ir*) acts as a **noun**—representing actions, habits, or abstract ideas rather than a specific moment.\n- *Fumar mata.* (Smoking kills.)\n- *Vivir bien es un arte.* (Living well is an art.)\n- *Leer abre la mente.* (Reading opens the mind.)\n\n**2️⃣ Gender and number:**\nInfinitives used as nouns are always **singular and masculine**, taking *el* when needed.\n- *El comer saludable es importante.* (Healthy eating is important.)\n- *El viajar enseña paciencia.* (Traveling teaches patience.)\n\n**3️⃣ Common patterns:**\n| Pattern | Meaning | Example |\n|----------|----------|----------|\n| Infinitive as subject | the act itself | *Correr cansa.* (Running tires you.) |\n| Infinitive as object | purpose or activity | *Odio madrugar.* (I hate getting up early.) |\n| Infinitive after preposition | required rule | *Antes de comer, lávate las manos.* (Before eating, wash your hands.) |\n| Infinitive after impersonal expressions | general truth | *Es fácil aprender español.* (It’s easy to learn Spanish.) |\n\n**4️⃣ Prepositions that require infinitives:**\n*al, de, en, para, por, sin.*\n- *Al salir, me llamó.* (Upon leaving, he called me.)\n- *Estoy cansado de esperar.* (I’m tired of waiting.)\n- *Salí sin decir nada.* (I left without saying anything.)\n\n**5️⃣ Quick comparison:**\n| English | Spanish | Example |\n|----------|----------|----------|\n| Gerund ('-ing') | Infinitive | *Smoking → fumar* |\n| To + Verb | Infinitive | *To live → vivir* |\n| Abstract action | Infinitive | *Learning is growth → aprender es crecer* |\n\n**6️⃣ Shortcut tip:**\nWhen English uses a verb as an idea (*reading, swimming, living*), Spanish keeps it in its pure form—the infinitive. It’s not just an action; it’s the concept of doing."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin infinitivus ('unbounded'), the infinitive was conceived as the timeless form of the verb—an action unanchored by tense or subject.",
+      "story": "In Spanish, the infinitive is more than grammar—it’s philosophy. It captures doing without time, essence without boundary. When you say *amar es vivir*, you’re not just describing love; you’re defining existence through action. The infinitive makes verbs eternal.\n\nThis is one of Spanish’s most elegant features. English often separates action from being—'to live,' 'to love,' 'to dream' sound purposeful but detached. Spanish fuses them naturally. *Vivir, amar, soñar* sound like constants, truths that belong to all time. It’s why writers and philosophers lean on infinitives to express values and universal truths. *Ser o no ser*—'to be or not to be'—becomes both question and meditation.\n\nIn conversation, the infinitive’s flexibility makes language concise. *Fumar no se permite* is simpler than 'Smoking is not allowed.' Grammar here doesn’t describe rules—it embodies them. Spanish turns doing into a noun not to label it, but to lift it out of time.",
+      "wrap_line": "The infinitive in Spanish freezes motion into meaning—grammar that transforms doing into knowing, and life into language."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Living well is an art → vivir bien es un arte.", "es": "[locked]" },
+        { "en": "Before eating, wash your hands → antes de comer, lávate las manos.", "es": "[locked]" },
+        { "en": "Smoking is not allowed → fumar no se permite.", "es": "[locked]" }
+      ],
+      "cue": "Use the infinitive when an action becomes an idea—grammar that turns motion into concept."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish sees no boundary between doing and being. Each infinitive—*amar, soñar, vivir*—feels infinite, the quiet heartbeat of action turned into thought."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_191_gerund_as_connection",
+  "title": "B2.191 The Gerund as Connection — Action in Continuity",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use '-ing' forms to connect actions or show ongoing activity: 'I’m running,' 'She came singing,' 'They left laughing.' Spanish does this with the **gerund**—verbs ending in *-ando* or *-iendo* that link movement, sequence, or cause. *Estoy corriendo, vino cantando, salieron riendo.* English uses a helper verb like 'be' or a comma; Spanish fuses the motion directly into the verb. English separates action with words; Spanish lets one action flow into the next."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nForm the **gerundio** by replacing the verb ending with *-ando* (for -ar) or *-iendo* (for -er/-ir):\n- *hablar → hablando* (speaking)\n- *comer → comiendo* (eating)\n- *vivir → viviendo* (living)\n\n**2️⃣ Core uses:**\n| Function | Description | Example |\n|-----------|--------------|----------|\n| Progressive | ongoing action | *Estoy estudiando español.* (I’m studying Spanish.) |\n| Simultaneous actions | two things happening together | *Camina escuchando música.* (He walks while listening to music.) |\n| Cause or manner | explains how or why | *Ganó sonriendo.* (He won by smiling.) |\n| Sequence | shows result or follow-up | *Salió corriendo.* (He ran out / left running.) |\n\n**3️⃣ Progressive tenses:**\nThe **gerund** works with *estar* to express continuous action:\n| Time | Structure | Example |\n|------|------------|----------|\n| Present | *estar (present) + gerund* | *Estoy leyendo.* (I’m reading.) |\n| Past | *estar (imperfect) + gerund* | *Estaba leyendo.* (I was reading.) |\n| Future | *estar (future) + gerund* | *Estaré leyendo.* (I’ll be reading.) |\n\n**4️⃣ Rules and restrictions:**\n- The gerund never functions as a noun (*El fumar* = correct, *Fumando* = incorrect for 'smoking').\n- It cannot modify nouns directly (*una mujer cantando* is fine in speech but not as a formal adjective).\n- It only refers to **simultaneous or related** actions—not sequential facts.\n  - ❌ *Llegó, comiendo después.* → ✅ *Llegó y comió después.*\n\n**5️⃣ Common expressions:**\n- *Andando el tiempo* (as time goes by)\n- *Siguiendo las reglas* (following the rules)\n- *Pensándolo bien* (on second thought)\n\nSpanish uses the gerund to thread ideas together, turning verbs into bridges rather than walls."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s present participle (-ando, -endo), Spanish inherited a living form that joins movement and continuity within a single structure.",
+      "story": "The Spanish gerund carries motion inside its sound. *-ando, -iendo*—each ending breathes movement. The form exists to keep verbs alive in the present, to show that one act bleeds naturally into another. *Salió corriendo* isn’t two actions—it’s one gesture that carries speed and emotion together.\n\nUnlike English, which isolates actions with commas or conjunctions, Spanish trusts rhythm. It lets one idea flow into the next without pause. This reflects how Spanish culture experiences time—not as separate events, but as continuous flow. *Viviendo y aprendiendo* (living and learning) isn’t metaphor; it’s grammar as philosophy.\n\nIn literature and speech, the gerund softens narrative. It makes movement fluid and human: *Mirándola, entendí todo* ('Looking at her, I understood everything'). The verb becomes brushstroke, linking thought and perception. Spanish uses it to express not just motion but cause, consequence, and companionship—actions walking side by side.",
+      "wrap_line": "The gerund lets Spanish move gracefully—grammar that keeps thought in motion and time gently unfolding."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I’m studying Spanish → estoy estudiando español.", "es": "[locked]" },
+        { "en": "He left running → salió corriendo.", "es": "[locked]" },
+        { "en": "She won by smiling → ganó sonriendo.", "es": "[locked]" }
+      ],
+      "cue": "Use the gerund to connect or continue actions—grammar that flows like breath between verbs."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish doesn’t break its actions apart—it lets them move together. Every *riendo, caminando, soñando* reminds us that doing and being are never truly separate."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_192_participle_as_description",
+  "title": "B2.192 The Participle as Description — Frozen Action",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use past participles as adjectives all the time: 'a broken heart,' 'a closed door,' 'a written note.' Spanish does the same with the **past participle**, but it requires **agreement** with the noun in gender and number. *Un corazón roto, una puerta cerrada, unas notas escritas.* English leaves participles unchanged; Spanish lets them flex to fit the noun they describe. English freezes action through meaning; Spanish freezes it through grammar—turning movement into shape."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Structure:**\nThe **past participle** is formed by replacing the infinitive ending:\n- *-ar → -ado:* *hablar → hablado.*\n- *-er / -ir → -ido:* *comer → comido, vivir → vivido.*\nIt can serve three grammatical roles:\n1. As part of a compound verb (with *haber*): *he comido.*\n2. As an adjective: *la puerta cerrada.*\n3. As a noun (less common): *el elegido* (the chosen one).\n\n**2️⃣ Agreement rules:**\nWhen used as an adjective, the participle **agrees in gender and number** with the noun it modifies:\n| Gender / Number | Example |\n|-----------------|----------|\n| Masculine singular | *el trabajo terminado* |\n| Feminine singular | *la carta escrita* |\n| Masculine plural | *los libros leídos* |\n| Feminine plural | *las casas pintadas* |\n\n**3️⃣ Participles of irregular verbs:**\n| Verb | Past Participle | Translation |\n|------|------------------|--------------|\n| abrir | abierto | opened |\n| decir | dicho | said |\n| escribir | escrito | written |\n| hacer | hecho | done/made |\n| morir | muerto | dead |\n| poner | puesto | put/placed |\n| romper | roto | broken |\n| ver | visto | seen |\n| volver | vuelto | returned |\n\n**4️⃣ Usage and placement:**\n- As an **adjective**, the participle usually follows the noun: *una historia contada mil veces.*\n- It can also appear before for emphasis or poetic tone: *la olvidada canción.*\n\n**5️⃣ Participial phrases:**\nUsed to describe nouns dynamically:\n- *Los niños dormidos parecen ángeles.* (The sleeping children look like angels.)\n- *El camino cubierto de hojas.* (The path covered with leaves.)\nSpanish makes stillness expressive—it transforms what happened into what is seen."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s perfect participle, Spanish inherited a form that captures completed action while allowing it to act adjectivally or symbolically.",
+      "story": "The participle in Spanish is the moment where motion pauses but memory continues. It holds the echo of an action, describing something that was done and remains. When you say *una puerta cerrada*, you speak of a gesture frozen in its result—a past that lives visibly in the present.\n\nThis feature reveals how Spanish perceives time. The participle doesn’t erase action; it preserves it. It’s grammar’s version of a photograph, showing where movement stopped. *El amor perdido* isn’t just 'lost love'; it’s love still haunted by the act of losing. In conversation, participles bring subtle depth: *estoy cansado* (I am tired) carries the quiet aftermath of effort, not just the state.\n\nWriters use participles to crystallize emotion. *El tiempo pasado*—'time gone by'—is more than a timeline; it’s reflection captured in words. Spanish lets language hold what can’t move anymore, transforming completion into description.",
+      "wrap_line": "The Spanish participle keeps action alive in stillness—grammar that turns what was done into what remains."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The closed door → la puerta cerrada.", "es": "[locked]" },
+        { "en": "The written letter → la carta escrita.", "es": "[locked]" },
+        { "en": "The lost love → el amor perdido.", "es": "[locked]" }
+      ],
+      "cue": "Use past participles as adjectives when action becomes description—grammar that remembers what has already happened."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish participles sit quietly between movement and memory. Each *cerrado, hecho, roto* holds a trace of life paused—language keeping what time has already let go."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_193_ellipsis_and_omission",
+  "title": "B2.193 Ellipsis and Omission — Grammar of Silence",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we often drop words when the meaning is clear: 'Want some?' instead of 'Do you want some?', 'Coming?' instead of 'Are you coming?' Spanish does this too—perhaps even more freely. Through **ellipsis and omission**, Spanish removes what’s already understood. *¿Vienes?* (Coming?), *No puedo más.* (I can’t [take it] anymore.), *Gracias por todo.* (Thanks for everything [you did].) English uses tone and context; Spanish uses brevity. It trusts silence to finish the sentence."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The concept:**\n**Ellipsis** means intentionally leaving out a word or phrase because it’s understood from context. Spanish relies on it constantly, especially in conversation, where pronouns, verbs, and even objects disappear.\n\n**2️⃣ Common omissions:**\n| Type | What’s omitted | Example |\n|------|----------------|----------|\n| Subject | pronoun (*yo, tú, él, etc.*) | *Voy al cine.* (I’m going to the movies.) → Subject 'I' understood. |\n| Object | direct/indirect object | *No quiero [nada].* (I don’t want [anything].) |\n| Verb | repeated from earlier | *—¿Vas al mercado? —Sí, [voy].* (—Are you going to the market? —Yes, [I am].) |\n| Clause | understood conclusion | *Si puedo, [te llamo].* (If I can, [I’ll call you].) |\n\n**3️⃣ Dialogue patterns:**\nSpanish conversations often cut words but keep full meaning through rhythm and agreement.\n- *¿Vienes conmigo?* → *¿Vienes?* (Are you coming?)\n- *No quiero hacerlo, pero [lo haré].* (I don’t want to, but [I’ll do it].)\n- *Gracias por venir.* (Thanks for coming [to see me].)\n\n**4️⃣ Grammar note:**\nBecause Spanish verbs already encode the subject (*hablo = I speak, comes = you come*), subject pronouns are often dropped unless used for emphasis (*yo hablo, no tú*). This gives sentences a natural rhythm of omission.\n\n**5️⃣ Comparison to English:**\nEnglish depends on word order and pronouns for clarity; Spanish depends on verb endings and context. Where English fears ambiguity, Spanish embraces it as efficiency."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s inflected verb endings and pro-drop structure, Spanish inherited the ability to omit subjects and other elements without losing clarity.",
+      "story": "Ellipsis in Spanish isn’t laziness—it’s trust. It assumes the listener already knows, feels, or infers what’s missing. The silence between words is not absence; it’s shared understanding. In Spanish, what isn’t said can carry more weight than what is.\n\nDaily speech thrives on this intimacy. A simple *¿Vienes?* says more than *¿Tú vienes conmigo al cine esta noche?* Context fills the gaps; tone colors them. Spanish speakers often speak like painters—suggesting form rather than outlining every line. The language prefers gestures to blueprints.\n\nThis habit reveals something cultural: conversation as collaboration. Each speaker completes the other’s thought. The grammar trusts connection more than precision. In literature, ellipsis becomes elegance: *Lo amaba. Y no dijo nada.* (She loved him. And said nothing.) The missing words invite the reader to feel, not decode. Spanish turns omission into art—the grammar of empathy and implication.",
+      "wrap_line": "Spanish uses silence as structure—grammar that speaks through what it leaves unsaid, letting absence become meaning."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Are you coming? → ¿vienes?", "es": "[locked]" },
+        { "en": "I can’t [take it] anymore → no puedo más.", "es": "[locked]" },
+        { "en": "If I can [I’ll call you] → si puedo [te llamo].", "es": "[locked]" }
+      ],
+      "cue": "Use ellipsis to shorten without losing meaning—grammar that trusts the listener to finish the sentence."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish knows that silence isn’t empty. Every omitted word—every quiet *[lo sé]*—lets speakers share meaning through intuition, not repetition."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_194_word_order_variations",
+  "title": "B2.194 Word Order Variations — Rhythm and Emphasis",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, word order rarely changes. We rely on structure for meaning: subject, verb, object—'The dog chased the cat.' Spanish, however, allows flexibility. *El perro persiguió al gato*, *Al gato lo persiguió el perro*, even *Persiguió al gato el perro*—all are correct, each with a different focus. English builds meaning through order; Spanish builds it through rhythm and emphasis, bending structure to match emotion, intention, or surprise."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Default pattern:**\nThe neutral Spanish sentence order follows **SVO (subject + verb + object)**, just like English.\n- *El niño come manzanas.* (The boy eats apples.)\n\nBut Spanish is flexible because the **verb endings** already mark who does the action. *Come manzanas* (He/She eats apples) is perfectly clear even without *el niño.* This freedom lets Spanish reorder words for emphasis or style.\n\n**2️⃣ Common variations and their effect:**\n| Order | Example | Emphasis |\n|--------|----------|-----------|\n| SVO | *El perro mordió al hombre.* | Neutral statement. |\n| VSO | *Mordió el perro al hombre.* | Dramatic / literary tone, emphasizes the action. |\n| OVS | *Al hombre lo mordió el perro.* | Emphasizes the object—'It was the man who was bitten.' |\n| OSV | *Al hombre el perro mordió.* | Poetic or formal rhythm, often used in storytelling. |\n\n**3️⃣ Inversion for questions:**\nSpanish flips subject and verb to form questions, just like English:\n- *¿Comes tú manzanas?* (Do you eat apples?)\n- *¿Dónde está María?* (Where is María?)\nPronouns often stay attached or placed before verbs, preserving clarity: *¿Qué te dijo?* (What did he tell you?)\n\n**4️⃣ Fronting for emphasis:**\nSpanish allows words to be moved to the front for focus.\n- *A mí me gusta el café.* (As for me, I like coffee.)\n- *En casa estoy mejor.* (At home, I feel better.)\n- *Lo hice yo.* (I did it.)\n\n**5️⃣ Key note:**\nWord order in Spanish is less about grammar and more about **intonation and attention.** The rules stay consistent, but the spotlight shifts. The placement tells you what the speaker finds most important."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s inflected syntax, Spanish inherited flexibility in word order, preserving meaning through verb endings rather than strict position.",
+      "story": "Spanish word order reflects how people think aloud—emotion first, logic second. The flexibility isn’t chaos; it’s rhythm. *A mí me gusta el café* feels more human than *Yo gusto el café*, not because the rule changes, but because the language prioritizes feeling over formula.\n\nIn conversation, word order mirrors energy. A speaker can highlight blame (*Fue Juan quien lo hizo*), affection (*A ti te quiero más*), or suspense (*En la esquina lo vi*). This elasticity gives Spanish a musical pulse—each phrase shifting weight like a dancer changing steps mid-song.\n\nWriters use this freedom to control pacing. *El silencio llenó la casa* (The silence filled the house) sounds peaceful, while *Llenó la casa el silencio* feels haunting. Same elements, different gravity. The rule is emotional precision, not syntactic rigidity. Spanish lets thought move the sentence instead of freezing it in logic.",
+      "wrap_line": "Spanish word order turns grammar into choreography—every shift a deliberate movement that carries tone, mood, and meaning."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "The boy eats apples → el niño come manzanas.", "es": "[locked]" },
+        { "en": "The apples, the boy eats → las manzanas las come el niño.", "es": "[locked]" },
+        { "en": "At home, I feel better → en casa estoy mejor.", "es": "[locked]" }
+      ],
+      "cue": "Spanish moves words not to confuse, but to highlight—grammar that flows with thought instead of standing still."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish sentences breathe. Each inversion, pause, or fronted word marks emotion in motion—proof that grammar can sing when structure learns to dance."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_195_contrast_and_concession_clauses",
+  "title": "B2.195 Contrast and Concession Clauses — Grammar of Balance",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use words like 'although,' 'even though,' and 'however' to express contrast: 'Although it’s late, I’ll stay,' 'Even though he’s tired, he keeps working.' Spanish does this too with **contrast and concession clauses**, using words like *aunque, pero, sin embargo, a pesar de que.* But Spanish also lets mood change meaning. English shows contrast through tone; Spanish shows it through **grammar**—shifting between the indicative for reality and the subjunctive for possibility or contradiction."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The purpose:**\nContrast and concession clauses connect ideas that pull in opposite directions—something happens despite an obstacle or unexpected condition.\n\n**2️⃣ Common connectors:**\n| Connector | Meaning | Example |\n|------------|----------|----------|\n| aunque | although / even though | *Aunque llueve, saldré.* (Although it’s raining, I’ll go out.) |\n| a pesar de (que) | in spite of / despite | *A pesar de que es tarde, seguimos hablando.* |\n| por más que / por mucho que | no matter how much / even though | *Por más que estudies, no entenderás.* |\n| sin embargo | however / nevertheless | *Está cansado; sin embargo, continúa trabajando.* |\n| pero | but | *Quiero ir, pero no puedo.* |\n\n**3️⃣ Mood shift with *aunque* (the most important rule):**\n| Mood | Meaning | Example |\n|-------|----------|----------|\n| Indicative | fact or reality | *Aunque llueve, salgo.* (Although it’s raining, I go out.) |\n| Subjunctive | hypothetical or unknown | *Aunque llueva, saldré.* (Even if it rains, I’ll go out.) |\n\n**4️⃣ Other mood-triggered patterns:**\n- *Por más que me digas, no cambiaré de opinión.* (No matter what you tell me → subjunctive = hypothetical.)\n- *A pesar de que lo intentó, fracasó.* (Even though he tried → indicative = factual.)\n\n**5️⃣ Punctuation and rhythm:**\nIn Spanish, commas emphasize rhythm, not logic. *Sin embargo* can begin, interrupt, or close a sentence: *Sin embargo, lo hizo.* / *Lo hizo, sin embargo.* / *Lo hizo; sin embargo, no funcionó.* Tone, not grammar, determines pause placement.\n\n**6️⃣ Quick trick:**\nIf something is **real**, use the **indicative**. If it’s **possible, doubtful, or contrary**, use the **subjunctive**. Spanish weighs reality through mood."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin concessive constructions, Spanish preserved the dual system of logic and emotion—one clause showing fact, the other resistance or acceptance.",
+      "story": "Spanish uses contrast like a conversation between reality and will. *Aunque llueva, iré.* isn’t stubborn—it’s hopeful. The subjunctive captures the tension between what is and what might be. In Spanish, grammar itself practices resilience.\n\nThese clauses reveal a worldview built on coexistence, not conflict. *A pesar de todo, sonríe*—'In spite of everything, she smiles'—sounds like defiance turned poetic. Spanish allows contradiction to live inside the same sentence because life does too. The grammar doesn’t deny obstacles; it honors them.\n\nIn everyday speech, these connectors carry emotional subtlety. *Sin embargo* can sound formal or elegant; *aunque* feels human, elastic. Writers use them to weave contrast into tone—phrases that let courage, irony, or tenderness coexist. In Spanish, contradiction isn’t failure; it’s movement.\n\nTo master these clauses is to hear Spanish breathing between yes and no—a language built for complexity, never for absolute certainty.",
+      "wrap_line": "Spanish turns opposition into balance—grammar that lets both sides of truth stand, facing each other without breaking."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "Although it’s raining, I’ll go out → aunque llueva, saldré.", "es": "[locked]" },
+        { "en": "In spite of everything, she smiles → a pesar de todo, sonríe.", "es": "[locked]" },
+        { "en": "He’s tired; however, he keeps working → está cansado; sin embargo, sigue trabajando.", "es": "[locked]" }
+      ],
+      "cue": "Use indicative for fact, subjunctive for possibility—grammar that balances what is with what could be."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish sees opposition not as contradiction but coexistence. Every *aunque* or *sin embargo* becomes a bridge—language that finds harmony between conflict and continuity."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_196_cause_and_effect_clauses",
+  "title": "B2.196 Cause and Effect Clauses — Grammar of Reason",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we show cause and effect with words like 'because,' 'since,' or 'so': 'I left because it was late,' 'Since it rained, we stayed home,' 'He worked hard, so he succeeded.' Spanish does the same with **porque, ya que, como, así que, por eso** and more. The difference is tone and placement. English explains logically; Spanish does it musically, choosing each connector for rhythm and nuance. English builds reason like an argument; Spanish delivers it like a story—cause flowing naturally into effect."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Cause clauses — answering why:**\nThese explain reasons or motives for an action. They’re usually introduced by *porque, ya que, como,* or *puesto que.*\n\n| Connector | Meaning | Example |\n|------------|----------|----------|\n| porque | because | *No salí porque llovía.* (I didn’t go out because it was raining.) |\n| ya que | since / seeing that | *Ya que estás aquí, ayúdame.* (Since you’re here, help me.) |\n| como | as / since | *Como no vino, me fui.* (As he didn’t come, I left.) |\n| puesto que | given that | *Puesto que no hay tiempo, terminemos rápido.* (Given that there’s no time, let’s finish quickly.) |\n\n**Placement rule:**\nWhen *como* or *puesto que* starts a sentence, they carry a softer, explanatory tone. *Porque* usually appears after the main clause.\n- *No fui porque estaba cansado.*\n- *Como estaba cansado, no fui.*\n\n**2️⃣ Effect clauses — answering what happened as a result:**\nThese explain consequences, introduced by *así que, por eso, de modo que, por lo tanto, por consiguiente.*\n\n| Connector | Meaning | Example |\n|------------|----------|----------|\n| así que | so / therefore | *Llovía, así que no salimos.* (It was raining, so we didn’t go out.) |\n| por eso | that’s why | *No estudió, por eso reprobó.* (He didn’t study, that’s why he failed.) |\n| de modo que | so that / in such a way that | *Trabajó mucho, de modo que logró el ascenso.* |\n| por lo tanto | therefore | *Estaba enfermo, por lo tanto no vino.* |\n| por consiguiente | consequently | *No pagó, por consiguiente perdió el servicio.* |\n\n**3️⃣ Grammar note:**\nUnlike English, Spanish doesn’t use commas to separate *porque* from its clause and prefers simpler punctuation. The order can shift for tone—*porque* explains, *así que* resolves. Cause feels internal; effect looks forward."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin’s causal and consecutive constructions, Spanish inherited a rich connector system where cause and consequence balance logic with melody.",
+      "story": "Cause and effect in Spanish reveal how the language sees logic as harmony. *Porque* explains; *así que* releases. The connectors create balance—each reason naturally carrying its consequence, as if grammar were breathing in and out.\n\nIn everyday life, these phrases shape the rhythm of thought. *Ya que estás aquí, quédate.* feels casual, relational. *Puesto que no hay tiempo, empecemos.* feels formal, deliberate. The choices depend not only on clarity but on attitude: Spanish connectors carry personality. *Así que* can sound decisive, *por eso* conversational, *por lo tanto* reflective. Each one colors cause with tone.\n\nIn storytelling, they shape movement. *Como no vino, me fui* sounds intimate—cause before action, emotion first. *Me fui porque no vino* sounds logical—reason after choice, closure after feeling. Spanish arranges cause and effect like music, shifting emphasis by placement. Grammar turns reasoning into flow, and consequence into rhythm.",
+      "wrap_line": "Spanish grammar treats reason as melody—each *porque* and *así que* linking thoughts like notes that resolve one another."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I didn’t go out because it was raining → no salí porque llovía.", "es": "[locked]" },
+        { "en": "Since you’re here, help me → ya que estás aquí, ayúdame.", "es": "[locked]" },
+        { "en": "It was raining, so we didn’t go out → llovía, así que no salimos.", "es": "[locked]" }
+      ],
+      "cue": "Use *porque* for reason and *así que* for result—grammar that balances cause with consequence, thought with outcome."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish joins reason and result with rhythm, not rigidity. Every *porque* explains softly; every *así que* resolves the story with grace."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_197_purpose_clauses",
+  "title": "B2.197 Purpose Clauses — Grammar of Intention",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we express purpose with 'so that' or 'in order to': 'I left early so that I could rest,' 'She studies hard in order to pass.' Spanish also builds this logic of intention—but it divides it into two paths: **para + infinitive** for same-subject actions, and **para que + subjunctive** for different subjects. English signals purpose with prepositions; Spanish signals it by changing form—turning motive into mood."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ The core structures:**\n| English | Spanish | When to Use |\n|----------|----------|--------------|\n| in order to / to | *para + infinitive* | when both clauses share the same subject |\n| so that | *para que + subjunctive* | when each clause has a different subject |\n\n**Examples:**\n- *Salgo temprano para descansar.* (I leave early **to rest.**) → same subject.\n- *Salgo temprano para que tú descanses.* (I leave early **so that you rest.**) → different subjects.\n\n**2️⃣ The mechanics:**\n- *Para + infinitive* functions like a prepositional phrase, compact and direct.\n- *Para que + subjunctive* introduces a subordinate clause, requiring mood change because the second action depends on the first.\n\n**3️⃣ Common verbs and phrases of purpose:**\n| Verb / Phrase | Example |\n|----------------|----------|\n| trabajar para | *Trabajo para ganar dinero.* (I work to earn money.) |\n| estudiar para que | *Estudia para que sus padres estén orgullosos.* (He studies so that his parents are proud.) |\n| venir para | *Vine para ayudarte.* (I came to help you.) |\n| decir para que | *Te lo digo para que sepas la verdad.* (I tell you so that you know the truth.) |\n\n**4️⃣ Subtle alternatives:**\nOther connectors add nuance to purpose:\n| Connector | Meaning | Example |\n|------------|----------|----------|\n| a fin de / a fin de que | with the aim of / so that | *A fin de que todo funcione, revisa los cables.* |\n| con el propósito de / que | with the purpose of | *Con el propósito de mejorar, practica cada día.* |\n| para evitar que | to prevent that | *Sal temprano para evitar que lleguen tarde.* |\n\n**5️⃣ Quick trick:**\nAsk: is the purpose something **I** do, or something **someone else** does? Same subject → infinitive; different subjects → subjunctive."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin purpose constructions (*ut + subjunctive*), Spanish preserved the distinction between shared and separate intention as a marker of emotional and logical precision.",
+      "story": "Purpose clauses in Spanish are more than grammar—they reveal how the language separates effort from empathy. *Para descansar* is personal, internal—a reason contained within the speaker. *Para que descanses* extends intention outward—it’s purpose as generosity. Grammar tracks not just cause but connection.\n\nThis difference embodies a cultural trait: awareness of others in action. Spanish purpose clauses make intention social. Every *para que* acknowledges the existence of another will, another person affected by what’s done. *Te lo digo para que sepas* is not mere explanation—it’s care shaped by grammar.\n\nIn conversation, purpose clauses soften speech, blending action with reason. *Trabajo para vivir, no vivo para trabajar* feels philosophical, rhythmic—a reflection framed by *para.* Writers use these clauses to weave meaning, connecting motive to morality. Spanish treats intention as something sacred: you don’t just act; you act toward something, or someone.",
+      "wrap_line": "Spanish purpose clauses turn motive into relationship—grammar that reminds us every action aims at something beyond itself."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I left early to rest → salí temprano para descansar.", "es": "[locked]" },
+        { "en": "I left early so that you could rest → salí temprano para que tú descansaras.", "es": "[locked]" },
+        { "en": "He studies so that his parents are proud → estudia para que sus padres estén orgullosos.", "es": "[locked]" }
+      ],
+      "cue": "Use *para + infinitive* when it’s your purpose; use *para que + subjunctive* when your purpose involves someone else."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish gives direction to intention. Each *para* or *para que* is an arrow—grammar that turns wanting into movement, and action into meaning."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_198_conditional_connectors",
+  "title": "B2.198 Conditional Connectors — Grammar of Possibility",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use words like 'unless,' 'as long as,' or 'provided that' to talk about conditions: 'I’ll go unless it rains,' 'You can come as long as you help.' Spanish does the same, using **conditional connectors** such as *a menos que, con tal (de) que, siempre que, en caso de que.* The difference lies in mood. English shows condition through meaning; Spanish shows it through grammar, switching between the **indicative** for reality and the **subjunctive** for possibility."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ What conditional connectors do:**\nThey join two clauses—one expressing a condition, the other the result. Spanish uses different conjunctions depending on whether the condition is real, imagined, or restrictive.\n\n**2️⃣ Common connectors and their moods:**\n| Connector | Meaning | Mood | Example |\n|------------|----------|------|----------|\n| *si* | if | indicative / subjunctive | *Si vienes, te ayudo.* (If you come, I’ll help you.) / *Si vinieras, te ayudaría.* (If you came, I’d help you.) |\n| *a menos que* | unless | subjunctive | *Iremos, a menos que llueva.* (We’ll go, unless it rains.) |\n| *con tal (de) que* | as long as / provided that | subjunctive | *Puedes salir con tal de que termines la tarea.* (You can go out as long as you finish your homework.) |\n| *siempre que* | provided that / whenever | subjunctive / indicative | *Siempre que estudies, aprobarás.* (Whenever you study, you’ll pass.) |\n| *en caso de que* | in case | subjunctive | *Llévate un paraguas en caso de que llueva.* (Take an umbrella in case it rains.) |\n\n**3️⃣ Subjunctive vs. indicative logic:**\n- **Indicative** → Used when the condition feels likely or factual.\n  - *Si hace sol, saldremos.* (If it’s sunny, we’ll go out.)\n- **Subjunctive** → Used when the condition is uncertain, hypothetical, or preventive.\n  - *En caso de que haya tráfico, sal temprano.* (In case there’s traffic, leave early.)\n\n**4️⃣ Word order and flexibility:**\nConditional connectors can appear at the start or middle of the sentence:\n- *A menos que llueva, iremos al parque.* / *Iremos al parque a menos que llueva.*\n\n**5️⃣ Shortcut rule:**\nIf the connector carries a sense of **uncertainty, restriction, or prevention**, it will almost always require the **subjunctive.**"
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin conditional particles (*si, nisi, dum, modo*), Spanish kept a layered system where each connector measures how close a possibility feels to reality.",
+      "story": "Conditional connectors in Spanish are the grammar of caution. They anticipate, protect, and balance hope with awareness. Each phrase—*a menos que, con tal de que, en caso de que*—creates a small shelter around uncertainty. It’s language that plans for both the best and the worst.\n\nIn daily conversation, these connectors express responsibility. *Con tal de que me llames, estaré tranquila* (As long as you call me, I’ll be calm) doesn’t just describe condition—it reveals care. *En caso de que llegues tarde, avísame* carries patience and foresight. The subjunctive helps speakers admit what they can’t control without sounding fearful. Grammar becomes emotional logic.\n\nIn writing, these forms add rhythm to suspense. A story built on *a menos que* or *siempre que* feels conditional by nature—fragile, human. Spanish turns these small grammatical links into acts of thoughtfulness: recognizing how easily fate can shift, and yet how clearly we still plan around it.",
+      "wrap_line": "Conditional connectors make grammar feel human—each phrase balancing possibility with precaution, like an open hand ready for either outcome."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "We’ll go unless it rains → iremos a menos que llueva.", "es": "[locked]" },
+        { "en": "Take an umbrella in case it rains → llévate un paraguas en caso de que llueva.", "es": "[locked]" },
+        { "en": "You can go out as long as you finish your homework → puedes salir con tal de que termines la tarea.", "es": "[locked]" }
+      ],
+      "cue": "Use subjunctive with uncertain or preventive connectors—grammar that prepares for what might happen."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish uses condition to express care. Every *a menos que* or *en caso de que* is language that worries gently—a grammar that plans for rain but still hopes for sun."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_199_temporal_connectors",
+  "title": "B2.199 Temporal Connectors — Grammar of Time Flow",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, we use words like 'when,' 'as soon as,' 'until,' and 'after' to connect events in time: 'When he arrives, we’ll start,' 'I’ll call you after I finish.' Spanish uses the same logic with **temporal connectors** like *cuando, en cuanto, hasta que, después de que,* but with one major twist—the **mood changes**. English shows timing through sequence; Spanish shows it through **certainty versus possibility**, using the subjunctive for what hasn’t happened yet and the indicative for what has."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ Purpose:**\nTemporal connectors join two actions and clarify **when** one happens in relation to the other—before, after, during, or until.\n\n**2️⃣ Common temporal connectors:**\n| Connector | Meaning | Mood | Example |\n|------------|----------|------|----------|\n| cuando | when | indicative (past/habitual) / subjunctive (future) | *Cuando llegue, te llamo.* (When he arrives, I’ll call you.) |\n| en cuanto | as soon as | indicative / subjunctive | *En cuanto termines, salimos.* (As soon as you finish, we’ll leave.) |\n| hasta que | until | indicative / subjunctive | *No me iré hasta que vengas.* (I won’t leave until you come.) |\n| antes de que | before | subjunctive only | *Llama antes de que salga.* (Call before he leaves.) |\n| después de que | after | indicative / subjunctive | *Te veré después de que regreses.* (I’ll see you after you return.) |\n| mientras | while / as long as | indicative / subjunctive | *Mientras estudies, mejorarás.* (As long as you study, you’ll improve.) |\n\n**3️⃣ Mood rule (the heart of the concept):**\n- **Indicative:** when the time reference is **known, habitual, or completed.**\n  - *Siempre me llama cuando llega.* (He always calls when he arrives.)\n- **Subjunctive:** when the time reference is **pending, uncertain, or unreal.**\n  - *Me llamará cuando llegue.* (He will call when he arrives.)\n\n**4️⃣ Special connectors with prepositions:**\n| Preposition + infinitive | Meaning | Example |\n|---------------------------|----------|----------|\n| antes de + infinitive | before doing | *Antes de salir, revisa el correo.* |\n| después de + infinitive | after doing | *Después de comer, descansa un poco.* |\n| al + infinitive | upon doing | *Al llegar, te aviso.* |\n\n**5️⃣ Quick tip:**\nIf the event has **already happened** → indicative.  \nIf it **hasn’t yet** → subjunctive.  \nSpanish measures time not by clocks, but by certainty."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin temporal conjunctions (*quando, dum, antequam*), Spanish inherited a system that fuses time and mood, treating future events as possibilities, not facts.",
+      "story": "Temporal connectors in Spanish reveal how the language treats time as fluid rather than fixed. Where English measures, Spanish anticipates. Saying *cuando llegue* admits that the arrival hasn’t yet occurred—it’s a hope framed as grammar. The subjunctive keeps the future humble.\n\nIn conversation, these connectors give Spanish a sense of waiting and awareness. *Hasta que vuelvas* carries tenderness—it holds space for return. *Antes de que amanezca* feels poetic, bracing against what’s coming. Each phrase balances patience and inevitability, turning sequence into emotion.\n\nIn storytelling, temporal connectors shape rhythm. Writers use them to suspend time—*en cuanto salga el sol* begins with promise, *después de que se fue* with reflection. Spanish uses them to color time with feeling: future events sound like wishes, past ones like memory. The grammar aligns perfectly with the way people live—aware that not all plans become reality.",
+      "wrap_line": "Spanish temporal clauses treat time as experience—grammar that moves between what is remembered and what is yet to arrive."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "When he arrives, I’ll call you → cuando llegue, te llamaré.", "es": "[locked]" },
+        { "en": "Call me before you leave → llámame antes de que salgas.", "es": "[locked]" },
+        { "en": "I’ll see you after you return → te veré después de que regreses.", "es": "[locked]" }
+      ],
+      "cue": "Use the subjunctive for the future and the indicative for the known—grammar that makes time breathe between hope and fact."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish feels time, not just measures it. Every *cuando llegue* or *hasta que vuelvas* carries a heartbeat of uncertainty—grammar that turns waiting into poetry."
+    }
+  ]
+}
+{
+  "id": "mmspanish__lesson_B2_200_conjunction_summary",
+  "title": "B2.200 Conjunction Summary — Grammar of Logic",
+  "mode": "mix_method",
+  "steps": [
+    {
+      "phase": "english_anchor",
+      "line": "In English, conjunctions—words like 'and,' 'but,' 'because,' and 'although'—act as bridges between ideas. They tell us how one thought connects to another. Spanish uses the same logic with **conjunctions** like *y, pero, porque, aunque,* yet it treats these links with more precision. English joins ideas fluidly; Spanish builds meaning by **type of connection**—addition, contrast, cause, purpose, condition, or time. English relies on flow; Spanish relies on structure, making logic sound graceful and exact."
+    },
+    {
+      "phase": "system_logic",
+      "line": "**1️⃣ What conjunctions do:**\nConjunctions join two clauses or ideas, showing the relationship between them. Spanish divides them into clear types:\n\n**A. Coordinating Conjunctions** — join **equal ideas.**\n| Type | Conjunction | Example |\n|------|--------------|----------|\n| Addition | *y (and), e (before i/hi)* | *Juan y Ana estudian.* (Juan and Ana study.) |\n| Contrast | *pero (but), sino (but rather)* | *No quiero té, sino café.* (I don’t want tea, but rather coffee.) |\n| Cause/Result | *pues, así que, por lo tanto* | *Estaba cansado, así que se fue.* (He was tired, so he left.) |\n| Choice | *o, u (before o/ho)* | *¿Quieres té u otra cosa?* (Do you want tea or something else?) |\n\n**B. Subordinating Conjunctions** — join **unequal ideas**, where one depends on the other.\n| Function | Conjunction | Example |\n|-----------|-------------|----------|\n| Cause | *porque, ya que, como* | *No fui porque llovía.* (I didn’t go because it was raining.) |\n| Purpose | *para que, a fin de que* | *Vino para que lo ayudara.* (He came so that I’d help him.) |\n| Condition | *si, a menos que, con tal de que* | *Iré si tengo tiempo.* (I’ll go if I have time.) |\n| Time | *cuando, hasta que, en cuanto* | *Te llamo cuando llegue.* (I’ll call when I arrive.) |\n| Contrast / Concession | *aunque, a pesar de que, por más que* | *Aunque llueva, iremos.* (Even if it rains, we’ll go.) |\n\n**2️⃣ Mood connection:**\n- **Indicative** → facts, certainty: *porque llueve* (because it rains).\n- **Subjunctive** → uncertainty, intention, doubt: *para que vengas* (so that you come).\n\n**3️⃣ Linking rules:**\n- Avoid repetition: *y* changes to *e* before words beginning with *i-* or *hi-*, and *o* changes to *u* before *o-* or *ho-*.\n  - *Padre e hijo* (father and son), *siete u ocho* (seven or eight).\n- Commas separate independent clauses when needed: *Llegó tarde, pero explicó por qué.*\n\n**4️⃣ Quick memory trick:**\nIf the second clause depends on the first, it’s a **subordinating conjunction**. If it stands equal, it’s **coordinating.** Spanish grammar literally structures logic into two levels—balance and hierarchy."
+    },
+    {
+      "phase": "meaning_depth",
+      "origin": "From Latin connective particles, Spanish developed a clear hierarchy of conjunctions to mirror the logic of speech and the rhythm of storytelling.",
+      "story": "In Spanish, conjunctions are the invisible architecture of meaning. Each one carries weight—not just linking words, but defining the relationship between thoughts. *Y* feels smooth, *pero* resists, *aunque* softens, *para que* aspires. The grammar doesn’t just connect ideas—it gives them emotion and direction.\n\nSpanish treats conjunctions as the breath between ideas. In daily conversation, they mirror personality. Someone who says *sin embargo* sounds reflective; someone who says *pero bueno* sounds casual, forgiving. The choice of connector reveals the speaker’s inner rhythm—the logic of their heart as much as their mind.\n\nIn writing, conjunctions create structure and tone. *Y el mundo giraba.* adds motion; *pero el mundo cambió.* adds consequence. Poets use them to control silence as much as connection. The power lies in balance: Spanish grammar reminds us that even logic can sound lyrical when every bridge is placed with care.",
+      "wrap_line": "Conjunctions make Spanish thought musical—grammar that links reason, emotion, and rhythm in every pause and connection."
+    },
+    {
+      "phase": "context_scene",
+      "npc": "teacher",
+      "es": "[locked]",
+      "you": "[locked]"
+    },
+    {
+      "phase": "examples",
+      "items": [
+        { "en": "I didn’t go because it was raining → no fui porque llovía.", "es": "[locked]" },
+        { "en": "He was tired, so he left → estaba cansado, así que se fue.", "es": "[locked]" },
+        { "en": "Even if it rains, we’ll go → aunque llueva, iremos.", "es": "[locked]" }
+      ],
+      "cue": "Each conjunction carries its own relationship—grammar that turns thought into connection, and connection into meaning."
+    },
+    {
+      "phase": "rest",
+      "line": "Spanish builds meaning one bridge at a time. Every *y*, *pero*, and *porque* gives rhythm to thought—proof that logic and poetry can live in the same sentence."
+    }
+  ]
+}
